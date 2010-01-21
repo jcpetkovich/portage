@@ -1,0 +1,5 @@
+MAKEOPTS="-j5"
+VIDEO_CARDS="nvidia nv vesa fbdev"
+ALSA_CARDS="hda-intel"
+INPUT_DEVICES="keyboard mouse synaptics evdev"
+LINGUAS="en en_US"
