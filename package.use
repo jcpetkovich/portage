@@ -1,0 +1,100 @@
+# Use flags for individual packages
+
+# ======================================================================
+# Internet
+# ======================================================================
+# Browser
+www-client/mozilla-firefox gnome
+net-misc/mediatomb expat javascript taglib
+net-print/foo2zjs hp1020
+dev-db/sqlite fts3
+
+# Mail
+mail-client/mutt nntp pop imap smtp
+mail-client/claws-mail nntp imap spell
+
+# Chat
+net-im/pidgin spell
+kde-base/kopete oscar
+
+# ======================================================================
+# Editors
+# ======================================================================
+app-editors/emacs-vcs spell #toolkit-scroll-bars
+app-editors/vim vim-with-x
+app-emacs/auctex preview-latex
+
+# ======================================================================
+# Emulators
+# ======================================================================
+app-emulation/wine gecko jpeg
+games-emulation/zsnes -ao 
+
+# ======================================================================
+# Package Management
+# ======================================================================
+# Portage 
+app-portage/layman subversion
+
+# Paludis 
+sys-apps/paludis inquisitio python-bindings ruby-bindings visibility zsh-completion
+
+# Subversion
+dev-util/subversion apache2 gnome-keyring
+
+# ======================================================================
+# Media
+# ======================================================================
+# Video
+media-libs/xine-lib dts
+media-video/mplayer directfb ggi sdl xv 
+media-video/ffmpeg sdl zlib dts amr network
+media-libs/libsndfile -jack
+
+# VLC
+media-video/vlc X a52 alsa dts dvd ffmpeg mp3 mpeg win32codecs ncurses opengl sdl skins truetype wxwindows xv dts live matroska theora vorbis win32codecs aac aalib alsa arts esd fbcon ggi libcaca opengl oss png sdl speex svga xinerama xv x264 dvd
+x11-libs/wxGTK unicode X
+
+# Sound
+media-sound/moc libsamplerate musepack
+media-sound/ncmpc artist-screen search-screen song-screen mouse
+media-sound/sonata taglib
+#media-sound/mpd ao audiofile avahi cdio cue fluidsynth lame libmms libsamplerate mikmod modplug musepack 
+
+# Images
+media-gfx/gimp pdf smp
+
+# ======================================================================
+# Development
+# ======================================================================
+# gcc
+sys-devel/gcc gcj
+
+# Lisp
+dev-lisp/sbcl ldb threads 
+# x11-wm/stumpwm clisp doc
+dev-java/sun-jdk nsplugin
+
+# ======================================================================
+# Utilities
+# ======================================================================
+sys-block/gparted fat ntfs 
+dev-db/mysql embedded -minimal
+
+# ======================================================================
+# Terminal
+# ======================================================================
+x11-terms/rxvt-unicode xterm-color wcwidth
+app-shells/zsh caps examples
+
+# ======================================================================
+# Fonts
+# ======================================================================
+media-fonts/dejavu fontforge
+
+# ======================================================================
+# Experimental
+# ======================================================================
+x11-misc/dzen xft xpm
+
+
