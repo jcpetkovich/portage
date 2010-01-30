@@ -216,6 +216,8 @@ x11-misc/dzen ~amd64
 dev-perl/Weather-Com ~amd64
 dev-perl/Time-Format ~amd64
 
+sci-misc/netlogo-bin ~amd64
+
 #yi
 # app-editors/yi ~amd64
 # dev-haskell/regex-tdfa ~amd64
