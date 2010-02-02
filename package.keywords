@@ -215,8 +215,10 @@ net-wireless/broadcom-sta ~amd64
 x11-misc/dzen ~amd64
 dev-perl/Weather-Com ~amd64
 dev-perl/Time-Format ~amd64
+app-emacs/clojure-mode ~amd64
 
 sci-misc/netlogo-bin ~amd64
+dev-lang/clojure ~amd64
 
 #yi
 # app-editors/yi ~amd64

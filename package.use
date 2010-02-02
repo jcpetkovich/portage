@@ -75,6 +75,9 @@ dev-lisp/sbcl ldb threads
 # x11-wm/stumpwm clisp doc
 dev-java/sun-jdk nsplugin
 
+# Haskell
+dev-haskell/gtk2hs xulrunner
+
 # ======================================================================
 # Utilities
 # ======================================================================
