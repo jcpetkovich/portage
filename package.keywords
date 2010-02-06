@@ -219,6 +219,7 @@ app-emacs/clojure-mode ~amd64
 
 sci-misc/netlogo-bin ~amd64
 dev-lang/clojure ~amd64
+dev-lang/leiningen ~amd64
 
 #yi
 # app-editors/yi ~amd64
