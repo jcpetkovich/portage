@@ -69,6 +69,10 @@ dev-haskell/xml ~amd64
 dev-haskell/feed ~amd64
 dev-haskell/curl ~amd64
 
+dev-haskell/mwc-random ~amd64
+dev-haskell/mersenne-random ~amd64
+dev-haskell/uvector ~amd64
+
 # ======================================================================
 # Developement - Common Lisp
 # ======================================================================
@@ -219,11 +223,17 @@ app-emacs/clojure-mode ~amd64
 sci-misc/netlogo-bin ~amd64
 dev-lang/clojure ~amd64
 dev-lang/leiningen ~amd64
+dev-java/nailgun ~amd64
 
 sys-apps/hwinfo ~amd64
 
-media-video/thoggen ~amd64
-www-client/chromium ~amd64
+dev-haskell/vector ~amd64
+dev-haskell/primitive ~amd64
+
+games-action/monadius ~amd64
+
+
+
 
 #yi
 # app-editors/yi ~amd64

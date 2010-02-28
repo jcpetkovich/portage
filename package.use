@@ -78,6 +78,7 @@ dev-java/sun-jdk nsplugin
 # Haskell
 dev-haskell/gtk2hs xulrunner
 dev-haskell/mtl profile
+dev-haskell/mersenne-random profile
 
 # ======================================================================
 # Utilities
