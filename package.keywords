@@ -89,7 +89,7 @@ dev-lisp/trivial-shell ~amd64
 # Developement - Scheme
 # ======================================================================
 dev-scheme/mit-scheme-c ~amd64
-dev-scheme/plt-scheme ~amd64
+#dev-scheme/plt-scheme ~amd64
 
 # ======================================================================
 # Terminal Emulators
@@ -230,7 +230,18 @@ sys-apps/hwinfo ~amd64
 dev-haskell/vector ~amd64
 dev-haskell/primitive ~amd64
 
+dev-haskell/hlint ~amd64
+dev-haskell/uniplate ~amd64
+dev-haskell/cpphs ~amd64
+dev-haskell/haskell-src-exts ~amd64
+dev-haskell/hscolour ~amd64
+
 games-action/monadius ~amd64
+
+dev-scheme/ypsilon ~amd64
+#=dev-scheme/plt-scheme-999 ~amd64
+#=dev-scheme/plt-scheme-9999 ~amd64
+dev-scheme/plt-scheme ~amd64
 
 
 
