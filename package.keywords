@@ -83,6 +83,23 @@ dev-lisp/asdf ~amd64
 dev-lisp/asdf-binary-locations ~amd64
 dev-lisp/cl-utilities ~amd64
 dev-lisp/trivial-shell ~amd64
+dev-lisp/cl-launch ~amd64
+
+dev-lisp/cl-gtk2 ~amd64
+dev-lisp/trivial-garbage ~amd64
+dev-lisp/cl-cairo2 ~amd64
+dev-lisp/iterate ~amd64
+dev-lisp/bordeaux-threads ~amd64
+dev-lisp/cffi ~amd64
+dev-lisp/cl-opengl ~amd64
+dev-lisp/closer-mop ~amd64
+dev-lisp/alexandria ~amd64
+dev-lisp/lift ~amd64
+dev-lisp/babel ~amd64
+dev-lisp/trivial-features ~amd64
+dev-lisp/rt ~amd64
+dev-lisp/trivial-gray-streams ~amd64
+dev-lisp/cl-colors ~amd64
 # dev-lisp/cl-ppcre ~amd64
 
 # ======================================================================
@@ -244,6 +261,8 @@ dev-scheme/ypsilon ~amd64
 dev-scheme/plt-scheme ~amd64
 
 
+dev-haskell/gtk2hs ~amd64
+dev-haskell/hgal ~amd64
 
 
 #yi
