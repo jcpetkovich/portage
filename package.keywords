@@ -141,7 +141,7 @@ app-emacs/emms ~amd64
 # Internet Functionality
 # ======================================================================
 #www-plugins/mplayerplug-in ~amd64
-www-plugins/gecko-mediaplayer ~amd64
+# www-plugins/gecko-mediaplayer ~amd64
 
 # ======================================================================
 # Emulation
@@ -264,6 +264,16 @@ dev-scheme/plt-scheme ~amd64
 dev-haskell/gtk2hs ~amd64
 dev-haskell/hgal ~amd64
 
+# liskell: SUPER experimental
+dev-haskell/haskeline ~amd64
+dev-haskell/ghc-paths ~amd64
+dev-haskell/terminfo ~amd64
+dev-haskell/extensible-exceptions ~amd64
+
+app-emacs/paredit ~amd64
+
+
+media-sound/mac ~amd64
 
 #yi
 # app-editors/yi ~amd64
