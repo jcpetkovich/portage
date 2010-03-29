@@ -42,36 +42,38 @@ x11-wm/xmonad ~amd64
 # Development - Haskell
 # ======================================================================
 
-# Xmonad
-app-admin/haskell-updater ~amd64
-dev-haskell/x11-xft ~amd64
-dev-haskell/utf8-string ~amd64
-dev-haskell/bytestring ~amd64
-dev-lang/ghc ~amd64
-dev-haskell/hslogger ~amd64
-dev-haskell/time ~amd64
-dev-haskell/network ~amd64
-dev-haskell/time ~amd64
-dev-haskell/stm ~amd64
-dev-haskell/hslogger ~amd64
-dev-haskell/http ~amd64
-dev-haskell/missingh ~amd64
-dev-haskell/hsh ~amd64
-dev-haskell/syb ~amd64
-dev-haskell/x11 ~amd64
-dev-haskell/cabal ~amd64
-dev-haskell/cabal-install ~amd64
-dev-haskell/zlib ~amd64
-dev-haskell/http ~amd64 
-dev-haskell/language-c ~amd64
-dev-haskell/split ~amd64
+# dev
+dev-haskell/vector ~amd64
+dev-haskell/primitive ~amd64
+dev-haskell/mersenne-random ~amd64
+dev-haskell/mwc-random ~amd64
+dev-haskell/uvector ~amd64
 dev-haskell/xml ~amd64
 dev-haskell/feed ~amd64
 dev-haskell/curl ~amd64
 
-dev-haskell/mwc-random ~amd64
-dev-haskell/mersenne-random ~amd64
-dev-haskell/uvector ~amd64
+# Xmonad
+dev-haskell/utf8-string ~amd64
+dev-haskell/x11-xft ~amd64
+dev-haskell/x11 ~amd64
+dev-haskell/stm ~amd64
+# app-admin/haskell-updater ~amd64
+# dev-haskell/bytestring ~amd64
+# dev-lang/ghc ~amd64
+# dev-haskell/hslogger ~amd64
+# dev-haskell/time ~amd64
+# dev-haskell/time ~amd64
+# dev-haskell/hslogger ~amd64
+# dev-haskell/missingh ~amd64
+# dev-haskell/hsh ~amd64
+# dev-haskell/syb ~amd64
+# dev-haskell/http ~amd64 
+# dev-haskell/language-c ~amd64
+# dev-haskell/split ~amd64
+# dev-haskell/xml ~amd64
+
+# dev-haskell/mwc-random ~amd64
+# dev-haskell/uvector ~amd64
 
 # ======================================================================
 # Developement - Common Lisp
@@ -106,7 +108,7 @@ dev-lisp/cl-colors ~amd64
 # Developement - Scheme
 # ======================================================================
 dev-scheme/mit-scheme-c ~amd64
-#dev-scheme/plt-scheme ~amd64
+dev-scheme/plt-scheme ~amd64
 
 # ======================================================================
 # Terminal Emulators
@@ -244,36 +246,27 @@ dev-java/nailgun ~amd64
 
 sys-apps/hwinfo ~amd64
 
-dev-haskell/vector ~amd64
-dev-haskell/primitive ~amd64
+# dev-haskell/vector ~amd64
+# dev-haskell/primitive ~amd64
 
-dev-haskell/hlint ~amd64
-dev-haskell/uniplate ~amd64
-dev-haskell/cpphs ~amd64
-dev-haskell/haskell-src-exts ~amd64
-dev-haskell/hscolour ~amd64
-
-games-action/monadius ~amd64
-
-dev-scheme/ypsilon ~amd64
-#=dev-scheme/plt-scheme-999 ~amd64
-#=dev-scheme/plt-scheme-9999 ~amd64
-dev-scheme/plt-scheme ~amd64
+# dev-haskell/hlint ~amd64
+# dev-haskell/uniplate ~amd64
+# dev-haskell/cpphs ~amd64
 
 
-dev-haskell/gtk2hs ~amd64
-dev-haskell/hgal ~amd64
+# dev-haskell/gtk2hs ~amd64
 
-# liskell: SUPER experimental
-dev-haskell/haskeline ~amd64
-dev-haskell/ghc-paths ~amd64
-dev-haskell/terminfo ~amd64
-dev-haskell/extensible-exceptions ~amd64
+# # liskell: SUPER experimental
+# dev-haskell/haskeline ~amd64
+# dev-haskell/ghc-paths ~amd64
+# dev-haskell/terminfo ~amd64
+# dev-haskell/extensible-exceptions ~amd64
 
 app-emacs/paredit ~amd64
 
-
 media-sound/mac ~amd64
+
+dev-haskell/haskell-platform ~amd64
 
 #yi
 # app-editors/yi ~amd64
@@ -301,3 +294,48 @@ media-sound/mac ~amd64
 # Local variables
 # folded-file: t
 # End:
+
+
+# ---
+# BEGIN: dev-haskell/haskell-platform-2010.1.0.0
+# ---
+# added by me:
+# dev-haskell/haskell-src-exts ~amd64
+# dev-haskell/feed ~amd64
+# dev-haskell/curl ~amd64
+# dev-haskell/hgal ~amd64
+# dev-haskell/hscolour ~amd64
+dev-haskell/http ~amd64
+dev-haskell/network ~amd64
+dev-haskell/cabal ~amd64
+dev-haskell/cabal-install ~amd64
+dev-haskell/zlib ~amd64
+dev-haskell/time ~amd64
+
+=dev-haskell/regex-compat-0.92 ~amd64
+=dev-haskell/html-1.0.1.2 ~amd64
+=dev-haskell/regex-base-0.93.1 ~amd64
+=dev-haskell/deepseq-1.1.0.0 ~amd64
+=dev-haskell/alex-2.3.2 ~amd64
+=dev-haskell/xhtml-3000.2.0.1 ~amd64
+=dev-haskell/happy-1.18.4 ~amd64
+=dev-haskell/quickcheck-2.1.0.3 ~amd64
+=dev-haskell/parallel-2.2.0.1 ~amd64
+=dev-lang/ghc-6.12.1 ~amd64
+=dev-haskell/hunit-1.2.2.1 ~amd64
+=dev-haskell/regex-posix-0.94.1 ~amd64
+=dev-haskell/cgi-3001.1.7.2 ~amd64
+=dev-haskell/fgl-5.4.2.2 ~amd64
+=dev-haskell/parsec-2.1.0.1 ~amd64
+=dev-haskell/opengl-2.2.3.0 ~amd64
+=dev-haskell/glut-2.1.2.1 ~amd64
+=dev-haskell/haskell-src-1.0.1.3 ~amd64
+=dev-haskell/mtl-1.1.0.2 ~amd64
+=dev-haskell/haddock-2.6.0 ~amd64
+=dev-haskell/extensible-exceptions-0.1.1.1 ~amd64
+=dev-haskell/extensible-exceptions-0.1.1.0 ~amd64
+=app-admin/haskell-updater-1.0.0.0 ~amd64
+# ---
+# END: dev-haskell/haskell-platform-2010.1.0.0
+# ---
+

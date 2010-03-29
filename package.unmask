@@ -4,3 +4,16 @@ x11-drivers/ati-drivers
 =net-wireless/iwl5000-ucode-5.4.0.11
 
 #games-roguelike/nethack
+
+
+
+# ---
+# BEGIN: dev-haskell/haskell-platform-2010.1.0.0
+# ---
+=dev-lang/ghc-6.12.1
+=dev-haskell/haddock-2.6.0
+=app-admin/haskell-updater-1.0.0.0
+# ---
+# END: dev-haskell/haskell-platform-2010.1.0.0
+# ---
+
