@@ -267,6 +267,9 @@ app-emacs/paredit ~amd64
 media-sound/mac ~amd64
 
 dev-haskell/haskell-platform ~amd64
+dev-haskell/dbus ~amd64
+dev-haskell/hdbus ~amd64
+app-portage/hackport ~amd64
 
 #yi
 # app-editors/yi ~amd64
@@ -337,5 +340,14 @@ dev-haskell/time ~amd64
 =app-admin/haskell-updater-1.0.0.0 ~amd64
 # ---
 # END: dev-haskell/haskell-platform-2010.1.0.0
+# ---
+
+
+# ---
+# BEGIN: app-portage/hackport-9999
+# ---
+=dev-haskell/tar-0.3.1.0 ~amd64
+# ---
+# END: app-portage/hackport-9999
 # ---
 

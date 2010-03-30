@@ -127,3 +127,11 @@ x11-misc/dzen xft xpm
 # END: dev-haskell/haskell-platform-2010.1.0.0
 # ---
 
+
+# ---
+# BEGIN: app-portage/hackport-9999
+# ---
+# ---
+# END: app-portage/hackport-9999
+# ---
+
