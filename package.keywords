@@ -43,6 +43,7 @@ x11-wm/xmonad ~amd64
 # ======================================================================
 
 # dev
+dev-haskell/vector-algorithms ~amd64
 dev-haskell/vector ~amd64
 dev-haskell/primitive ~amd64
 dev-haskell/mersenne-random ~amd64
@@ -149,16 +150,16 @@ app-emacs/emms ~amd64
 # Emulation
 # ======================================================================
 #app-emulation/wine ~amd64
-app-emulation/emul-linux-x86-baselibs ~amd64
-app-emulation/emul-linux-x86-compat ~amd64
-app-emulation/emul-linux-x86-glibc-errno-compat ~amd64
-app-emulation/emul-linux-x86-gtklibs ~amd64
-app-emulation/emul-linux-x86-java ~amd64
-app-emulation/emul-linux-x86-medialibs ~amd64
-app-emulation/emul-linux-x86-qtlibs ~amd64
-app-emulation/emul-linux-x86-sdl ~amd64
-app-emulation/emul-linux-x86-soundlibs ~amd64
-app-emulation/emul-linux-x86-xlibs ~amd64
+# app-emulation/emul-linux-x86-baselibs ~amd64
+# app-emulation/emul-linux-x86-compat ~amd64
+# app-emulation/emul-linux-x86-glibc-errno-compat ~amd64
+# app-emulation/emul-linux-x86-gtklibs ~amd64
+# app-emulation/emul-linux-x86-java ~amd64
+# app-emulation/emul-linux-x86-medialibs ~amd64
+# app-emulation/emul-linux-x86-qtlibs ~amd64
+# app-emulation/emul-linux-x86-sdl ~amd64
+# app-emulation/emul-linux-x86-soundlibs ~amd64
+# app-emulation/emul-linux-x86-xlibs ~amd64
 
 games-emulation/yabause ~amd64
 
@@ -241,6 +242,7 @@ app-emacs/clojure-mode ~amd64
 
 sci-misc/netlogo-bin ~amd64
 dev-lang/clojure ~amd64
+dev-lang/clojure-contrib ~amd64
 dev-lang/leiningen ~amd64
 dev-java/nailgun ~amd64
 
@@ -272,6 +274,8 @@ dev-haskell/hdbus ~amd64
 app-portage/hackport ~amd64
 
 dev-lisp/clozurecl ~amd64
+dev-java/jamon ~amd64
+www-plugins/moonlight ~amd64
 
 #yi
 # app-editors/yi ~amd64
@@ -351,5 +355,59 @@ dev-haskell/time ~amd64
 =dev-haskell/tar-0.3.1.0 ~amd64
 # ---
 # END: app-portage/hackport-9999
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/wxhaskell-0.9.4
+# ---
+dev-haskell/wxhaskell ~amd64
+# ---
+# END: dev-haskell/wxhaskell-0.9.4
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/wxhaskell-0.11.1.2
+# ---
+=dev-haskell/wxcore-0.11.1.2 ~amd64
+# ---
+# END: dev-haskell/wxhaskell-0.11.1.2
+# ---
+
+
+# ---
+# BEGIN: app-emacs/browse-kill-ring-1.3
+# ---
+=app-emacs/browse-kill-ring-1.3 ~amd64
+# ---
+# END: app-emacs/browse-kill-ring-1.3
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/sdl-0.5.4
+# ---
+=dev-haskell/sdl-0.5.4 ~amd64
+# ---
+# END: dev-haskell/sdl-0.5.4
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/sdl-image-0.5.2
+# ---
+=dev-haskell/sdl-image-0.5.2 ~amd64
+# ---
+# END: dev-haskell/sdl-image-0.5.2
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/sdl-mixer-0.5.2
+# ---
+=dev-haskell/sdl-mixer-0.5.2 ~amd64
+# ---
+# END: dev-haskell/sdl-mixer-0.5.2
 # ---
 

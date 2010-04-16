@@ -25,3 +25,51 @@ x11-drivers/ati-drivers
 # END: app-portage/hackport-9999
 # ---
 
+
+# ---
+# BEGIN: dev-haskell/wxhaskell-0.9.4
+# ---
+# ---
+# END: dev-haskell/wxhaskell-0.9.4
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/wxhaskell-0.11.1.2
+# ---
+# ---
+# END: dev-haskell/wxhaskell-0.11.1.2
+# ---
+
+
+# ---
+# BEGIN: app-emacs/browse-kill-ring-1.3
+# ---
+# ---
+# END: app-emacs/browse-kill-ring-1.3
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/sdl-0.5.4
+# ---
+# ---
+# END: dev-haskell/sdl-0.5.4
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/sdl-image-0.5.2
+# ---
+# ---
+# END: dev-haskell/sdl-image-0.5.2
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/sdl-mixer-0.5.2
+# ---
+# ---
+# END: dev-haskell/sdl-mixer-0.5.2
+# ---
+
