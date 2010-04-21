@@ -73,3 +73,12 @@ x11-drivers/ati-drivers
 # END: dev-haskell/sdl-mixer-0.5.2
 # ---
 
+
+# ---
+# BEGIN: net-misc/amazonmp3-1.0.3-r2
+# ---
+=net-misc/amazonmp3-1.0.3-r2
+# ---
+# END: net-misc/amazonmp3-1.0.3-r2
+# ---
+

@@ -277,6 +277,8 @@ dev-lisp/clozurecl ~amd64
 dev-java/jamon ~amd64
 www-plugins/moonlight ~amd64
 
+net-misc/clamz ~amd64
+
 #yi
 # app-editors/yi ~amd64
 # dev-haskell/regex-tdfa ~amd64
@@ -409,5 +411,15 @@ dev-haskell/wxhaskell ~amd64
 =dev-haskell/sdl-mixer-0.5.2 ~amd64
 # ---
 # END: dev-haskell/sdl-mixer-0.5.2
+# ---
+
+
+# ---
+# BEGIN: net-misc/amazonmp3-1.0.3-r2
+# ---
+=net-misc/amazonmp3-1.0.3-r2 ~amd64
+=net-misc/amazonmp3-1.0.3-r2 **
+# ---
+# END: net-misc/amazonmp3-1.0.3-r2
 # ---
 
