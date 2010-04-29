@@ -8,7 +8,7 @@
 # ======================================================================
 # Package Managers
 # ======================================================================
-sys-apps/paludis ~amd64
+# sys-apps/paludis ~amd64
 
 # ======================================================================
 # Net Filesystem Support
@@ -19,24 +19,10 @@ sys-apps/paludis ~amd64
 # ======================================================================
 # X Interface
 # ======================================================================
-# Awesome
-# x11-wm/awesome ~amd64
-# x11-libs/xcb-util ~amd64
-# x11-libs/libxcb ~amd64
-# x11-proto/xcb-proto ~amd64
-# dev-libs/libxdg-basedir ~amd64
-# x11-proto/xproto ~amd64
-# x11-libs/startup-notification ~amd64
-
 # Xmonad and haskell
 x11-wm/xmonad-contrib ~amd64
 x11-misc/xmobar ~amd64
 x11-wm/xmonad ~amd64
-
-# Stumpwm
-# x11-wm/stumpwm ~amd64
-# dev-libs/libxdg-basedir ~amd64
-# x11-apps/grandr ~amd64
 
 # ======================================================================
 # Development - Haskell
@@ -58,23 +44,6 @@ dev-haskell/utf8-string ~amd64
 dev-haskell/x11-xft ~amd64
 dev-haskell/x11 ~amd64
 dev-haskell/stm ~amd64
-# app-admin/haskell-updater ~amd64
-# dev-haskell/bytestring ~amd64
-# dev-lang/ghc ~amd64
-# dev-haskell/hslogger ~amd64
-# dev-haskell/time ~amd64
-# dev-haskell/time ~amd64
-# dev-haskell/hslogger ~amd64
-# dev-haskell/missingh ~amd64
-# dev-haskell/hsh ~amd64
-# dev-haskell/syb ~amd64
-# dev-haskell/http ~amd64 
-# dev-haskell/language-c ~amd64
-# dev-haskell/split ~amd64
-# dev-haskell/xml ~amd64
-
-# dev-haskell/mwc-random ~amd64
-# dev-haskell/uvector ~amd64
 
 # ======================================================================
 # Developement - Common Lisp
@@ -103,7 +72,6 @@ dev-lisp/trivial-features ~amd64
 dev-lisp/rt ~amd64
 dev-lisp/trivial-gray-streams ~amd64
 dev-lisp/cl-colors ~amd64
-# dev-lisp/cl-ppcre ~amd64
 
 # ======================================================================
 # Developement - Scheme
@@ -114,7 +82,6 @@ dev-scheme/plt-scheme ~amd64
 # ======================================================================
 # Terminal Emulators
 # ======================================================================
-# x11-terms/sakura ~amd64
 x11-terms/rxvt-unicode ~amd64
 sys-libs/ncurses ~amd64
 
@@ -149,17 +116,6 @@ app-emacs/emms ~amd64
 # ======================================================================
 # Emulation
 # ======================================================================
-#app-emulation/wine ~amd64
-# app-emulation/emul-linux-x86-baselibs ~amd64
-# app-emulation/emul-linux-x86-compat ~amd64
-# app-emulation/emul-linux-x86-glibc-errno-compat ~amd64
-# app-emulation/emul-linux-x86-gtklibs ~amd64
-# app-emulation/emul-linux-x86-java ~amd64
-# app-emulation/emul-linux-x86-medialibs ~amd64
-# app-emulation/emul-linux-x86-qtlibs ~amd64
-# app-emulation/emul-linux-x86-sdl ~amd64
-# app-emulation/emul-linux-x86-soundlibs ~amd64
-# app-emulation/emul-linux-x86-xlibs ~amd64
 
 games-emulation/yabause ~amd64
 
@@ -421,5 +377,43 @@ dev-haskell/wxhaskell ~amd64
 =net-misc/amazonmp3-1.0.3-r2 **
 # ---
 # END: net-misc/amazonmp3-1.0.3-r2
+# ---
+
+
+# ---
+# BEGIN: app-emulation/wine-1.1.43
+# ---
+=app-emulation/wine-1.1.43 ~amd64
+# ---
+# END: app-emulation/wine-1.1.43
+# ---
+
+
+
+# ---
+# BEGIN: dev-haskell/happstack-data-0.4.1
+# ---
+=dev-haskell/happstack-data-0.4.1 ~amd64
+=dev-haskell/syb-with-class-0.6.1 ~amd64
+=dev-haskell/syb-with-class-0.6 ~amd64
+=dev-haskell/syb-with-class-0.5.1 ~amd64
+=dev-haskell/binary-0.5.0.2 ~amd64
+=dev-haskell/binary-0.4.2 ~amd64
+=dev-haskell/binary-0.4.1 ~amd64
+=dev-haskell/happstack-util-0.4.1 ~amd64
+=dev-haskell/happstack-util-0.3.2 ~amd64
+=dev-haskell/hslogger-1.0.7 ~amd64
+=dev-haskell/hslogger-1.0.5 ~amd64
+=dev-haskell/hslogger-1.0.4 ~amd64
+=dev-haskell/hslogger-1.0.2 ~amd64
+=dev-haskell/unix-compat-0.1.2.1 ~amd64
+=dev-haskell/unix-compat-0.1 ~amd64
+=dev-haskell/strict-concurrency-0.2.2 ~amd64
+=dev-haskell/strict-concurrency-0.2.1 ~amd64
+=dev-haskell/smtpclient-1.0.1 ~amd64
+=dev-haskell/hsemail-1.3 ~amd64
+=dev-haskell/hsemail-1.0 ~amd64
+# ---
+# END: dev-haskell/happstack-data-0.4.1
 # ---
 

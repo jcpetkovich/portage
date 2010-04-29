@@ -191,3 +191,35 @@ x11-misc/dzen xft xpm
 # END: net-misc/amazonmp3-1.0.3-r2
 # ---
 
+
+# ---
+# BEGIN: app-emulation/wine-1.1.43
+# ---
+# ---
+# END: app-emulation/wine-1.1.43
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/happstack-server-0.3.3
+# ---
+# ---
+# END: dev-haskell/happstack-server-0.3.3
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/happstack-data-0.4.1
+# ---
+# ---
+# END: dev-haskell/happstack-data-0.4.1
+# ---
+
+
+# ---
+# BEGIN: dev-haskell/happstack-data-0.4.1
+# ---
+# ---
+# END: dev-haskell/happstack-data-0.4.1
+# ---
+
