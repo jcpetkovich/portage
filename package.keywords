@@ -417,3 +417,12 @@ dev-haskell/wxhaskell ~amd64
 # END: dev-haskell/happstack-data-0.4.1
 # ---
 
+
+# ---
+# BEGIN: app-emulation/wine-9999
+# ---
+#=app-emulation/wine-9999 **
+# ---
+# END: app-emulation/wine-9999
+# ---
+

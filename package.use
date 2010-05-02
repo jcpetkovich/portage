@@ -223,3 +223,11 @@ x11-misc/dzen xft xpm
 # END: dev-haskell/happstack-data-0.4.1
 # ---
 
+
+# ---
+# BEGIN: app-emulation/wine-9999
+# ---
+# ---
+# END: app-emulation/wine-9999
+# ---
+
