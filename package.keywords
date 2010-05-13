@@ -1,22 +1,6 @@
 # Keywords
 
 # ======================================================================
-# Kernel Sources
-# ======================================================================
-#sys-kernel/gentoo-sources ~amd64
-
-# ======================================================================
-# Package Managers
-# ======================================================================
-# sys-apps/paludis ~amd64
-
-# ======================================================================
-# Net Filesystem Support
-# ======================================================================
-# Samba
-#net-fs/samba-client ~amd64
-
-# ======================================================================
 # X Interface
 # ======================================================================
 # Xmonad and haskell
@@ -24,9 +8,23 @@ x11-wm/xmonad-contrib ~amd64
 x11-misc/xmobar ~amd64
 x11-wm/xmonad ~amd64
 
+# Status bar
+x11-misc/dzen ~amd64
+dev-perl/Weather-Com ~amd64
+dev-perl/Time-Format ~amd64
+
 # ======================================================================
 # Development - Haskell
 # ======================================================================
+dev-haskell/haskell-platform ~amd64
+dev-haskell/dbus ~amd64
+dev-haskell/hdbus ~amd64
+app-portage/hackport ~amd64
+=dev-haskell/tar-0.3.1.0 ~amd64
+
+# wx haskell
+dev-haskell/wxhaskell ~amd64
+=dev-haskell/wxcore-0.11.1.2 ~amd64
 
 # dev
 dev-haskell/vector-algorithms ~amd64
@@ -44,6 +42,44 @@ dev-haskell/utf8-string ~amd64
 dev-haskell/x11-xft ~amd64
 dev-haskell/x11 ~amd64
 dev-haskell/stm ~amd64
+
+# Drivers: radeonhd
+x11-drivers/xf86-video-radeonhd ~amd64
+
+# Wireless Functionality
+net-wireless/broadcom-sta ~amd64
+
+# dev-haskell/haskell-platform-2010.1.0.0
+dev-haskell/http ~amd64
+dev-haskell/network ~amd64
+dev-haskell/cabal-install ~amd64
+dev-haskell/zlib ~amd64
+dev-haskell/time ~amd64
+
+=dev-haskell/cabal-1.8.0.2 ~amd64
+=dev-haskell/regex-compat-0.92 ~amd64
+=dev-haskell/html-1.0.1.2 ~amd64
+=dev-haskell/regex-base-0.93.1 ~amd64
+=dev-haskell/deepseq-1.1.0.0 ~amd64
+=dev-haskell/alex-2.3.2 ~amd64
+=dev-haskell/xhtml-3000.2.0.1 ~amd64
+=dev-haskell/happy-1.18.4 ~amd64
+=dev-haskell/quickcheck-2.1.0.3 ~amd64
+=dev-haskell/parallel-2.2.0.1 ~amd64
+=dev-lang/ghc-6.12.1 ~amd64
+=dev-haskell/hunit-1.2.2.1 ~amd64
+=dev-haskell/regex-posix-0.94.1 ~amd64
+=dev-haskell/cgi-3001.1.7.2 ~amd64
+=dev-haskell/fgl-5.4.2.2 ~amd64
+=dev-haskell/parsec-2.1.0.1 ~amd64
+=dev-haskell/opengl-2.2.3.0 ~amd64
+=dev-haskell/glut-2.1.2.1 ~amd64
+=dev-haskell/haskell-src-1.0.1.3 ~amd64
+=dev-haskell/mtl-1.1.0.2 ~amd64
+=dev-haskell/haddock-2.6.0 ~amd64
+=dev-haskell/extensible-exceptions-0.1.1.1 ~amd64
+=dev-haskell/extensible-exceptions-0.1.1.0 ~amd64
+=app-admin/haskell-updater-1.0.0.0 ~amd64
 
 # ======================================================================
 # Developement - Common Lisp
@@ -80,6 +116,12 @@ dev-scheme/mit-scheme-c ~amd64
 dev-scheme/plt-scheme ~amd64
 
 # ======================================================================
+# Emulators
+# ======================================================================
+# Wine
+=app-emulation/wine-1.1.43 ~amd64
+
+# ======================================================================
 # Terminal Emulators
 # ======================================================================
 x11-terms/rxvt-unicode ~amd64
@@ -93,62 +135,14 @@ app-emacs/emacs-w3m ~amd64
 app-emacs/dropdown-list ~amd64
 app-emacs/yasnippet ~amd64
 app-emacs/emms ~amd64
-
-# ======================================================================
-# Dropbox
-# ======================================================================
-# gnome-extra/nautilus-dropbox ~amd64
-
-# ======================================================================
-# Media Players
-# ======================================================================
-# media-video/gnome-mplayer ~amd64
-# media-video/mplayer ~amd64
-# media-libs/x264 ~amd64
-# media-video/ffmpeg ~amd64
-
-# ======================================================================
-# Internet Functionality
-# ======================================================================
-#www-plugins/mplayerplug-in ~amd64
-# www-plugins/gecko-mediaplayer ~amd64
-
-# ======================================================================
-# Emulation
-# ======================================================================
-
-games-emulation/yabause ~amd64
-
-# ======================================================================
-# Games
-# ======================================================================
-games-board/ccgo ~amd64
-
-# ======================================================================
-# Printing
-# ======================================================================
-# net-print/foo2zjs ~amd64
-
-# ======================================================================
-# NewsReading
-# ======================================================================
-net-nntp/tin ~amd64
-
-# ======================================================================
-# Eye Candy
-# ======================================================================
-#x11-wm/compiz-fusion ~amd64
-
-# ======================================================================
-# Languages
-# ======================================================================
-# dev-lisp/cl-ppcre ~amd64
+app-emacs/clojure-mode ~amd64
+app-emacs/paredit ~amd64
+=app-emacs/browse-kill-ring-1.3 ~amd64
 
 # ======================================================================
 # Utilities
 # ======================================================================
 app-admin/eselect ~amd64
-# media-gfx/f-spot ~amd64
 
 # ======================================================================
 # sabnzbd
@@ -168,261 +162,14 @@ net-news/yencode ~amd64
 media-gfx/keyjnote ~amd64
 
 # ======================================================================
-# Drivers
-# ======================================================================
-
-# Drivers: fglrx
-#x11-drivers/ati-drivers ~amd64
-#x11-base/xorg-server ~amd64
-#app-admin/eselect-opengl ~amd64
-#x11-libs/libXfont ~amd64
-#x11-proto/randrproto ~amd64
-#x11-proto/dri2proto ~amd64
-#x11-base/xorg-drivers ~amd64
-#x11-drivers/xf86-input-synaptics ~amd64
-#x11-drivers/xf86-input-evdev ~amd64
-
-# Drivers: radeonhd
-x11-drivers/xf86-video-radeonhd ~amd64
-
-# Wireless Functionality
-net-wireless/broadcom-sta ~amd64
-
-# ======================================================================
 # Experimental
 # ======================================================================
-x11-misc/dzen ~amd64
-dev-perl/Weather-Com ~amd64
-dev-perl/Time-Format ~amd64
-app-emacs/clojure-mode ~amd64
-
-sci-misc/netlogo-bin ~amd64
 dev-lang/clojure ~amd64
 dev-lang/clojure-contrib ~amd64
 dev-lang/leiningen ~amd64
 dev-java/nailgun ~amd64
 
-sys-apps/hwinfo ~amd64
-
-# dev-haskell/vector ~amd64
-# dev-haskell/primitive ~amd64
-
-# dev-haskell/hlint ~amd64
-# dev-haskell/uniplate ~amd64
-# dev-haskell/cpphs ~amd64
-
-
-# dev-haskell/gtk2hs ~amd64
-
-# # liskell: SUPER experimental
-# dev-haskell/haskeline ~amd64
-# dev-haskell/ghc-paths ~amd64
-# dev-haskell/terminfo ~amd64
-# dev-haskell/extensible-exceptions ~amd64
-
-app-emacs/paredit ~amd64
-
-media-sound/mac ~amd64
-
-dev-haskell/haskell-platform ~amd64
-dev-haskell/dbus ~amd64
-dev-haskell/hdbus ~amd64
-app-portage/hackport ~amd64
-
 dev-lisp/clozurecl ~amd64
 dev-java/jamon ~amd64
 www-plugins/moonlight ~amd64
-
-net-misc/clamz ~amd64
-
-#yi
-# app-editors/yi ~amd64
-# dev-haskell/regex-tdfa ~amd64
-# dev-haskell/data-accessor-monads-fd ~amd64
-# dev-haskell/ghc-paths ~amd64
-# dev-haskell/diff ~amd64
-# dev-haskell/derive ~amd64
-# dev-haskell/dlist ~amd64
-# dev-haskell/rosezipper ~amd64
-# dev-haskell/data-accessor ~amd64
-# dev-haskell/pointedlist ~amd64
-# dev-haskell/monads-fd ~amd64
-# dev-haskell/regex-base ~amd64
-# dev-haskell/unix-compat ~amd64
-# dev-haskell/binary ~amd64
-# dev-haskell/puremd5 ~amd64
-# dev-haskell/data-accessor-template ~amd64
-# dev-haskell/uniplate ~amd64
-# dev-haskell/transformers ~amd64
-# dev-haskell/fingertree ~amd64
-# dev-haskell/utility-ht ~amd64
-# dev-haskell/gtk2hs ~amd64
-
-# Local variables
-# folded-file: t
-# End:
-
-
-# ---
-# BEGIN: dev-haskell/haskell-platform-2010.1.0.0
-# ---
-# added by me:
-# dev-haskell/haskell-src-exts ~amd64
-# dev-haskell/feed ~amd64
-# dev-haskell/curl ~amd64
-# dev-haskell/hgal ~amd64
-# dev-haskell/hscolour ~amd64
-dev-haskell/http ~amd64
-dev-haskell/network ~amd64
-dev-haskell/cabal-install ~amd64
-dev-haskell/zlib ~amd64
-dev-haskell/time ~amd64
-
-=dev-haskell/cabal-1.8.0.2 ~amd64
-=dev-haskell/regex-compat-0.92 ~amd64
-=dev-haskell/html-1.0.1.2 ~amd64
-=dev-haskell/regex-base-0.93.1 ~amd64
-=dev-haskell/deepseq-1.1.0.0 ~amd64
-=dev-haskell/alex-2.3.2 ~amd64
-=dev-haskell/xhtml-3000.2.0.1 ~amd64
-=dev-haskell/happy-1.18.4 ~amd64
-=dev-haskell/quickcheck-2.1.0.3 ~amd64
-=dev-haskell/parallel-2.2.0.1 ~amd64
-=dev-lang/ghc-6.12.1 ~amd64
-=dev-haskell/hunit-1.2.2.1 ~amd64
-=dev-haskell/regex-posix-0.94.1 ~amd64
-=dev-haskell/cgi-3001.1.7.2 ~amd64
-=dev-haskell/fgl-5.4.2.2 ~amd64
-=dev-haskell/parsec-2.1.0.1 ~amd64
-=dev-haskell/opengl-2.2.3.0 ~amd64
-=dev-haskell/glut-2.1.2.1 ~amd64
-=dev-haskell/haskell-src-1.0.1.3 ~amd64
-=dev-haskell/mtl-1.1.0.2 ~amd64
-=dev-haskell/haddock-2.6.0 ~amd64
-=dev-haskell/extensible-exceptions-0.1.1.1 ~amd64
-=dev-haskell/extensible-exceptions-0.1.1.0 ~amd64
-=app-admin/haskell-updater-1.0.0.0 ~amd64
-# ---
-# END: dev-haskell/haskell-platform-2010.1.0.0
-# ---
-
-
-# ---
-# BEGIN: app-portage/hackport-9999
-# ---
-=dev-haskell/tar-0.3.1.0 ~amd64
-# ---
-# END: app-portage/hackport-9999
-# ---
-
-
-# ---
-# BEGIN: dev-haskell/wxhaskell-0.9.4
-# ---
-dev-haskell/wxhaskell ~amd64
-# ---
-# END: dev-haskell/wxhaskell-0.9.4
-# ---
-
-
-# ---
-# BEGIN: dev-haskell/wxhaskell-0.11.1.2
-# ---
-=dev-haskell/wxcore-0.11.1.2 ~amd64
-# ---
-# END: dev-haskell/wxhaskell-0.11.1.2
-# ---
-
-
-# ---
-# BEGIN: app-emacs/browse-kill-ring-1.3
-# ---
-=app-emacs/browse-kill-ring-1.3 ~amd64
-# ---
-# END: app-emacs/browse-kill-ring-1.3
-# ---
-
-
-# ---
-# BEGIN: dev-haskell/sdl-0.5.4
-# ---
-=dev-haskell/sdl-0.5.4 ~amd64
-# ---
-# END: dev-haskell/sdl-0.5.4
-# ---
-
-
-# ---
-# BEGIN: dev-haskell/sdl-image-0.5.2
-# ---
-=dev-haskell/sdl-image-0.5.2 ~amd64
-# ---
-# END: dev-haskell/sdl-image-0.5.2
-# ---
-
-
-# ---
-# BEGIN: dev-haskell/sdl-mixer-0.5.2
-# ---
-=dev-haskell/sdl-mixer-0.5.2 ~amd64
-# ---
-# END: dev-haskell/sdl-mixer-0.5.2
-# ---
-
-
-# ---
-# BEGIN: net-misc/amazonmp3-1.0.3-r2
-# ---
-=net-misc/amazonmp3-1.0.3-r2 ~amd64
-=net-misc/amazonmp3-1.0.3-r2 **
-# ---
-# END: net-misc/amazonmp3-1.0.3-r2
-# ---
-
-
-# ---
-# BEGIN: app-emulation/wine-1.1.43
-# ---
-=app-emulation/wine-1.1.43 ~amd64
-# ---
-# END: app-emulation/wine-1.1.43
-# ---
-
-
-
-# ---
-# BEGIN: dev-haskell/happstack-data-0.4.1
-# ---
-=dev-haskell/happstack-data-0.4.1 ~amd64
-=dev-haskell/syb-with-class-0.6.1 ~amd64
-=dev-haskell/syb-with-class-0.6 ~amd64
-=dev-haskell/syb-with-class-0.5.1 ~amd64
-=dev-haskell/binary-0.5.0.2 ~amd64
-=dev-haskell/binary-0.4.2 ~amd64
-=dev-haskell/binary-0.4.1 ~amd64
-=dev-haskell/happstack-util-0.4.1 ~amd64
-=dev-haskell/happstack-util-0.3.2 ~amd64
-=dev-haskell/hslogger-1.0.7 ~amd64
-=dev-haskell/hslogger-1.0.5 ~amd64
-=dev-haskell/hslogger-1.0.4 ~amd64
-=dev-haskell/hslogger-1.0.2 ~amd64
-=dev-haskell/unix-compat-0.1.2.1 ~amd64
-=dev-haskell/unix-compat-0.1 ~amd64
-=dev-haskell/strict-concurrency-0.2.2 ~amd64
-=dev-haskell/strict-concurrency-0.2.1 ~amd64
-=dev-haskell/smtpclient-1.0.1 ~amd64
-=dev-haskell/hsemail-1.3 ~amd64
-=dev-haskell/hsemail-1.0 ~amd64
-# ---
-# END: dev-haskell/happstack-data-0.4.1
-# ---
-
-
-# ---
-# BEGIN: app-emulation/wine-9999
-# ---
-#=app-emulation/wine-9999 **
-# ---
-# END: app-emulation/wine-9999
-# ---
 

@@ -9,13 +9,8 @@ net-misc/mediatomb expat javascript taglib
 net-print/foo2zjs hp1020
 dev-db/sqlite fts3
 
-# Mail
-mail-client/mutt nntp pop imap smtp
-mail-client/claws-mail nntp imap spell
-
 # Chat
 net-im/pidgin spell
-kde-base/kopete oscar
 
 # ======================================================================
 # Editors
@@ -37,7 +32,7 @@ games-emulation/zsnes -ao
 app-portage/layman subversion
 
 # Paludis 
-sys-apps/paludis inquisitio python-bindings ruby-bindings visibility zsh-completion
+#sys-apps/paludis inquisitio python-bindings ruby-bindings visibility zsh-completion
 
 # Subversion
 dev-util/subversion apache2 gnome-keyring
