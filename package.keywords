@@ -173,3 +173,11 @@ dev-lisp/clozurecl ~amd64
 dev-java/jamon ~amd64
 www-plugins/moonlight ~amd64
 
+# empathy
+net-im/empathy ~amd64
+net-voip/telepathy-connection-managers ~amd64
+net-libs/telepathy-farsight ~amd64
+net-im/telepathy-mission-control ~amd64
+net-voip/telepathy-butterfly ~amd64
+dev-python/papyon ~amd64
+dev-python/telepathy-python ~amd64
