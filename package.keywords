@@ -119,7 +119,7 @@ dev-scheme/plt-scheme ~amd64
 # Emulators
 # ======================================================================
 # Wine
-=app-emulation/wine-1.1.43 ~amd64
+# =app-emulation/wine-1.1.43 ~amd64
 
 # ======================================================================
 # Terminal Emulators
