@@ -29,7 +29,7 @@ games-emulation/zsnes -ao
 # Package Management
 # ======================================================================
 # Portage 
-app-portage/layman subversion
+app-portage/layman subversion git mercurial darcs
 
 # Paludis 
 #sys-apps/paludis inquisitio python-bindings ruby-bindings visibility zsh-completion
@@ -47,7 +47,7 @@ media-video/ffmpeg sdl zlib dts amr network
 media-libs/libsndfile -jack
 
 # VLC
-media-video/vlc X a52 alsa dts dvd ffmpeg mp3 mpeg win32codecs ncurses opengl sdl skins truetype wxwindows xv dts live matroska theora vorbis win32codecs aac aalib alsa arts esd fbcon ggi libcaca opengl oss png sdl speex svga xinerama xv x264 dvd
+media-video/vlc X a52 alsa dts dvd ffmpeg mp3 mpeg win32codecs ncurses opengl sdl skins truetype wxwindows xv dts live matroska theora vorbis win32codecs aac aalib alsa arts esd fbcon ggi libcaca opengl oss png sdl speex svga xinerama xv x264 dvd udev
 x11-libs/wxGTK unicode X
 
 # Sound
