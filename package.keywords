@@ -13,6 +13,10 @@ x11-misc/dzen ~amd64
 dev-perl/Weather-Com ~amd64
 dev-perl/Time-Format ~amd64
 
+# Cursor
+x11-themes/pulse-glass ~amd64
+x11-themes/bluecurve-xcursors ~amd64
+
 # ======================================================================
 # Development - Haskell
 # ======================================================================

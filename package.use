@@ -29,13 +29,13 @@ games-emulation/zsnes -ao
 # Package Management
 # ======================================================================
 # Portage 
-app-portage/layman subversion
+app-portage/layman subversion git mercurial darcs
 
 # Paludis 
 #sys-apps/paludis inquisitio python-bindings ruby-bindings visibility zsh-completion
 
 # Subversion
-dev-util/subversion apache2 gnome-keyring
+dev-vcs/subversion apache2 gnome-keyring
 
 # ======================================================================
 # Media
