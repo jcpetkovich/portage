@@ -14,8 +14,9 @@ dev-perl/Weather-Com ~amd64
 dev-perl/Time-Format ~amd64
 
 # Cursor
-x11-themes/pulse-glass ~amd64
-x11-themes/bluecurve-xcursors ~amd64
+
+# Icons
+x11-themes/human-icon-theme ~amd64
 
 # ======================================================================
 # Development - Haskell
@@ -80,7 +81,7 @@ dev-haskell/time ~amd64
 =dev-haskell/glut-2.1.2.1 ~amd64
 =dev-haskell/haskell-src-1.0.1.3 ~amd64
 =dev-haskell/mtl-1.1.0.2 ~amd64
-=dev-haskell/haddock-2.6.0 ~amd64
+=dev-haskell/haddock-2.6.1 ~amd64
 =dev-haskell/extensible-exceptions-0.1.1.1 ~amd64
 =dev-haskell/extensible-exceptions-0.1.1.0 ~amd64
 =app-admin/haskell-updater-1.0.0.0 ~amd64
@@ -177,14 +178,8 @@ dev-lisp/clozurecl ~amd64
 dev-java/jamon ~amd64
 www-plugins/moonlight ~amd64
 
-# empathy
-net-im/empathy ~amd64
-net-voip/telepathy-connection-managers ~amd64
-net-libs/telepathy-farsight ~amd64
-net-im/telepathy-mission-control ~amd64
-net-voip/telepathy-butterfly ~amd64
-dev-python/papyon ~amd64
-dev-python/telepathy-python ~amd64
+=media-video/vlc-1.1.0 ~amd64
+
 
 # wsq files
 x11-libs/qt ~amd64
