@@ -4,7 +4,7 @@
 # Internet
 # ======================================================================
 # Browser
-www-client/mozilla-firefox gnome
+www-client/firefox gnome
 net-misc/mediatomb expat javascript taglib
 net-print/foo2zjs hp1020
 dev-db/sqlite fts3
