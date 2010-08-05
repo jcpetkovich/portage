@@ -75,6 +75,13 @@ dev-haskell/gtk2hs xulrunner
 dev-haskell/mtl profile
 dev-haskell/mersenne-random profile
 
+# Python
+dev-lang/python tk
+dev-python/imaging tk
+
+# Ruby
+dev-lang/ruby doc
+
 # ======================================================================
 # Utilities
 # ======================================================================
