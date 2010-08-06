@@ -70,7 +70,7 @@ dev-haskell/time ~amd64
 =dev-haskell/xhtml-3000.2.0.1 ~amd64
 =dev-haskell/happy-1.18.5 ~amd64
 =dev-haskell/quickcheck-2.1.1.1 ~amd64
-=dev-haskell/parallel-2.2.0.1 ~amd64
+=dev-haskell/parallel-3.1.0.0 ~amd64
 =dev-lang/ghc-6.12.3 ~amd64
 =dev-haskell/hunit-1.2.2.1 ~amd64
 =dev-haskell/regex-posix-0.94.2 ~amd64
@@ -86,6 +86,7 @@ dev-haskell/time ~amd64
 =dev-haskell/extensible-exceptions-0.1.1.0 ~amd64
 =app-admin/haskell-updater-1.1.2.0 ~amd64
 =dev-haskell/ghc-paths-0.1.0.6 ~amd64
+=dev-haskell/sdl-0.5.4 ~amd64
 
 # ======================================================================
 # Developement - Common Lisp
