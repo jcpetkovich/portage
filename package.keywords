@@ -185,3 +185,14 @@ www-plugins/moonlight ~amd64
 
 # wsq files
 x11-libs/qt ~amd64
+
+# nxhtml-mode for ruby etc
+app-emacs/nxhtml-mode ~amd64
+app-emacs/snippet ~amd64
+app-emacs/fold-dwim ~amd64
+app-emacs/cgi+ ~amd64
+app-emacs/js2-mode ~amd64
+app-emacs/find-recursive ~amd64
+net-misc/ftpsync ~amd64
+app-emacs/cgi ~amd64
+app-emacs/httpd ~amd64

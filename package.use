@@ -81,6 +81,7 @@ dev-python/imaging tk
 
 # Ruby
 dev-lang/ruby doc
+dev-ruby/rails doc
 
 # ======================================================================
 # Utilities
