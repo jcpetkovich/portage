@@ -145,6 +145,7 @@ app-emacs/emms ~amd64
 app-emacs/clojure-mode ~amd64
 app-emacs/paredit ~amd64
 =app-emacs/browse-kill-ring-1.3 ~amd64
+app-emacs/icicles ~amd64
 
 # ======================================================================
 # Utilities
@@ -185,6 +186,9 @@ www-plugins/moonlight ~amd64
 
 # wsq files
 x11-libs/qt ~amd64
+
+dev-ruby/rcodetools ~amd64
+app-emacs/rcodetools-emacs ~amd64
 
 # nxhtml-mode for ruby etc
 app-emacs/nxhtml-mode ~amd64
