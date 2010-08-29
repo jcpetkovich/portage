@@ -60,8 +60,8 @@ dev-haskell/network ~amd64
 dev-haskell/cabal-install ~amd64
 dev-haskell/zlib ~amd64
 dev-haskell/time ~amd64
+dev-haskell/cabal
 
-=dev-haskell/cabal-1.8.0.2 ~amd64
 =dev-haskell/regex-compat-0.93.1 ~amd64
 =dev-haskell/html-1.0.1.2 ~amd64
 =dev-haskell/regex-base-0.93.2 ~amd64
