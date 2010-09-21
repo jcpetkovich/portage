@@ -74,6 +74,8 @@ dev-java/sun-jdk nsplugin
 dev-haskell/gtk2hs xulrunner
 dev-haskell/mtl profile
 dev-haskell/mersenne-random profile
+dev-haskell/parallel profile
+dev-haskell/deepseq profile
 
 # Python
 dev-lang/python tk
