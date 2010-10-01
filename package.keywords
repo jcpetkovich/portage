@@ -115,6 +115,10 @@ dev-lisp/trivial-features ~amd64
 dev-lisp/rt ~amd64
 dev-lisp/trivial-gray-streams ~amd64
 dev-lisp/cl-colors ~amd64
+dev-lisp/cl-ppcre ~amd64
+dev-lisp/flexi-streams ~amd64
+dev-lisp/cl-ppcre-unicode ~amd64
+dev-lisp/cl-unicode ~amd64
 
 # ======================================================================
 # Developement - Scheme
