@@ -49,7 +49,7 @@ dev-haskell/x11 ~amd64
 dev-haskell/stm ~amd64
 
 # Drivers: radeonhd
-x11-drivers/xf86-video-radeonhd ~amd64
+# x11-drivers/xf86-video-radeonhd ~amd64
 
 # Wireless Functionality
 net-wireless/broadcom-sta ~amd64
