@@ -72,7 +72,7 @@ media-gfx/gimp pdf smp
 sys-devel/gcc gcj
 
 # Lisp
-dev-lisp/sbcl ldb threads 
+dev-lisp/sbcl ldb threads doc
 # x11-wm/stumpwm clisp doc
 dev-java/sun-jdk nsplugin
 
