@@ -120,11 +120,18 @@ dev-lisp/flexi-streams ~amd64
 dev-lisp/cl-ppcre-unicode ~amd64
 dev-lisp/cl-unicode ~amd64
 
+dev-lisp/gsll ~amd64
+dev-lisp/asdf-system-connections ~amd64
+=dev-lisp/gsd-999 ~amd64
+=dev-lisp/fsbv-9999 ~amd64
+=dev-lisp/lisp-unit-9999 ~amd64
+
 # ======================================================================
 # Developement - Scheme
 # ======================================================================
 dev-scheme/mit-scheme-c ~amd64
 dev-scheme/plt-scheme ~amd64
+dev-scheme/racket ~amd64
 
 # ======================================================================
 # Emulators
