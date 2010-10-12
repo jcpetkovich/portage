@@ -203,6 +203,7 @@ www-plugins/moonlight ~amd64
 # wsq files
 x11-libs/qt ~amd64
 
+dev-ruby/cake ~amd64
 dev-ruby/rcodetools ~amd64
 app-emacs/rcodetools-emacs ~amd64
 
