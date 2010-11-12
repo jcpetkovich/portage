@@ -126,6 +126,17 @@ dev-lisp/asdf-system-connections ~amd64
 =dev-lisp/fsbv-9999 ~amd64
 =dev-lisp/lisp-unit-9999 ~amd64
 
+dev-lisp/mcclim ~amd64
+dev-lisp/spatial-trees ~amd64
+dev-lisp/clx ~amd64
+dev-lisp/cl-vectors ~amd64
+dev-lisp/zpb-ttf ~amd64
+dev-lisp/cl-jpeg ~amd64
+dev-lisp/flexichain ~amd64
+dev-lisp/skippy ~amd64
+dev-lisp/fiveam ~amd64
+dev-lisp/arnesi ~amd64
+
 # ======================================================================
 # Developement - Scheme
 # ======================================================================
