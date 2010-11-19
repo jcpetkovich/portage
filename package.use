@@ -106,7 +106,7 @@ sys-fs/udev extras
 # ======================================================================
 # Terminal
 # ======================================================================
-x11-terms/rxvt-unicode xterm-color wcwidth
+x11-terms/rxvt-unicode xterm-color wcwidth 256-color
 app-shells/zsh caps examples
 
 # ======================================================================
