@@ -234,3 +234,6 @@ app-emacs/find-recursive ~amd64
 net-misc/ftpsync ~amd64
 app-emacs/cgi ~amd64
 app-emacs/httpd ~amd64
+
+net-im/skype ~amd64
+
