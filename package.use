@@ -49,7 +49,7 @@ dev-vcs/subversion apache2 gnome-keyring
 # Video
 media-libs/xine-lib dts
 media-video/mplayer directfb ggi sdl xv 
-media-video/ffmpeg sdl zlib dts amr network
+media-video/ffmpeg sdl zlib dts amr network threads
 media-libs/libsndfile -jack
 media-libs/gd fontconfig
 
