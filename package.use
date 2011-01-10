@@ -97,6 +97,7 @@ dev-ruby/rails doc
 # ======================================================================
 sys-block/gparted fat ntfs 
 dev-db/mysql embedded -minimal
+virtual/mysql embedded
 
 # ======================================================================
 # System
