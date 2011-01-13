@@ -149,6 +149,8 @@ dev-lisp/fiveam ~amd64
 dev-lisp/arnesi ~amd64
 
 dev-lisp/metabang-bind ~amd64
+dev-lisp/usocket ~amd64
+dev-lisp/split-sequence ~amd64
 
 # ======================================================================
 # Developement - Scheme
