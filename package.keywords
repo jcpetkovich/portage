@@ -148,6 +148,8 @@ dev-lisp/skippy ~amd64
 dev-lisp/fiveam ~amd64
 dev-lisp/arnesi ~amd64
 
+dev-lisp/metabang-bind ~amd64
+
 # ======================================================================
 # Developement - Scheme
 # ======================================================================
