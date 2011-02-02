@@ -255,3 +255,6 @@ app-emacs/cgi ~amd64
 app-emacs/httpd ~amd64
 
 net-im/skype ~amd64
+
+sys-apps/parallel ~amd64
+
