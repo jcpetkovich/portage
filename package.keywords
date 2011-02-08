@@ -269,3 +269,4 @@ net-im/skype ~amd64
 
 sys-apps/parallel ~amd64
 
+dev-haskell/hlint ~amd64
