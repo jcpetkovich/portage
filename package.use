@@ -15,7 +15,7 @@ net-print/foo2zjs hp1020
 dev-db/sqlite fts3
 
 # Chat
-net-im/pidgin spell
+net-im/pidgin spell -gstreamer
 
 
 # ======================================================================
