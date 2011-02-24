@@ -30,6 +30,13 @@ x11-themes/human-icon-theme ~amd64
 net-im/pidgin ~amd64
 
 # ======================================================================
+# Development - perl
+# ======================================================================
+dev-perl/Emacs-PDE ~amd64
+dev-lang/rakudo ~amd64
+dev-lang/parrot ~amd64
+
+# ======================================================================
 # Development - Haskell
 # ======================================================================
 dev-haskell/hoogle ~amd64
@@ -270,3 +277,8 @@ net-im/skype ~amd64
 sys-apps/parallel ~amd64
 
 dev-haskell/hlint ~amd64
+
+#ruby
+# dev-lang/ruby ~amd64
+# dev-ruby/rdoc ~amd64
+# dev-ruby/rubygems ~amd64

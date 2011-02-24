@@ -28,3 +28,5 @@ x11-drivers/ati-drivers
 # Experimental
 # ======================================================================
 x11-libs/qt
+
+# dev-lang/ruby
