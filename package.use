@@ -14,6 +14,8 @@ net-misc/mediatomb expat javascript taglib
 net-print/foo2zjs hp1020
 dev-db/sqlite fts3
 
+dev-libs/libxml2 icu
+
 # Chat
 net-im/pidgin spell -gstreamer
 
