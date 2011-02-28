@@ -176,6 +176,8 @@ dev-lisp/split-sequence ~amd64
 dev-scheme/mit-scheme-c ~amd64
 dev-scheme/plt-scheme ~amd64
 dev-scheme/racket ~amd64
+dev-scheme/chicken ~amd64
+app-emacs/scheme-complete ~amd64
 
 # ======================================================================
 # Developement - Python
@@ -282,3 +284,4 @@ dev-haskell/hlint ~amd64
 # dev-lang/ruby ~amd64
 # dev-ruby/rdoc ~amd64
 # dev-ruby/rubygems ~amd64
+sys-devel/llvm ~amd64
