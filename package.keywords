@@ -178,6 +178,7 @@ dev-scheme/plt-scheme ~amd64
 dev-scheme/racket ~amd64
 dev-scheme/chicken ~amd64
 app-emacs/scheme-complete ~amd64
+app-emacs/quack ~amd64
 
 # ======================================================================
 # Developement - Python
