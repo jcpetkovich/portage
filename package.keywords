@@ -281,8 +281,39 @@ sys-apps/parallel ~amd64
 
 dev-haskell/hlint ~amd64
 
-#ruby
-# dev-lang/ruby ~amd64
-# dev-ruby/rdoc ~amd64
-# dev-ruby/rubygems ~amd64
+#ruby-1.9
+dev-lang/ruby ~amd64
+dev-ruby/rdoc ~amd64
+dev-ruby/rubygems ~amd64
+dev-ruby/rails ~amd64
+dev-ruby/actionpack ~amd64
+dev-ruby/activerecord ~amd64
+dev-ruby/actionmailer ~amd64
+dev-ruby/activesupport ~amd64
+dev-ruby/activeresource ~amd64
+dev-ruby/activemodel ~amd64
+dev-ruby/bundler ~amd64
+dev-ruby/railties ~amd64
+dev-ruby/mail ~amd64
+dev-ruby/mime-types ~amd64
+dev-ruby/i18n ~amd64
+dev-ruby/treetop ~amd64
+dev-ruby/polyglot ~amd64
+dev-ruby/mysql2 ~amd64
+dev-ruby/sqlite3-ruby ~amd64
+dev-ruby/tzinfo ~amd64
+dev-ruby/arel ~amd64
+dev-ruby/rake-compiler ~amd64
+dev-ruby/rake ~amd64
+dev-ruby/memcache-client ~amd64
+dev-ruby/erubis ~amd64
+dev-ruby/rack-test ~amd64
+dev-ruby/rack-mount ~amd64
+dev-ruby/rack ~amd64
+dev-ruby/abstract ~amd64
+dev-ruby/thor ~amd64
+app-admin/eselect-rails ~amd64
+
 sys-devel/llvm ~amd64
+
+
