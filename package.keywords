@@ -51,7 +51,7 @@ dev-haskell/safe ~amd64
 dev-haskell/cmdargs ~amd64
 dev-haskell/transformers ~amd64
 dev-haskell/transformers ~amd64
-dev-haskell/network ~amd64
+=dev-haskell/network-2.2.1.7 ~amd64
 dev-haskell/uniplate ~amd64
 dev-haskell/cpphs ~amd64
 
