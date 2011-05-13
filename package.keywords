@@ -196,7 +196,7 @@ dev-python/ropemode ~amd64
 # Emulators
 # ======================================================================
 # Wine
-# =app-emulation/wine-1.1.43 ~amd64
+app-emulation/wine ~amd64
 
 # ======================================================================
 # Terminal Emulators
@@ -341,3 +341,4 @@ dev-perl/WWW-Pastebin-PastebinCom-Create ~amd64
 dev-perl/Term-ReadLine-Gnu ~amd64
 sys-libs/readline ~amd64
 dev-perl/Params-Validate ~amd64
+
