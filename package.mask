@@ -1,3 +1,4 @@
 #app-emulation/wine
 net-wireless/iwl5000-ucode
 #=x11-base/xorg-server-1.9.2
+=dev-lisp/sbcl-1.0.49
