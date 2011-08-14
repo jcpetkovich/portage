@@ -9,7 +9,8 @@ dev-libs/libgcrypt static-libs
 # Internet
 # ======================================================================
 # Browser
-www-client/firefox gnome
+www-client/firefox gnome wifi
+net-libs/xulrunner wifi
 net-misc/mediatomb expat javascript taglib
 net-print/foo2zjs hp1020
 dev-db/sqlite fts3
@@ -129,3 +130,9 @@ media-fonts/dejavu fontforge
 x11-misc/dzen xft xpm
 
 
+#required by kde-base/kdesu-4.6.3, required by kde-base/khelpcenter-4.6.3, required by kde-base/kdelibs-4.6.3-r3[handbook], required by kde-base/phonon-kde-4.6.3, required by media-sound/amarok-2.4.0[player], required by amarok (argument)
+=x11-libs/qt-qt3support-4.7.2 kde
+#required by sys-fs/udisks-1.0.3-r1, required by kde-base/kdelibs-4.6.3-r3, required by kde-base/kdesu-4.6.3, required by kde-base/khelpcenter-4.6.3
+=sys-block/parted-2.3 device-mapper
+#required by kde-base/kdesu-4.6.3, required by kde-base/khelpcenter-4.6.3, required by kde-base/kdelibs-4.6.3-r3[handbook], required by kde-base/phonon-kde-4.6.3, required by media-sound/amarok-2.4.0[player], required by amarok (argument)
+=x11-libs/qt-webkit-4.7.2 kde

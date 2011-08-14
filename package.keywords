@@ -57,14 +57,12 @@ dev-haskell/cpphs ~amd64
 dev-haskell/syb ~amd64
 
 =dev-haskell/haskell-platform-2010.2.0.0 ~amd64
-dev-haskell/dbus ~amd64
 dev-haskell/hdbus ~amd64
 app-portage/hackport ~amd64
 =dev-haskell/tar-0.3.1.0 ~amd64
 
 # wx haskell
 dev-haskell/wxhaskell ~amd64
-=dev-haskell/wxcore-0.11.1.2 ~amd64
 
 # dev
 dev-haskell/vector-algorithms ~amd64
@@ -100,10 +98,7 @@ dev-haskell/cabal
 =dev-haskell/regex-compat-0.93.1 ~amd64
 =dev-haskell/html-1.0.1.2 ~amd64
 =dev-haskell/regex-base-0.93.2 ~amd64
-=dev-haskell/deepseq-1.1.0.0 ~amd64
-=dev-haskell/alex-2.3.3 ~amd64
 =dev-haskell/xhtml-3000.2.0.1 ~amd64
-=dev-haskell/happy-1.18.5 ~amd64
 =dev-haskell/quickcheck-2.1.1.1 ~amd64
 =dev-haskell/parallel-3.1.0.0 ~amd64
 =dev-lang/ghc-6.12.3 ~amd64
@@ -119,9 +114,6 @@ dev-haskell/cabal
 =dev-haskell/haddock-2.7.2 ~amd64
 =dev-haskell/extensible-exceptions-0.1.1.1 ~amd64
 =dev-haskell/extensible-exceptions-0.1.1.0 ~amd64
-=app-admin/haskell-updater-1.1.2.0 ~amd64
-=dev-haskell/ghc-paths-0.1.0.6 ~amd64
-=dev-haskell/sdl-0.5.4 ~amd64
 
 # ======================================================================
 # Developement - Common Lisp
@@ -252,22 +244,11 @@ dev-ruby/abstract ~amd64
 dev-ruby/thor ~amd64
 app-admin/eselect-rails ~amd64
 
-# Alternative ruby implementation
-dev-lang/rubinius ~amd64
-
 dev-ruby/cake ~amd64
 dev-ruby/rcodetools ~amd64
 app-emacs/rcodetools-emacs ~amd64
 
 # nxhtml-mode for ruby etc
-app-emacs/nxhtml-mode ~amd64
-app-emacs/snippet ~amd64
-app-emacs/fold-dwim ~amd64
-app-emacs/cgi+ ~amd64
-app-emacs/js2-mode ~amd64
-app-emacs/find-recursive ~amd64
-net-misc/ftpsync ~amd64
-app-emacs/cgi ~amd64
 app-emacs/httpd ~amd64
 
 # ======================================================================
@@ -301,6 +282,7 @@ app-emacs/auto-complete ~amd64
 # Utilities
 # ======================================================================
 app-admin/eselect ~amd64
+app-portage/elogv ~amd64
 
 # ======================================================================
 # sabnzbd
@@ -315,14 +297,10 @@ net-news/yencode ~amd64
 # sys-devel/gcc ~amd64
 
 # ======================================================================
-# office
-# ======================================================================
-media-gfx/keyjnote ~amd64
-
-# ======================================================================
 # music
 # ======================================================================
 media-sound/ncmpcpp ~amd64
+media-sound/cowbell ~amd64
 
 # ======================================================================
 # Experimental
@@ -335,10 +313,6 @@ dev-java/nailgun ~amd64
 
 dev-lisp/clozurecl ~amd64
 dev-java/jamon ~amd64
-www-plugins/moonlight ~amd64
-
-=media-video/vlc-1.1.4 ~amd64
-
 
 # wsq files
 x11-libs/qt ~amd64
@@ -346,12 +320,13 @@ x11-libs/qt ~amd64
 
 net-im/skype ~amd64
 
-sys-apps/parallel ~amd64
-
 dev-haskell/hlint ~amd64
-
 
 sys-devel/llvm ~amd64
 
 dev-util/cloc ~amd64
 
+#required by dev-ruby/rack-1.2.3[ruby_targets_ruby19], required by dev-ruby/rack-test-0.5.7[ruby_targets_ruby18], required by dev-ruby/actionpack-3.0.9[ruby_targets_ruby18], required by dev-ruby/rails-3.0.9[ruby_targets_ruby18], required by @selected, required by @world (argument)
+>=virtual/ruby-ssl-1:ruby19 ~amd64
+#required by dev-ruby/rack-1.2.3[ruby_targets_jruby], required by dev-ruby/rack-test-0.5.7[ruby_targets_ruby18], required by dev-ruby/actionpack-3.0.9[ruby_targets_ruby18], required by dev-ruby/rails-3.0.9[ruby_targets_ruby18], required by @selected, required by @world (argument)
+>=virtual/ruby-ssl-2:jruby ~amd64

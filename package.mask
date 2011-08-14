@@ -1,4 +1,7 @@
 #app-emulation/wine
 net-wireless/iwl5000-ucode
 #=x11-base/xorg-server-1.9.2
-=dev-lisp/sbcl-1.0.49
+#=dev-lisp/sbcl-1.0.50
+
+# To silence the complaints about new versions of zlib
+dev-haskell/zlib
