@@ -3,6 +3,12 @@
 # ======================================================================
 # Browser
 # ======================================================================
+app-shells/zsh ~amd64
+app-doc/zsh-lovers ~amd64
+
+# ======================================================================
+# Browser
+# ======================================================================
 www-plugins/adobe-flash ~amd64
 
 # ======================================================================
@@ -18,16 +24,16 @@ sys-apps/openrc ~amd64
 x11-wm/xmonad-contrib ~amd64
 x11-misc/xmobar ~amd64
 x11-wm/xmonad ~amd64
+>=dev-haskell/x11-1.5.0.0 ~amd64
 
 # Status bar
 x11-misc/dzen ~amd64
-dev-perl/Weather-Com ~amd64
-dev-perl/Time-Format ~amd64
-
-# Cursor
 
 # Icons
 x11-themes/human-icon-theme ~amd64
+
+# Cursor
+x11-themes/bluecurve-xcursors ~amd64
 
 # ======================================================================
 # Messengers
@@ -35,85 +41,71 @@ x11-themes/human-icon-theme ~amd64
 net-im/pidgin ~amd64
 
 # ======================================================================
-# Development - perl
-# ======================================================================
-dev-perl/Emacs-PDE ~amd64
-dev-lang/rakudo ~amd64
-dev-lang/parrot ~amd64
-
-# ======================================================================
 # Development - Haskell
 # ======================================================================
-dev-haskell/hoogle ~amd64
-dev-haskell/tagsoup ~amd64
-dev-haskell/haskell-src-exts ~amd64
-dev-haskell/safe ~amd64
-dev-haskell/cmdargs ~amd64
-dev-haskell/transformers ~amd64
-dev-haskell/transformers ~amd64
-=dev-haskell/network-2.2.1.7 ~amd64
-dev-haskell/uniplate ~amd64
-dev-haskell/cpphs ~amd64
-dev-haskell/syb ~amd64
-
-=dev-haskell/haskell-platform-2010.2.0.0 ~amd64
-dev-haskell/hdbus ~amd64
-app-portage/hackport ~amd64
-=dev-haskell/tar-0.3.1.0 ~amd64
-
-# wx haskell
-dev-haskell/wxhaskell ~amd64
-
-# dev
-dev-haskell/vector-algorithms ~amd64
-dev-haskell/vector ~amd64
-dev-haskell/primitive ~amd64
-dev-haskell/mersenne-random ~amd64
-dev-haskell/mwc-random ~amd64
-dev-haskell/uvector ~amd64
-dev-haskell/xml ~amd64
-dev-haskell/feed ~amd64
-dev-haskell/curl ~amd64
-
-# Xmonad
-dev-haskell/utf8-string ~amd64
+dev-haskell/haskell-platform ~amd64
 dev-haskell/x11-xft ~amd64
-dev-haskell/x11 ~amd64
-dev-haskell/stm ~amd64
+dev-haskell/curl ~amd64
+app-admin/haskell-updater ~amd64
 
-# Drivers: radeonhd
-# x11-drivers/xf86-video-radeonhd ~amd64
+# Darcs
+dev-vcs/darcs ~amd64
+dev-haskell/haskeline ~amd64
+>=dev-haskell/hashed-storage-0.5.9 ~amd64
+>=dev-haskell/mmap-0.5.7 ~amd64
+>=dev-haskell/terminfo-0.3.2.3 ~amd64
+>=dev-haskell/tar-0.3.1.0 ~amd64
+>=dev-haskell/dataenc-0.14.0.2 ~amd64
 
-# Wireless Functionality
-net-wireless/broadcom-sta ~amd64
-
-# dev-haskell/haskell-platform-2010.1.0.0
-dev-haskell/http ~amd64
-#=dev-haskell/network-2.2.1.7 ~amd64
-dev-haskell/cabal-install ~amd64
-=dev-haskell/zlib-0.5.2.0 ~amd64
-dev-haskell/time ~amd64
-dev-haskell/cabal
-
+# Haskell Platform
+=dev-lang/ghc-7.0.4 ~amd64
+=dev-haskell/regex-posix-0.94.4 ~amd64
+=dev-haskell/cabal-1.10.2.0 ~amd64
+=dev-haskell/haskell-src-1.0.1.4 ~amd64
 =dev-haskell/regex-compat-0.93.1 ~amd64
-=dev-haskell/html-1.0.1.2 ~amd64
-=dev-haskell/regex-base-0.93.2 ~amd64
-=dev-haskell/xhtml-3000.2.0.1 ~amd64
-=dev-haskell/quickcheck-2.1.1.1 ~amd64
-=dev-haskell/parallel-3.1.0.0 ~amd64
-=dev-lang/ghc-6.12.3 ~amd64
-=dev-haskell/hunit-1.2.2.1 ~amd64
-=dev-haskell/regex-posix-0.94.2 ~amd64
-=dev-haskell/cgi-3001.1.7.3 ~amd64
-=dev-haskell/fgl-5.4.2.3 ~amd64
-=dev-haskell/parsec-2.1.0.1 ~amd64
-=dev-haskell/opengl-2.2.3.0 ~amd64
+>=dev-haskell/happy-1.18.6 ~amd64
+>=dev-haskell/ghc-paths-0.1.0.8 ~amd64
+=dev-haskell/text-0.11.0.6 ~amd64
+>=dev-haskell/cabal-install-0.10.2-r1 ~amd64
 =dev-haskell/glut-2.1.2.1 ~amd64
-=dev-haskell/haskell-src-1.0.1.3 ~amd64
-=dev-haskell/mtl-1.1.0.2 ~amd64
-=dev-haskell/haddock-2.7.2 ~amd64
-=dev-haskell/extensible-exceptions-0.1.1.1 ~amd64
-=dev-haskell/extensible-exceptions-0.1.1.0 ~amd64
+>=dev-haskell/deepseq-1.1.0.2 ~amd64
+>=dev-haskell/alex-2.3.5 ~amd64
+=dev-haskell/cgi-3001.1.7.4 ~amd64
+=dev-haskell/http-4000.1.1 ~amd64
+>=dev-haskell/mtl-2.0.1.0 ~amd64
+=dev-haskell/opengl-2.2.3.0 ~amd64
+>=dev-haskell/transformers-0.2.2.0 ~amd64
+=dev-haskell/haddock-2.9.2 ~amd64
+=dev-haskell/xhtml-3000.2.0.1 ~amd64
+=dev-haskell/fgl-5.4.2.3 ~amd64
+>=dev-haskell/stm-2.2.0.1 ~amd64
+>=dev-haskell/zlib-0.5.3.1 ~amd64
+=dev-haskell/quickcheck-2.4.0.1 ~amd64
+>=dev-haskell/regex-base-0.93.2 ~amd64
+=dev-haskell/parsec-3.1.1 ~amd64
+=dev-haskell/parallel-3.1.0.1 ~amd64
+=dev-haskell/network-2.3.0.2 ~amd64
+=dev-haskell/hunit-1.2.2.3 ~amd64
+>=dev-haskell/syb-0.3.3 ~amd64
+
+# Extra packages
+>=dev-haskell/vector-0.9 ~amd64
+>=dev-haskell/unordered-containers-0.1.4.3 ~amd64
+>=dev-haskell/uniplate-1.6.5 ~amd64
+>=dev-haskell/hlint-1.8.18 ~amd64
+>=dev-haskell/cpphs-1.13.1 ~amd64
+>=dev-haskell/hdbus-0.4:0 ~amd64
+>=dev-haskell/haskell-src-exts-1.11.1 ~amd64
+>=dev-haskell/primitive-0.4.0.1 ~amd64
+>=dev-haskell/xml-1.3.10 ~amd64
+>=dev-haskell/hashable-1.1.2.2 ~amd64
+>=dev-haskell/vector-algorithms-0.5.3 ~amd64
+>=dev-haskell/feed-0.3.8 ~amd64
+
+# ======================================================================
+# Developement - Java
+# ======================================================================
+media-libs/libpng ~amd64
 
 # ======================================================================
 # Developement - Common Lisp
@@ -171,12 +163,7 @@ dev-lisp/split-sequence ~amd64
 # ======================================================================
 # Developement - Scheme
 # ======================================================================
-dev-scheme/mit-scheme-c ~amd64
-dev-scheme/plt-scheme ~amd64
 dev-scheme/racket ~amd64
-dev-scheme/chicken ~amd64
-app-emacs/scheme-complete ~amd64
-app-emacs/quack ~amd64
 
 # ======================================================================
 # Developement - Python
@@ -188,25 +175,14 @@ dev-python/ropemode ~amd64
 # ======================================================================
 # Developement - Perl
 # ======================================================================
+dev-perl/Emacs-PDE ~amd64
+dev-lang/rakudo ~amd64
+dev-lang/parrot ~amd64
+sci-libs/pgplot ~amd64
+dev-perl/PGPLOT ~amd64
+dev-lang/nqp ~amd64
 dev-perl/Devel-REPL ~amd64
-dev-perl/Sys-SigAction ~amd64
-dev-perl/Data-Dumper-Concise ~amd64
-dev-perl/MooseX-Object-Pluggable ~amd64
-dev-perl/App-Nopaste ~amd64
-dev-perl/MooseX-AttributeHelpers ~amd64
-dev-perl/Data-Dump-Streamer ~amd64
-dev-perl/Lexical-Persistence ~amd64
-dev-perl/MooseX-Getopt ~amd64
-dev-perl/B-Utils ~amd64
-dev-perl/Getopt-Long-Descriptive ~amd64
-dev-perl/MooseX-Role-Parameterized ~amd64
-dev-perl/Devel-LexAlias ~amd64
-dev-perl/Devel-Caller ~amd64
-dev-perl/WWW-Pastebin-PastebinCom-Create ~amd64
-dev-perl/Term-ReadLine-Gnu ~amd64
-sys-libs/readline ~amd64
-dev-perl/Params-Validate ~amd64
-dev-perl/PDL ~amd64
+>=dev-perl/Term-ReadLine-Gnu-1.200.0-r1 ~amd64
 
 # ======================================================================
 # Developement - Ruby
@@ -248,8 +224,18 @@ dev-ruby/cake ~amd64
 dev-ruby/rcodetools ~amd64
 app-emacs/rcodetools-emacs ~amd64
 
+>=dev-ruby/racc-1.4.7 ~amd64
+>=virtual/rubygems-4:ruby19 ~amd64
+>=dev-ruby/json-1.6.1 ~amd64
+
 # nxhtml-mode for ruby etc
 app-emacs/httpd ~amd64
+app-emacs/ruby-mode ~amd64
+
+# ======================================================================
+# Developement - R
+# ======================================================================
+dev-lang/R ~amd64
 
 # ======================================================================
 # Emulators
@@ -266,16 +252,12 @@ sys-libs/ncurses ~amd64
 # ======================================================================
 # Editors
 # ======================================================================
-app-editors/emacs-vcs ~amd64
-app-emacs/emacs-w3m ~amd64
 app-emacs/dropdown-list ~amd64
 app-emacs/yasnippet ~amd64
 app-emacs/emms ~amd64
-app-emacs/clojure-mode ~amd64
 app-emacs/paredit ~amd64
-=app-emacs/browse-kill-ring-1.3 ~amd64
+app-emacs/browse-kill-ring ~amd64
 app-emacs/icicles ~amd64
-
 app-emacs/auto-complete ~amd64
 
 # ======================================================================
@@ -283,50 +265,13 @@ app-emacs/auto-complete ~amd64
 # ======================================================================
 app-admin/eselect ~amd64
 app-portage/elogv ~amd64
-
-# ======================================================================
-# sabnzbd
-# ======================================================================
-dev-python/cheetah ~amd64
-dev-python/markdown ~amd64
-net-news/yencode ~amd64
-
-# ======================================================================
-# gcc, dont touch this, leave it commented
-# ======================================================================
-# sys-devel/gcc ~amd64
+sys-process/parallel ~amd64
 
 # ======================================================================
 # music
 # ======================================================================
 media-sound/ncmpcpp ~amd64
-media-sound/cowbell ~amd64
 
 # ======================================================================
 # Experimental
 # ======================================================================
-
-dev-lang/clojure ~amd64
-dev-lang/clojure-contrib ~amd64
-dev-lang/leiningen ~amd64
-dev-java/nailgun ~amd64
-
-dev-lisp/clozurecl ~amd64
-dev-java/jamon ~amd64
-
-# wsq files
-x11-libs/qt ~amd64
-
-
-net-im/skype ~amd64
-
-dev-haskell/hlint ~amd64
-
-sys-devel/llvm ~amd64
-
-dev-util/cloc ~amd64
-
-#required by dev-ruby/rack-1.2.3[ruby_targets_ruby19], required by dev-ruby/rack-test-0.5.7[ruby_targets_ruby18], required by dev-ruby/actionpack-3.0.9[ruby_targets_ruby18], required by dev-ruby/rails-3.0.9[ruby_targets_ruby18], required by @selected, required by @world (argument)
->=virtual/ruby-ssl-1:ruby19 ~amd64
-#required by dev-ruby/rack-1.2.3[ruby_targets_jruby], required by dev-ruby/rack-test-0.5.7[ruby_targets_ruby18], required by dev-ruby/actionpack-3.0.9[ruby_targets_ruby18], required by dev-ruby/rails-3.0.9[ruby_targets_ruby18], required by @selected, required by @world (argument)
->=virtual/ruby-ssl-2:jruby ~amd64
