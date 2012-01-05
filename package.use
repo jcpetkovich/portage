@@ -15,7 +15,7 @@ net-misc/mediatomb expat javascript taglib
 net-print/foo2zjs hp1020
 dev-db/sqlite fts3
 dev-libs/libxml2 icu
-=media-libs/libpng-1.5.6 apng
+media-libs/libpng apng
 
 # Chat
 net-im/pidgin spell -gstreamer
@@ -50,7 +50,7 @@ app-portage/layman subversion git mercurial darcs
 #sys-apps/paludis inquisitio python-bindings ruby-bindings visibility zsh-completion
 
 # Subversion
-dev-vcs/subversion apache2 gnome-keyring
+dev-vcs/subversion apache2
 
 # ======================================================================
 # Media
@@ -118,6 +118,7 @@ virtual/mysql embedded
 # System
 # ======================================================================
 sys-fs/udev extras
+gnome-base/librsvg -introspection
 
 # ======================================================================
 # Terminal
