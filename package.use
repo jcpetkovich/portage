@@ -138,3 +138,17 @@ x11-misc/dzen xft xpm
 dev-lang/parrot -pcre
 
 
+#required by media-gfx/splashutils-1.5.4.4[mng], required by splashutils (argument)
+>=media-libs/lcms-1.19:0 static-libs
+#required by media-gfx/splashutils-1.5.4.4[truetype], required by splashutils (argument)
+>=media-libs/freetype-2.4.8 static-libs
+#required by media-gfx/splashutils-1.5.4.4[png], required by splashutils (argument)
+>=media-libs/libpng-1.5.7 static-libs
+#required by media-gfx/splashutils-1.5.4.4[truetype], required by splashutils (argument)
+>=app-arch/bzip2-1.0.6-r3 static-libs
+#required by media-gfx/splashutils-1.5.4.4, required by splashutils (argument)
+>=virtual/jpeg-0 static-libs
+#required by media-gfx/splashutils-1.5.4.4[mng], required by splashutils (argument)
+>=media-libs/libmng-1.0.10-r1 static-libs
+#required by virtual/jpeg-0, required by media-libs/libmng-1.0.10-r1, required by media-gfx/splashutils-1.5.4.4[mng], required by splashutils (argument)
+=media-libs/libjpeg-turbo-1.1.1 static-libs
