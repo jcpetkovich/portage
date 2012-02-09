@@ -285,3 +285,7 @@ media-sound/ncmpcpp ~amd64
 
 
 
+#required by sys-process/parallel-20120122, required by @selected, required by @world (argument)
+=virtual/perl-Data-Dumper-2.131.0 ~amd64
+#required by virtual/perl-Data-Dumper-2.131.0, required by sys-process/parallel-20120122, required by @selected, required by @world (argument)
+=perl-core/Data-Dumper-2.131.0 ~amd64
