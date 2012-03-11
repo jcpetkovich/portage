@@ -4,6 +4,7 @@
 # File systems
 # ======================================================================
 dev-libs/libgcrypt static-libs
+dev-libs/beecrypt threads
 
 # ======================================================================
 # Internet
@@ -72,7 +73,7 @@ media-sound/moc libsamplerate musepack
 # Images
 media-gfx/gimp pdf smp
 >=media-libs/lcms-1.19:0 python
-=sys-auth/pambase-20101024 consolekit
+=sys-auth/pambase-20101024-r2 consolekit
 
 # ======================================================================
 # Development
