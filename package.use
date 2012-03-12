@@ -119,6 +119,7 @@ virtual/mysql embedded
 # System
 # ======================================================================
 sys-fs/udev extras
+sys-fs/ntfs3g ntfsprogs
 gnome-base/librsvg -introspection
 
 # ======================================================================
