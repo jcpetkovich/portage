@@ -90,7 +90,7 @@ dev-haskell/haskeline ~amd64
 >=dev-haskell/zlib-0.5.3.1 ~amd64
 =dev-haskell/quickcheck-2.4.0.1 ~amd64
 >=dev-haskell/regex-base-0.93.2 ~amd64
-=dev-haskell/parsec-3.1.1 ~amd64
+=dev-haskell/parsec-3.1.2-r1 ~amd64
 =dev-haskell/parallel-3.1.0.1 ~amd64
 =dev-haskell/network-2.3.0.2 ~amd64
 =dev-haskell/hunit-1.2.2.3 ~amd64
