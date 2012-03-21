@@ -42,6 +42,9 @@ x11-themes/human-icon-theme ~amd64
 # Cursor
 x11-themes/bluecurve-xcursors ~amd64
 
+# Adjusting Screens Dynamically
+x11-misc/arandr ~amd64
+
 # ======================================================================
 # Messengers
 # ======================================================================
