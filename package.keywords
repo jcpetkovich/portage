@@ -1,5 +1,6 @@
 # Keywords
 
+
 # ======================================================================
 # Boot Loader
 # ======================================================================
@@ -196,37 +197,7 @@ dev-perl/Devel-REPL ~amd64
 # Developement - Ruby
 # ======================================================================
 #ruby-1.9
-# dev-lang/ruby ~amd64
-# dev-ruby/rdoc ~amd64
-# dev-ruby/rubygems ~amd64
-# dev-ruby/rails ~amd64
-# dev-ruby/actionpack ~amd64
-# dev-ruby/activerecord ~amd64
-# dev-ruby/actionmailer ~amd64
-# dev-ruby/activesupport ~amd64
-# dev-ruby/activeresource ~amd64
-# dev-ruby/activemodel ~amd64
-# dev-ruby/bundler ~amd64
-# dev-ruby/railties ~amd64
-# dev-ruby/mail ~amd64
-# dev-ruby/mime-types ~amd64
-# dev-ruby/i18n ~amd64
-# dev-ruby/treetop ~amd64
-# dev-ruby/polyglot ~amd64
-# dev-ruby/mysql2 ~amd64
-# dev-ruby/sqlite3-ruby ~amd64
-# dev-ruby/tzinfo ~amd64
-# dev-ruby/arel ~amd64
-# dev-ruby/rake-compiler ~amd64
-# dev-ruby/rake ~amd64
-# dev-ruby/memcache-client ~amd64
-# dev-ruby/erubis ~amd64
-# dev-ruby/rack-test ~amd64
-# dev-ruby/rack-mount ~amd64
-# dev-ruby/rack ~amd64
-# dev-ruby/abstract ~amd64
-# dev-ruby/thor ~amd64
-# app-admin/eselect-rails ~amd64
+dev-lang/ruby:1.9
 
 dev-ruby/cake ~amd64
 dev-ruby/rcodetools ~amd64
@@ -290,3 +261,9 @@ media-sound/ncmpcpp ~amd64
 =virtual/perl-Data-Dumper-2.131.0 ~amd64
 #required by virtual/perl-Data-Dumper-2.131.0, required by sys-process/parallel-20120122, required by @selected, required by @world (argument)
 =perl-core/Data-Dumper-2.131.0 ~amd64
+#required by @selected, required by @world (argument)
+=dev-ruby/rubygems-1.8.15 ~amd64
+#required by dev-ruby/rails-2.3.14[ruby_targets_ruby18], required by @selected, required by @world (argument)
+=dev-ruby/rake-0.9.2.2 ~amd64
+#required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/json-1.6.4[-test,-doc,ruby_targets_ruby18]
+=dev-ruby/rdoc-3.12 ~amd64
