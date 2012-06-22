@@ -1,2 +1,2 @@
 net-wireless/iwl5000-ucode
-
+=x11-libs/libXft-2.3.1
