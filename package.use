@@ -35,6 +35,8 @@ dev-python/django doc
 # ======================================================================
 app-editors/emacs-vcs spell #toolkit-scroll-bars
 app-emacs/auctex preview-latex
+app-text/texlive xetex extra science
+app-text/texlive-core xetex
 
 # ======================================================================
 # Emulators
