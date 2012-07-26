@@ -61,6 +61,9 @@ app-admin/haskell-updater ~amd64
 dev-haskell/data-lens ~amd64
 =app-emacs/haskell-mode-9999 ~amd64
 dev-haskell/hasktags ~amd64
+dev-haskell/blaze-html ~amd64 
+dev-haskell/blaze-markup ~amd64 
+dev-haskell/blaze-builder ~amd64 
 
 # Darcs
 dev-vcs/darcs ~amd64
@@ -210,6 +213,7 @@ dev-perl/Devel-REPL ~amd64
 # ======================================================================
 #ruby-1.9
 dev-lang/ruby:1.9
+dev-ruby/pry ~amd64
 
 dev-ruby/cake ~amd64
 dev-ruby/rcodetools ~amd64
@@ -292,3 +296,13 @@ media-sound/ncmpcpp ~amd64
 =app-emacs/undo-tree-0.1.7 ~amd64
 #required by evil (argument)
 =app-emacs/evil-9999 ~amd64
+#required by dev-ruby/ruby_parser-2.3.1[ruby_targets_ruby19], required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby19], required by dev-ruby/pry (argument)
+=dev-ruby/sexp-processor-3.2.0 ~amd64
+#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby18], required by dev-ruby/pry (argument)
+=dev-ruby/slop-2.4.4 ~amd64
+#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby18], required by dev-ruby/pry (argument)
+=dev-ruby/method_source-0.8 ~amd64
+#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby19], required by dev-ruby/pry (argument)
+=dev-ruby/coderay-1.0.7 ~amd64
+#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby19], required by dev-ruby/pry (argument)
+=dev-ruby/ruby_parser-2.3.1 ~amd64
