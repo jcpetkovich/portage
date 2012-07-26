@@ -210,6 +210,7 @@ dev-perl/Devel-REPL ~amd64
 # ======================================================================
 #ruby-1.9
 dev-lang/ruby:1.9
+dev-ruby/ruby-debug ~amd64
 
 dev-ruby/cake ~amd64
 dev-ruby/rcodetools ~amd64
@@ -243,6 +244,9 @@ sys-libs/ncurses ~amd64
 # ======================================================================
 # Editors
 # ======================================================================
+virtual/emacs ~amd64
+app-editors/emacs ~amd64
+app-emacs/cedet ~amd64
 app-emacs/dropdown-list ~amd64
 app-emacs/yasnippet ~amd64
 app-emacs/emms ~amd64
@@ -292,3 +296,13 @@ media-sound/ncmpcpp ~amd64
 =app-emacs/undo-tree-0.1.7 ~amd64
 #required by evil (argument)
 =app-emacs/evil-9999 ~amd64
+#required by dev-ruby/ruby-debug-base-0.10.4[ruby_targets_ruby18], required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
+=dev-ruby/linecache-0.46 ~amd64
+#required by dev-ruby/linecache-0.46[ruby_targets_ruby18], required by dev-ruby/ruby-debug-base-0.10.4[ruby_targets_ruby18], required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
+=dev-ruby/require_relative-1.0.3 ~amd64
+#required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
+=dev-ruby/columnize-0.3.6 ~amd64
+#required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
+=dev-ruby/ruby-debug-base-0.10.4 ~amd64
+#required by mersenne-random (argument)
+=dev-haskell/mersenne-random-1.0.0.1 ~amd64
