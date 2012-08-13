@@ -17,6 +17,7 @@ app-doc/zsh-lovers ~amd64
 # Browser
 # ======================================================================
 www-plugins/adobe-flash ~amd64
+www-plugins/google-talkplugin ~amd64
 
 # ======================================================================
 # RC
@@ -44,6 +45,9 @@ x11-themes/bluecurve-xcursors ~amd64
 
 # Adjusting Screens Dynamically
 x11-misc/arandr ~amd64
+
+# Keyboard Layout
+x11-misc/qxkb ~amd64
 
 # ======================================================================
 # Messengers

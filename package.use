@@ -155,3 +155,5 @@ dev-lang/parrot -pcre
 >=dev-ruby/rdoc-3.12 ruby_targets_ruby19
 #required by dev-ruby/rdoc-3.12[ruby_targets_ruby19], required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/racc-1.4.7[-test,-doc,ruby_targets_ruby19]
 >=dev-ruby/json-1.6.4 ruby_targets_ruby19
+#required by x11-libs/qt-webkit-4.8.2[gstreamer], required by dev-python/PyQt4-4.9.1[webkit], required by PyQt4 (argument)
+=dev-libs/libxml2-2.8.0_rc1 -icu
