@@ -262,6 +262,7 @@ app-emacs/paredit ~amd64
 app-emacs/browse-kill-ring ~amd64
 app-emacs/icicles ~amd64
 app-emacs/auto-complete ~amd64
+app-emacs/org-mode ~amd64
 
 # ======================================================================
 # Utilities
