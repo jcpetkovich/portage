@@ -18,6 +18,7 @@ app-doc/zsh-lovers ~amd64
 # ======================================================================
 www-plugins/adobe-flash ~amd64
 www-plugins/google-talkplugin ~amd64
+www-client/google-chrome ~amd64
 
 # ======================================================================
 # RC
