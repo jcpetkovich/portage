@@ -1,0 +1,161 @@
+# Use flags for individual packages
+
+# ======================================================================
+# File systems
+# ======================================================================
+dev-libs/libgcrypt static-libs
+dev-libs/beecrypt threads
+
+# ======================================================================
+# Internet
+# ======================================================================
+# Browser
+www-client/firefox gnome wifi
+net-libs/xulrunner wifi
+net-misc/mediatomb expat javascript taglib
+net-print/foo2zjs hp1020
+dev-db/sqlite fts3
+dev-libs/libxml2 icu
+media-libs/libpng apng
+
+# Chat
+net-im/pidgin spell -gstreamer
+
+# Deluge
+dev-libs/boost python
+net-libs/rb_libtorrent python
+ 
+# ======================================================================
+# Web-Applications
+# ======================================================================
+dev-python/django doc  
+
+# ======================================================================
+# Editors
+# ======================================================================
+app-editors/emacs-vcs spell #toolkit-scroll-bars
+app-emacs/auctex preview-latex
+app-text/texlive xetex extra science
+app-text/texlive-core xetex
+
+# ======================================================================
+# Emulators
+# ======================================================================
+app-emulation/wine gecko jpeg
+
+# ======================================================================
+# Package Management
+# ======================================================================
+# Portage 
+app-portage/layman subversion git mercurial darcs
+
+# Paludis 
+#sys-apps/paludis inquisitio python-bindings ruby-bindings visibility zsh-completion
+
+# Subversion
+dev-vcs/subversion apache2
+
+# ======================================================================
+# Media
+# ======================================================================
+# Video
+media-video/mplayer directfb ggi sdl xv 
+media-video/ffmpeg zlib dts amr network threads faac
+virtual/ffmpeg threads
+media-libs/libsndfile -jack
+media-libs/gd fontconfig
+
+# VLC
+media-video/vlc -qt4 X a52 alsa dts dvd ffmpeg mp3 mpeg win32codecs ncurses opengl sdl -skins truetype wxwindows xv dts live matroska theora vorbis win32codecs aac aalib alsa arts esd fbcon ggi libcaca opengl oss png sdl speex svga xinerama xv x264 dvd udev
+x11-libs/wxGTK unicode X
+
+# Sound
+media-sound/moc libsamplerate musepack
+
+# Images
+media-gfx/gimp pdf smp
+>=media-libs/lcms-1.19:0 python
+=sys-auth/pambase-20101024-r2 consolekit
+
+# ======================================================================
+# Development
+# ======================================================================
+# gcc
+sys-devel/gcc gcj
+
+# Lisp
+dev-lisp/sbcl ldb threads doc
+# x11-wm/stumpwm clisp doc
+# dev-java/sun-jdk nsplugin
+
+# Haskell
+dev-haskell/gtk2hs xulrunner
+dev-haskell/mtl profile
+dev-haskell/mersenne-random profile
+dev-haskell/parallel profile
+dev-haskell/deepseq profile
+dev-haskell/transformers profile
+
+# Python
+dev-lang/python tk
+dev-python/imaging tk
+
+# Ruby
+dev-lang/ruby doc
+dev-ruby/rails doc
+
+# Perl
+dev-lang/perl ithreads
+
+# Ruby
+sys-libs/zlib minizip
+
+# ======================================================================
+# Utilities
+# ======================================================================
+sys-block/gparted fat ntfs -gtk
+sys-block/parted device-mapper
+>=dev-libs/libxml2-2.7.8-r3 python
+
+dev-db/mysql embedded -minimal
+virtual/mysql embedded
+
+# ======================================================================
+# System
+# ======================================================================
+sys-fs/udev extras
+sys-fs/ntfs3g ntfsprogs
+gnome-base/librsvg -introspection
+
+# ======================================================================
+# Terminal
+# ======================================================================
+x11-terms/rxvt-unicode xterm-color 256-color
+app-shells/zsh caps examples
+
+# ======================================================================
+# Fonts
+# ======================================================================
+media-fonts/dejavu fontforge
+
+# ======================================================================
+# Experimental
+# ======================================================================
+x11-misc/dzen xft xpm
+dev-lang/parrot -pcre
+
+
+#required by dev-ruby/rdoc-3.12[ruby_targets_ruby19], required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/json-1.6.4[-test,-doc,ruby_targets_ruby18]
+>=dev-ruby/racc-1.4.7 ruby_targets_ruby19
+#required by virtual/rubygems-4, required by dev-ruby/json-1.6.4[-test,ruby_targets_ruby19], required by dev-ruby/rdoc-3.12[ruby_targets_ruby19], required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/racc-1.4.7[-test,-doc,ruby_targets_ruby19]
+>=dev-ruby/rubygems-1.8.15 ruby_targets_ruby19
+#required by dev-ruby/json-1.6.4[-test,-doc,ruby_targets_ruby18], required by dev-ruby/rdoc-3.12[ruby_targets_ruby19], required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rubygems-1.8.15[ruby_targets_ruby19], required by virtual/rubygems-4, required by dev-ruby/racc-1.4.7
+>=dev-ruby/rake-0.9.2.2 ruby_targets_ruby19
+#required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/json-1.6.4[-test,-doc,ruby_targets_ruby18]
+>=dev-ruby/rdoc-3.12 ruby_targets_ruby19
+#required by dev-ruby/rdoc-3.12[ruby_targets_ruby19], required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/racc-1.4.7[-test,-doc,ruby_targets_ruby19]
+>=dev-ruby/json-1.6.4 ruby_targets_ruby19
+#required by x11-libs/qt-webkit-4.8.2[gstreamer], required by dev-python/PyQt4-4.9.1[webkit], required by PyQt4 (argument)
+=dev-libs/libxml2-2.8.0_rc1 -icu
+#required by x11-libs/qt-webkit-4.8.2[gstreamer], required by dev-python/PyQt4-4.9.4[webkit], required by @selected, required by @world (argument)
+>=dev-libs/libxml2-2.8.0-r2 -icu
