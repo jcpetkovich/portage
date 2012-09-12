@@ -1,0 +1,328 @@
+# Keywords
+
+# ======================================================================
+# Boot Loader
+# ======================================================================
+sys-boot/os-prober ~amd64
+=sys-boot/grub-1.99-r2 **
+sys-boot/efibootmgr ~amd64
+
+# ======================================================================
+# Browser
+# ======================================================================
+app-shells/zsh ~amd64
+app-doc/zsh-lovers ~amd64
+
+# ======================================================================
+# Browser
+# ======================================================================
+www-plugins/adobe-flash ~amd64
+www-plugins/google-talkplugin ~amd64
+
+# ======================================================================
+# RC
+# ======================================================================
+sys-apps/baselayout ~amd64
+sys-apps/openrc ~amd64
+
+# ======================================================================
+# X Interface
+# ======================================================================
+# Xmonad and haskell
+x11-wm/xmonad-contrib ~amd64
+x11-misc/xmobar ~amd64
+x11-wm/xmonad ~amd64
+>=dev-haskell/x11-1.5.0.0 ~amd64
+
+# Status bar
+x11-misc/dzen ~amd64
+
+# Icons
+x11-themes/human-icon-theme ~amd64
+
+# Cursor
+x11-themes/bluecurve-xcursors ~amd64
+
+# Adjusting Screens Dynamically
+x11-misc/arandr ~amd64
+
+# Keyboard Layout
+x11-misc/qxkb ~amd64
+
+# ======================================================================
+# Messengers
+# ======================================================================
+net-im/pidgin ~amd64
+net-im/skype ~amd64
+
+# ======================================================================
+# Development - Haskell
+# ======================================================================
+dev-haskell/haskell-platform ~amd64
+dev-haskell/x11-xft ~amd64
+dev-haskell/curl ~amd64
+app-admin/haskell-updater ~amd64
+dev-haskell/data-lens ~amd64
+=app-emacs/haskell-mode-9999 ~amd64
+dev-haskell/hasktags ~amd64
+dev-haskell/blaze-html ~amd64 
+dev-haskell/blaze-markup ~amd64 
+dev-haskell/blaze-builder ~amd64 
+
+# Darcs
+dev-vcs/darcs ~amd64
+dev-haskell/haskeline ~amd64
+>=dev-haskell/hashed-storage-0.5.9 ~amd64
+>=dev-haskell/mmap-0.5.7 ~amd64
+>=dev-haskell/terminfo-0.3.2.3 ~amd64
+>=dev-haskell/tar-0.3.1.0 ~amd64
+>=dev-haskell/dataenc-0.14.0.2 ~amd64
+
+# Haskell Platform
+=dev-haskell/random-1.0.1.1 ~amd64
+=dev-lang/ghc-7.4.1 ~amd64
+=dev-haskell/regex-posix-0.94.4 ~amd64
+=dev-haskell/cabal-1.14.0 ~amd64
+=dev-haskell/haskell-src-1.0.1.5 ~amd64
+=dev-haskell/regex-compat-0.95.1 ~amd64
+=dev-haskell/happy-1.18.9 ~amd64
+>=dev-haskell/ghc-paths-0.1.0.8 ~amd64
+=dev-haskell/text-0.11.2.1 ~amd64
+>=dev-haskell/cabal-install-0.10.2-r1 ~amd64
+=dev-haskell/glut-2.3.0.0 ~amd64
+>=dev-haskell/deepseq-1.1.0.2 ~amd64
+>=dev-haskell/alex-2.3.5 ~amd64
+=dev-haskell/cgi-3001.1.7.4 ~amd64
+=dev-haskell/http-4000.2.3 ~amd64
+>=dev-haskell/mtl-2.0.1.0 ~amd64
+=dev-haskell/opengl-2.5.0.0 ~amd64
+>=dev-haskell/transformers-0.2.2.0 ~amd64
+=dev-haskell/haddock-2.10.0 ~amd64
+=dev-haskell/xhtml-3000.2.1 ~amd64
+=dev-haskell/fgl-5.4.2.4 ~amd64
+>=dev-haskell/stm-2.2.0.1 ~amd64
+>=dev-haskell/zlib-0.5.3.1 ~amd64
+=dev-haskell/quickcheck-2.4.2-r1 ~amd64
+>=dev-haskell/regex-base-0.93.2 ~amd64
+=dev-haskell/parsec-3.1.2-r1 ~amd64
+=dev-haskell/parallel-3.2.0.2 ~amd64
+=dev-haskell/network-2.3.0.13 ~amd64
+=dev-haskell/hunit-1.2.2.3 ~amd64
+>=dev-haskell/syb-0.3.3 ~amd64
+=dev-haskell/tensor-1.0.0.1 ~amd64
+=dev-haskell/gluraw-1.2.0.0 ~amd64
+=dev-haskell/objectname-1.0.0.0 ~amd64
+=dev-haskell/statevar-1.0.0.0 ~amd64
+=dev-haskell/openglraw-1.2.0.0 ~amd64
+
+# Extra packages
+>=dev-haskell/vector-0.9 ~amd64
+>=dev-haskell/unordered-containers-0.1.4.3 ~amd64
+>=dev-haskell/uniplate-1.6.5 ~amd64
+>=dev-haskell/hlint-1.8.18 ~amd64
+>=dev-haskell/cpphs-1.13.1 ~amd64
+>=dev-haskell/hdbus-0.4:0 ~amd64
+>=dev-haskell/haskell-src-exts-1.11.1 ~amd64
+>=dev-haskell/primitive-0.4.0.1 ~amd64
+>=dev-haskell/xml-1.3.10 ~amd64
+>=dev-haskell/hashable-1.1.2.2 ~amd64
+>=dev-haskell/vector-algorithms-0.5.3 ~amd64
+>=dev-haskell/feed-0.3.8 ~amd64
+
+# ======================================================================
+# Developement - Java
+# ======================================================================
+media-libs/libpng ~amd64
+
+# ======================================================================
+# Developement - Common Lisp
+# ======================================================================
+dev-lisp/sbcl ~amd64
+dev-lisp/gentoo-init ~amd64
+app-emacs/slime ~amd64
+dev-lisp/asdf ~amd64
+dev-lisp/asdf-binary-locations ~amd64
+dev-lisp/cl-utilities ~amd64
+dev-lisp/trivial-shell ~amd64
+dev-lisp/cl-launch ~amd64
+
+dev-lisp/cl-gtk2 ~amd64
+dev-lisp/trivial-garbage ~amd64
+dev-lisp/cl-cairo2 ~amd64
+dev-lisp/iterate ~amd64
+dev-lisp/bordeaux-threads ~amd64
+dev-lisp/cffi ~amd64
+dev-lisp/cl-opengl ~amd64
+dev-lisp/closer-mop ~amd64
+dev-lisp/alexandria ~amd64
+dev-lisp/lift ~amd64
+dev-lisp/babel ~amd64
+dev-lisp/trivial-features ~amd64
+dev-lisp/rt ~amd64
+dev-lisp/trivial-gray-streams ~amd64
+dev-lisp/cl-colors ~amd64
+dev-lisp/cl-ppcre ~amd64
+dev-lisp/flexi-streams ~amd64
+dev-lisp/cl-ppcre-unicode ~amd64
+dev-lisp/cl-unicode ~amd64
+
+dev-lisp/gsll ~amd64
+dev-lisp/asdf-system-connections ~amd64
+=dev-lisp/gsd-999 ~amd64
+=dev-lisp/fsbv-9999 ~amd64
+=dev-lisp/lisp-unit-9999 ~amd64
+
+dev-lisp/mcclim ~amd64
+dev-lisp/spatial-trees ~amd64
+dev-lisp/clx ~amd64
+dev-lisp/cl-vectors ~amd64
+dev-lisp/zpb-ttf ~amd64
+dev-lisp/cl-jpeg ~amd64
+dev-lisp/flexichain ~amd64
+dev-lisp/skippy ~amd64
+dev-lisp/fiveam ~amd64
+dev-lisp/arnesi ~amd64
+
+dev-lisp/metabang-bind ~amd64
+dev-lisp/usocket ~amd64
+dev-lisp/split-sequence ~amd64
+
+# ======================================================================
+# Developement - Scheme
+# ======================================================================
+dev-scheme/racket ~amd64
+
+# ======================================================================
+# Developement - Python
+# ======================================================================
+dev-python/ropemacs ~amd64  
+dev-python/rope ~amd64
+dev-python/ropemode ~amd64
+dev-python/ssh ~amd64
+
+# ======================================================================
+# Developement - Perl
+# ======================================================================
+dev-perl/Emacs-PDE ~amd64
+dev-lang/rakudo ~amd64
+dev-lang/parrot ~amd64
+sci-libs/pgplot ~amd64
+dev-perl/PGPLOT ~amd64
+dev-lang/nqp ~amd64
+dev-perl/Devel-REPL ~amd64
+>=dev-perl/Term-ReadLine-Gnu-1.200.0-r1 ~amd64
+
+# ======================================================================
+# Developement - Ruby
+# ======================================================================
+#ruby-1.9
+dev-lang/ruby:1.9
+dev-ruby/pry ~amd64
+dev-ruby/ruby-debug ~amd64
+
+dev-ruby/cake ~amd64
+dev-ruby/rcodetools ~amd64
+app-emacs/rcodetools-emacs ~amd64
+
+>=dev-ruby/racc-1.4.7 ~amd64
+>=virtual/rubygems-4:ruby19 ~amd64
+>=dev-ruby/json-1.6.1 ~amd64
+
+# nxhtml-mode for ruby etc
+app-emacs/httpd ~amd64
+app-emacs/ruby-mode ~amd64
+
+# ======================================================================
+# Developement - R
+# ======================================================================
+dev-lang/R ~amd64
+
+# ======================================================================
+# Emulators
+# ======================================================================
+# Wine
+app-emulation/wine ~amd64
+
+# ======================================================================
+# Terminal Emulators
+# ======================================================================
+x11-terms/rxvt-unicode ~amd64
+sys-libs/ncurses ~amd64
+
+# ======================================================================
+# Editors
+# ======================================================================
+virtual/emacs ~amd64
+app-editors/emacs ~amd64
+app-emacs/org-mode ~amd64
+app-emacs/cedet ~amd64
+app-emacs/dropdown-list ~amd64
+app-emacs/yasnippet ~amd64
+app-emacs/emms ~amd64
+app-emacs/paredit ~amd64
+app-emacs/browse-kill-ring ~amd64
+app-emacs/icicles ~amd64
+app-emacs/auto-complete ~amd64
+
+# ======================================================================
+# Utilities
+# ======================================================================
+app-admin/eselect ~amd64
+app-portage/elogv ~amd64
+sys-process/parallel ~amd64
+app-text/catdoc ~amd64
+
+# ======================================================================
+# music
+# ======================================================================
+media-sound/ncmpcpp ~amd64
+
+# ======================================================================
+# Experimental
+# ======================================================================
+
+=virtual/perl-Data-Dumper-2.131.0 ~amd64
+=perl-core/Data-Dumper-2.131.0 ~amd64
+#required by @selected, required by @world (argument)
+=dev-ruby/rubygems-1.8.15 ~amd64
+#required by dev-ruby/rails-2.3.14[ruby_targets_ruby18], required by @selected, required by @world (argument)
+=dev-ruby/rake-0.9.2.2 ~amd64
+#required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/json-1.6.4[-test,-doc,ruby_targets_ruby18]
+=dev-ruby/rdoc-3.12 ~amd64
+#required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
+=dev-haskell/comonad-transformers-2.1.2 ~amd64
+#required by dev-haskell/semigroupoids-1.3.2.1, required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
+=dev-haskell/contravariant-0.2.0.2 ~amd64
+#required by dev-haskell/semigroupoids-1.3.2.1, required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
+=dev-haskell/semigroups-0.8.3.2 ~amd64
+#required by dev-haskell/semigroupoids-1.3.2.1, required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
+=dev-haskell/comonad-1.1.1.6 ~amd64
+#required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
+=dev-haskell/semigroupoids-1.3.2.1 ~amd64
+#required by dev-haskell/comonad-transformers-2.1.2, required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
+=dev-haskell/distributive-0.2.2 ~amd64
+#required by app-emacs/evil-9999, required by evil (argument)
+=app-emacs/undo-tree-0.1.7 ~amd64
+#required by evil (argument)
+=app-emacs/evil-9999 ~amd64
+#required by dev-ruby/ruby_parser-2.3.1[ruby_targets_ruby19], required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby19], required by dev-ruby/pry (argument)
+# move dev-ruby/sexp-processor dev-ruby/sexp_processor
+=dev-ruby/sexp_processor-3.2.0 ~amd64
+#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby18], required by dev-ruby/pry (argument)
+=dev-ruby/slop-2.4.4 ~amd64
+#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby18], required by dev-ruby/pry (argument)
+=dev-ruby/method_source-0.8 ~amd64
+#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby19], required by dev-ruby/pry (argument)
+=dev-ruby/coderay-1.0.7 ~amd64
+#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby19], required by dev-ruby/pry (argument)
+=dev-ruby/ruby_parser-2.3.1 ~amd64
+#required by dev-ruby/ruby-debug-base-0.10.4[ruby_targets_ruby18], required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
+=dev-ruby/linecache-0.46 ~amd64
+#required by dev-ruby/linecache-0.46[ruby_targets_ruby18], required by dev-ruby/ruby-debug-base-0.10.4[ruby_targets_ruby18], required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
+=dev-ruby/require_relative-1.0.3 ~amd64
+#required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
+=dev-ruby/columnize-0.3.6 ~amd64
+#required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
+=dev-ruby/ruby-debug-base-0.10.4 ~amd64
+#required by mersenne-random (argument)
+=dev-haskell/mersenne-random-1.0.0.1 ~amd64
