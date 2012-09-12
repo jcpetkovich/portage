@@ -1,0 +1,7 @@
+cross-armv6j-hardfloat-linux-gnueabi/binutils arm -amd64 -~amd64
+cross-armv6j-hardfloat-linux-gnueabi/gcc arm -amd64 -~amd64
+cross-armv6j-hardfloat-linux-gnueabi/linux-headers arm -amd64 -~amd64
+cross-armv6j-hardfloat-linux-gnueabi/glibc arm -amd64 -~amd64
+cross-armv6j-hardfloat-linux-gnueabi/gdb arm ~arm -amd64 -~amd64
+#required by dev-haskell/haskell-platform-2012.2.0.0, required by @selected, required by @world (argument)
+=dev-lang/ghc-7.4.2 ~amd64
