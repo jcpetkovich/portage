@@ -195,6 +195,8 @@ dev-scheme/racket ~amd64
 # ======================================================================
 # Developement - Python
 # ======================================================================
+app-emacs/python-mode ~amd64
+dev-python/ipython ~amd64
 dev-python/ropemacs ~amd64  
 dev-python/rope ~amd64
 dev-python/ropemode ~amd64
