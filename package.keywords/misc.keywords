@@ -82,7 +82,7 @@ dev-haskell/haskeline ~amd64
 =dev-haskell/random-1.0.1.1 ~amd64
 =dev-lang/ghc-7.4.1 ~amd64
 =dev-haskell/regex-posix-0.94.4 ~amd64
-=dev-haskell/cabal-1.14.0 ~amd64
+=dev-haskell/cabal-1.16.0.1 ~amd64
 =dev-haskell/haskell-src-1.0.1.5 ~amd64
 =dev-haskell/regex-compat-0.95.1 ~amd64
 =dev-haskell/happy-1.18.9 ~amd64
@@ -328,3 +328,10 @@ media-sound/ncmpcpp ~amd64
 =dev-ruby/ruby-debug-base-0.10.4 ~amd64
 #required by mersenne-random (argument)
 =dev-haskell/mersenne-random-1.0.0.1 ~amd64
+#required by x11-wm/xmonad-0.10-r3, required by @selected, required by @world (argument)
+=dev-haskell/extensible-exceptions-0.1.1.4 ~amd64
+#required by dev-python/ipython-0.13, required by @selected, required by @world (argument)
+=dev-python/simplegeneric-0.8.1 ~amd64
+
+
+net-analyzer/ntop ~amd64
