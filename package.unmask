@@ -16,9 +16,4 @@
 # ======================================================================
 sys-boot/grub:2
 
-#required by evil (argument)
-# /var/lib/layman/emacs/profiles/package.mask:
-# Christian Faulhammer <fauli@gentoo.org>
-# Ulrich Mueller <ulm@gentoo.org> (30 Sep 2011)
-# Live ebuilds directly from the repository
-=app-emacs/evil-9999
+=app-emacs/evil-9999::eyolfson
