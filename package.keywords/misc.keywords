@@ -211,8 +211,12 @@ dev-lang/parrot ~amd64
 sci-libs/pgplot ~amd64
 dev-perl/PGPLOT ~amd64
 dev-lang/nqp ~amd64
-dev-perl/Devel-REPL ~amd64
->=dev-perl/Term-ReadLine-Gnu-1.200.0-r1 ~amd64
+# dev-perl/Devel-REPL ~amd64
+# >=dev-perl/Term-ReadLine-Gnu-1.200.0-r1 ~amd64
+dev-lang/perl ~amd64
+virtual/perl-ExtUtils-ParseXS ~amd64
+perl-core/ExtUtils-ParseXS ~amd64
+app-portage/g-cpan ~amd64
 
 # ======================================================================
 # Developement - Ruby
@@ -335,3 +339,41 @@ media-sound/ncmpcpp ~amd64
 =dev-haskell/extensible-exceptions-0.1.1.4 ~amd64
 #required by dev-python/ipython-0.13, required by @selected, required by @world (argument)
 =dev-python/simplegeneric-0.8.1 ~amd64
+#required by dev-perl/MooseX-Getopt-0.470.0, required by dev-perl/App-Nopaste-0.350.0, required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/Getopt-Long-Descriptive-0.92.0 ~amd64
+#required by Devel-REPL (argument)
+=dev-perl/Devel-REPL-1.3.13 ~amd64
+#required by dev-perl/Data-Dump-Streamer-2.340.0, required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/B-Utils-0.210.0 ~amd64
+#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/Data-Dump-Streamer-2.340.0 ~amd64
+#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/MooseX-Getopt-0.470.0 ~amd64
+#required by dev-perl/Lexical-Persistence-1.20.0, required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/Devel-LexAlias-0.40.0 ~amd64
+#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/Data-Dumper-Concise-2.20.0 ~amd64
+#required by dev-perl/MooseX-Getopt-0.470.0, required by dev-perl/App-Nopaste-0.350.0, required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/MooseX-Role-Parameterized-1.0.0 ~amd64
+#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/App-Nopaste-0.350.0 ~amd64
+#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/MooseX-AttributeHelpers-0.230.0 ~amd64
+#required by dev-perl/App-Nopaste-0.350.0[pastebin], required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/WWW-Pastebin-PastebinCom-Create-0.4.0 ~amd64
+#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/Lexical-Persistence-1.20.0 ~amd64
+#required by dev-perl/Devel-LexAlias-0.40.0, required by dev-perl/Lexical-Persistence-1.20.0, required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/Devel-Caller-2.50.0 ~amd64
+#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
+=dev-perl/MooseX-Object-Pluggable-0.1.100 ~amd64
+#required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
+=dev-perl/MooseX-Types-Path-Class-0.60.0 ~amd64
+#required by dev-perl/MooseX-Types-Path-Class-0.60.0, required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
+=dev-perl/MooseX-Types-0.350.0 ~amd64
+#required by perl-gcpan/Pod-Elemental-0.102362, required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
+=dev-perl/String-RewritePrefix-0.6.0 ~amd64
+#required by perl-gcpan/Syntax-Keyword-Junction-0.003001, required by perl-gcpan/Moose-Autobox-0.13, required by perl-gcpan/Pod-Elemental-0.102362, required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
+=dev-perl/Sub-Exporter-Progressive-0.1.6 ~amd64
+#required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
+=dev-perl/Config-Any-0.230.0 ~amd64
