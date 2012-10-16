@@ -333,3 +333,5 @@ media-sound/ncmpcpp ~amd64
 =dev-haskell/mersenne-random-1.0.0.1 ~amd64
 #required by x11-wm/xmonad-0.10-r3, required by @selected, required by @world (argument)
 =dev-haskell/extensible-exceptions-0.1.1.4 ~amd64
+#required by dev-python/ipython-0.13, required by @selected, required by @world (argument)
+=dev-python/simplegeneric-0.8.1 ~amd64
