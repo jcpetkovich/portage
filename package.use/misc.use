@@ -99,6 +99,7 @@ dev-haskell/transformers profile
 # Python
 dev-lang/python tk
 dev-python/imaging tk
+dev-python/ipython -emacs
 
 # Ruby
 dev-lang/ruby doc

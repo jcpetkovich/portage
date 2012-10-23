@@ -12,6 +12,7 @@ sys-boot/efibootmgr ~amd64
 # ======================================================================
 app-shells/zsh ~amd64
 app-doc/zsh-lovers ~amd64
+www-client/firefox ~amd64
 
 # ======================================================================
 # Browser
