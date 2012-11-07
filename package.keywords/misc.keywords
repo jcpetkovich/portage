@@ -64,7 +64,8 @@ net-im/skype ~amd64
 # ======================================================================
 # Development - Haskell
 # ======================================================================
-dev-haskell/haskell-platform ~amd64
+dev-haskell/conduit ~amd64
+=dev-haskell/haskell-platform-2012.2.0.0 ~amd64
 dev-haskell/x11-xft ~amd64
 dev-haskell/curl ~amd64
 app-admin/haskell-updater ~amd64
@@ -86,9 +87,9 @@ dev-haskell/haskeline ~amd64
 
 # Haskell Platform
 =dev-haskell/random-1.0.1.1 ~amd64
-=dev-lang/ghc-7.4.1 ~amd64
+=dev-lang/ghc-7.4.2 ~amd64
 =dev-haskell/regex-posix-0.94.4 ~amd64
-=dev-haskell/cabal-1.16.0.1 ~amd64
+=dev-haskell/cabal-1.16.0.2 ~amd64
 =dev-haskell/haskell-src-1.0.1.5 ~amd64
 =dev-haskell/regex-compat-0.95.1 ~amd64
 =dev-haskell/happy-1.18.9 ~amd64
@@ -388,3 +389,17 @@ media-sound/ncmpcpp ~amd64
 =dev-perl/Sub-Exporter-Progressive-0.1.6 ~amd64
 #required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
 =dev-perl/Config-Any-0.230.0 ~amd64
+#required by dev-haskell/void-0.5.8, required by dev-haskell/conduit-0.4.2, required by conduit (argument)
+=dev-haskell/semigroups-0.8.4.1 ~amd64
+#required by dev-haskell/lifted-base-0.1.2, required by dev-haskell/conduit-0.4.2, required by conduit (argument)
+=dev-haskell/monad-control-0.3.1.4 ~amd64
+#required by dev-haskell/lifted-base-0.1.2, required by dev-haskell/conduit-0.4.2, required by conduit (argument)
+=dev-haskell/transformers-base-0.4.1 ~amd64
+#required by dev-haskell/resourcet-0.3.3.1, required by dev-haskell/conduit-0.4.2, required by conduit (argument)
+=dev-haskell/lifted-base-0.1.2 ~amd64
+#required by dev-haskell/conduit-0.4.2, required by conduit (argument)
+=dev-haskell/void-0.5.8 ~amd64
+#required by dev-haskell/conduit-0.4.2, required by conduit (argument)
+=dev-haskell/resourcet-0.3.3.1 ~amd64
+#required by dev-haskell/monad-control-0.3.1.4, required by dev-haskell/conduit-0.4.2, required by conduit (argument)
+=dev-haskell/base-unicode-symbols-0.2.2.4 ~amd64
