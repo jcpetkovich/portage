@@ -30,6 +30,10 @@ net-im/pidgin spell -gstreamer
 # Deluge
 dev-libs/boost python
 net-libs/rb_libtorrent python
+
+# Mail
+mail-client/mutt imap
+net-mail/mu emacs
  
 # ======================================================================
 # Web-Applications
