@@ -80,7 +80,7 @@ dev-haskell/blaze-builder ~amd64
 
 # Darcs
 dev-vcs/darcs ~amd64
-dev-haskell/haskeline ~amd64
+=dev-haskell/haskeline-0.6.4.7-r1 ~amd64
 >=dev-haskell/hashed-storage-0.5.9 ~amd64
 >=dev-haskell/mmap-0.5.7 ~amd64
 >=dev-haskell/terminfo-0.3.2.3 ~amd64
@@ -91,13 +91,13 @@ dev-haskell/haskeline ~amd64
 =dev-haskell/random-1.0.1.1 ~amd64
 =dev-lang/ghc-7.4.2 ~amd64
 =dev-haskell/regex-posix-0.94.4 ~amd64
-=dev-haskell/cabal-1.16.0.2 ~amd64
+=dev-haskell/cabal-1.14.0 ~amd64
 =dev-haskell/haskell-src-1.0.1.5 ~amd64
 =dev-haskell/regex-compat-0.95.1 ~amd64
 =dev-haskell/happy-1.18.9 ~amd64
 >=dev-haskell/ghc-paths-0.1.0.8 ~amd64
 =dev-haskell/text-0.11.2.1 ~amd64
->=dev-haskell/cabal-install-0.10.2-r1 ~amd64
+=dev-haskell/cabal-install-0.16.0.1 ~amd64
 =dev-haskell/glut-2.3.0.0 ~amd64
 >=dev-haskell/deepseq-1.1.0.2 ~amd64
 >=dev-haskell/alex-2.3.5 ~amd64
