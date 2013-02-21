@@ -170,3 +170,15 @@ dev-lang/parrot -pcre
 =dev-libs/libxml2-2.8.0_rc1 -icu
 #required by x11-libs/qt-webkit-4.8.2[gstreamer], required by dev-python/PyQt4-4.9.4[webkit], required by @selected, required by @world (argument)
 >=dev-libs/libxml2-2.8.0-r2 -icu
+#required by app-emulation/virt-manager-0.9.4, required by virt-manager (argument)
+>=x11-libs/vte-0.28.2-r204:0 python
+#required by app-emulation/virt-manager-0.9.4[vnc], required by virt-manager (argument)
+>=net-libs/gtk-vnc-0.5.1 python
+#required by app-emulation/virt-manager-0.9.4, required by virt-manager (argument)
+=app-emulation/libvirt-0.10.2-r3 python
+#required by app-emulation/virt-manager-0.9.4[spice], required by virt-manager (argument)
+=net-misc/spice-gtk-0.14 python
+#required by app-emulation/virt-manager-0.9.4[spice], required by @selected, required by @world (argument)
+=net-misc/spice-gtk-0.14-r2 python
+#required by app-emulation/virtinst-0.600.3, required by app-emulation/virt-manager-0.9.4, required by @selected, required by @world (argument)
+=app-emulation/libvirt-0.10.2.1 python

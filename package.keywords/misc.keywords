@@ -66,77 +66,48 @@ net-im/skype ~amd64
 # ======================================================================
 # Development - Haskell
 # ======================================================================
-dev-haskell/conduit ~amd64
 =dev-haskell/haskell-platform-2012.2.0.0 ~amd64
-dev-haskell/x11-xft ~amd64
-dev-haskell/curl ~amd64
 app-admin/haskell-updater ~amd64
-dev-haskell/data-lens ~amd64
-=app-emacs/haskell-mode-9999 ~amd64
-dev-haskell/hasktags ~amd64
-dev-haskell/blaze-html ~amd64 
-dev-haskell/blaze-markup ~amd64 
-dev-haskell/blaze-builder ~amd64 
 
-# Darcs
-dev-vcs/darcs ~amd64
-=dev-haskell/haskeline-0.6.4.7-r1 ~amd64
->=dev-haskell/hashed-storage-0.5.9 ~amd64
->=dev-haskell/mmap-0.5.7 ~amd64
->=dev-haskell/terminfo-0.3.2.3 ~amd64
->=dev-haskell/tar-0.3.1.0 ~amd64
->=dev-haskell/dataenc-0.14.0.2 ~amd64
 
-# Haskell Platform
-=dev-haskell/random-1.0.1.1 ~amd64
-=dev-lang/ghc-7.4.1-r1 ~amd64
-=dev-haskell/regex-posix-0.94.4 ~amd64
-=dev-haskell/cabal-1.16.0.3 ~amd64
-=dev-haskell/haskell-src-1.0.1.5 ~amd64
-=dev-haskell/regex-compat-0.95.1 ~amd64
-=dev-haskell/happy-1.18.9 ~amd64
->=dev-haskell/ghc-paths-0.1.0.8 ~amd64
-=dev-haskell/text-0.11.2.1 ~amd64
+# # Haskell Platform
+=dev-haskell/text-0.11.2.3 ~amd64
+=dev-haskell/extensible-exceptions-0.1.1.4 ~amd64
+=dev-haskell/parallel-3.2.0.3-r1 ~amd64
+=dev-haskell/cgi-3001.1.8.3 ~amd64
+=dev-haskell/mmap-0.5.8 ~amd64
+=dev-vcs/darcs-2.8.3-r1 ~amd64
+=dev-haskell/tar-0.4.0.1 ~amd64
+=dev-haskell/haskeline-0.7.0.3 ~amd64
+=dev-haskell/dataenc-0.14.0.5 ~amd64
+=dev-haskell/statevar-1.0.0.0-r1 ~amd64
 =dev-haskell/cabal-install-1.16.0.2 ~amd64
-=dev-haskell/glut-2.3.0.0 ~amd64
->=dev-haskell/deepseq-1.1.0.2 ~amd64
->=dev-haskell/alex-2.3.5 ~amd64
-=dev-haskell/cgi-3001.1.7.4 ~amd64
-=dev-haskell/http-4000.2.3 ~amd64
->=dev-haskell/mtl-2.0.1.0 ~amd64
-=dev-haskell/opengl-2.5.0.0 ~amd64
->=dev-haskell/transformers-0.2.2.0 ~amd64
-=dev-haskell/haddock-2.10.0 ~amd64
-=dev-haskell/xhtml-3000.2.1 ~amd64
-=dev-haskell/fgl-5.4.2.4 ~amd64
->=dev-haskell/stm-2.2.0.1 ~amd64
->=dev-haskell/zlib-0.5.3.1 ~amd64
-=dev-haskell/quickcheck-2.4.2-r1 ~amd64
->=dev-haskell/regex-base-0.93.2 ~amd64
-=dev-haskell/parsec-3.1.2-r1 ~amd64
-=dev-haskell/parallel-3.2.0.2 ~amd64
-=dev-haskell/network-2.3.0.13 ~amd64
-=dev-haskell/hunit-1.2.2.3 ~amd64
->=dev-haskell/syb-0.3.3 ~amd64
-=dev-haskell/tensor-1.0.0.1 ~amd64
-=dev-haskell/gluraw-1.2.0.0 ~amd64
+=dev-haskell/glut-2.3.1.0 ~amd64
+=dev-haskell/ghc-paths-0.1.0.9 ~amd64
+=dev-lang/ghc-7.6.1 ~amd64
 =dev-haskell/objectname-1.0.0.0 ~amd64
-=dev-haskell/statevar-1.0.0.0 ~amd64
-=dev-haskell/openglraw-1.2.0.0 ~amd64
-
-# Extra packages
->=dev-haskell/vector-0.9 ~amd64
->=dev-haskell/unordered-containers-0.1.4.3 ~amd64
->=dev-haskell/uniplate-1.6.5 ~amd64
->=dev-haskell/hlint-1.8.18 ~amd64
->=dev-haskell/cpphs-1.13.1 ~amd64
->=dev-haskell/hdbus-0.4:0 ~amd64
->=dev-haskell/haskell-src-exts-1.11.1 ~amd64
->=dev-haskell/primitive-0.4.0.1 ~amd64
->=dev-haskell/xml-1.3.10 ~amd64
->=dev-haskell/hashable-1.1.2.2 ~amd64
->=dev-haskell/vector-algorithms-0.5.3 ~amd64
->=dev-haskell/feed-0.3.8 ~amd64
+=dev-haskell/gluraw-1.3.0.0 ~amd64
+=dev-haskell/opengl-2.6.0.1 ~amd64
+=dev-haskell/haddock-2.13.1-r2 ~amd64
+=dev-haskell/haskell-src-1.0.1.5-r1 ~amd64
+=dev-haskell/tensor-1.0.0.1 ~amd64
+=dev-haskell/xhtml-3000.2.1 ~amd64
+=dev-haskell/openglraw-1.3.0.0 ~amd64
+=dev-haskell/cabal-1.16.0.3 ~amd64
+=dev-haskell/haskell-src-exts-1.13.5 ~amd64
+=dev-haskell/hlint-1.8.40 ~amd64
+=dev-haskell/uniplate-1.6.10 ~amd64
+=dev-haskell/hashable-1.2.0.4 ~amd64
+=dev-haskell/mersenne-random-1.0.0.1-r1 ~amd64
+=dev-haskell/unordered-containers-0.2.3.0 ~amd64
+=dev-haskell/ghc-syb-utils-0.2.1.1 ~amd64
+=dev-haskell/monad-control-0.3.1.4 ~amd64
+=dev-haskell/lifted-base-0.2.0.2 ~amd64
+=dev-haskell/transformers-base-0.4.1 ~amd64
+=dev-haskell/io-choice-0.0.2 ~amd64
+=dev-haskell/convertible-1.0.11.1 ~amd64
+=dev-haskell/base-unicode-symbols-0.2.2.4 ~amd64
+=dev-haskell/feed-0.3.8 ~amd64
 
 # ======================================================================
 # Developement - Java
@@ -283,6 +254,8 @@ app-emacs/paredit ~amd64
 app-emacs/browse-kill-ring ~amd64
 app-emacs/icicles ~amd64
 app-emacs/auto-complete ~amd64
+app-emacs/magit ~amd64
+app-emacs/ghc-mod ~amd64
 
 # graphics
 media-gfx/xfig ~amd64
@@ -312,18 +285,6 @@ media-sound/ncmpcpp ~amd64
 =dev-ruby/rake-0.9.2.2 ~amd64
 #required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/json-1.6.4[-test,-doc,ruby_targets_ruby18]
 =dev-ruby/rdoc-3.12 ~amd64
-#required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
-=dev-haskell/comonad-transformers-2.1.2 ~amd64
-#required by dev-haskell/semigroupoids-1.3.2.1, required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
-=dev-haskell/contravariant-0.2.0.2 ~amd64
-#required by dev-haskell/semigroupoids-1.3.2.1, required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
-=dev-haskell/semigroups-0.8.3.2 ~amd64
-#required by dev-haskell/semigroupoids-1.3.2.1, required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
-=dev-haskell/comonad-1.1.1.6 ~amd64
-#required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
-=dev-haskell/semigroupoids-1.3.2.1 ~amd64
-#required by dev-haskell/comonad-transformers-2.1.2, required by dev-haskell/data-lens-2.10.0, required by data-lens (argument)
-=dev-haskell/distributive-0.2.2 ~amd64
 #required by app-emacs/evil-9999, required by evil (argument)
 =app-emacs/undo-tree-0.1.7 ~amd64
 #required by evil (argument)
@@ -347,10 +308,6 @@ media-sound/ncmpcpp ~amd64
 =dev-ruby/columnize-0.3.6 ~amd64
 #required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
 =dev-ruby/ruby-debug-base-0.10.4 ~amd64
-#required by mersenne-random (argument)
-=dev-haskell/mersenne-random-1.0.0.1 ~amd64
-#required by x11-wm/xmonad-0.10-r3, required by @selected, required by @world (argument)
-=dev-haskell/extensible-exceptions-0.1.1.4 ~amd64
 #required by dev-python/ipython-0.13, required by @selected, required by @world (argument)
 =dev-python/simplegeneric-0.8.1 ~amd64
 #required by dev-perl/MooseX-Getopt-0.470.0, required by dev-perl/App-Nopaste-0.350.0, required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
@@ -391,17 +348,19 @@ media-sound/ncmpcpp ~amd64
 =dev-perl/Sub-Exporter-Progressive-0.1.6 ~amd64
 #required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
 =dev-perl/Config-Any-0.230.0 ~amd64
-#required by dev-haskell/void-0.5.8, required by dev-haskell/conduit-0.4.2, required by conduit (argument)
-=dev-haskell/semigroups-0.8.4.1 ~amd64
-#required by dev-haskell/lifted-base-0.1.2, required by dev-haskell/conduit-0.4.2, required by conduit (argument)
-=dev-haskell/monad-control-0.3.1.4 ~amd64
-#required by dev-haskell/lifted-base-0.1.2, required by dev-haskell/conduit-0.4.2, required by conduit (argument)
-=dev-haskell/transformers-base-0.4.1 ~amd64
-#required by dev-haskell/resourcet-0.3.3.1, required by dev-haskell/conduit-0.4.2, required by conduit (argument)
-=dev-haskell/lifted-base-0.1.2 ~amd64
-#required by dev-haskell/conduit-0.4.2, required by conduit (argument)
-=dev-haskell/void-0.5.8 ~amd64
-#required by dev-haskell/conduit-0.4.2, required by conduit (argument)
-=dev-haskell/resourcet-0.3.3.1 ~amd64
-#required by dev-haskell/monad-control-0.3.1.4, required by dev-haskell/conduit-0.4.2, required by conduit (argument)
-=dev-haskell/base-unicode-symbols-0.2.2.4 ~amd64
+#required by www-client/firefox-18.0, required by @selected, required by @world (argument)
+=dev-libs/nspr-4.9.4 ~amd64
+#required by www-client/firefox-18.0, required by @selected, required by @world (argument)
+=dev-libs/nss-3.14.1 ~amd64
+#required by urxvt-perls (argument)
+=x11-misc/urxvt-perls-2.0 ~amd64
+#required by dev-ruby/pry-0.9.11.4[ruby_targets_ruby19], required by dev-ruby/pry (argument)
+=dev-ruby/slop-3.4.3 ~amd64
+#required by dev-python/ipython-0.13.1-r1, required by @selected, required by @world (argument)
+=dev-python/simplegeneric-0.8.1-r1 ~amd64
+#required by dev-python/ipython-0.13.1-r1, required by @selected, required by @world (argument)
+=dev-python/pexpect-2.4-r1 ~amd64
+#required by dev-python/ipython-0.13.1-r1[-qt4,-notebook,smp], required by @selected, required by @world (argument)
+=dev-python/pyzmq-2.2.0.1-r1 ~amd64
+#required by dev-python/ipython-0.13.1-r1, required by @selected, required by @world (argument)
+=dev-python/decorator-3.4.0-r1 ~amd64
