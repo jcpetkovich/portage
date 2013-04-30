@@ -76,7 +76,7 @@ app-admin/haskell-updater ~amd64
 =dev-haskell/parallel-3.2.0.3-r1 ~amd64
 =dev-haskell/cgi-3001.1.8.3 ~amd64
 =dev-haskell/mmap-0.5.8 ~amd64
-=dev-vcs/darcs-2.8.3-r1 ~amd64
+=dev-vcs/darcs-2.8.4 ~amd64
 =dev-haskell/tar-0.4.0.1 ~amd64
 =dev-haskell/haskeline-0.7.0.3 ~amd64
 =dev-haskell/dataenc-0.14.0.5 ~amd64
@@ -181,6 +181,7 @@ dev-python/ropemacs ~amd64
 dev-python/rope ~amd64
 dev-python/ropemode ~amd64
 dev-python/ssh ~amd64
+=sci-mathematics/glpk-4.47 ~amd64
 
 # ======================================================================
 # Developement - Perl
@@ -217,6 +218,7 @@ app-emacs/rcodetools-emacs ~amd64
 # nxhtml-mode for ruby etc
 app-emacs/httpd ~amd64
 app-emacs/ruby-mode ~amd64
+=dev-ruby/rails-3.2.12 ~amd64
 
 # ======================================================================
 # Developement - R
@@ -364,3 +366,108 @@ media-sound/ncmpcpp ~amd64
 =dev-python/pyzmq-2.2.0.1-r1 ~amd64
 #required by dev-python/ipython-0.13.1-r1, required by @selected, required by @world (argument)
 =dev-python/decorator-3.4.0-r1 ~amd64
+#required by net-libs/nodejs-0.9.9, required by @selected, required by @world (argument)
+=dev-lang/v8-3.15.11.15 ~amd64
+#required by dev-haskell/x11-1.6.1.1, required by x11-wm/xmonad-contrib-0.11, required by @selected, required by @world (argument)
+=dev-haskell/data-default-0.5.0-r1 ~amd64
+#required by dev-haskell/data-default-0.5.0-r1, required by dev-haskell/x11-1.6.1.1, required by x11-wm/xmonad-contrib-0.11, required by @selected, required by @world (argument)
+=dev-haskell/dlist-0.5-r1 ~amd64
+#required by dev-ruby/actionpack-3.2.12[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/erubis-2.7.0 ~amd64
+#required by dev-ruby/erubis-2.7.0[ruby_targets_ruby19], required by dev-ruby/actionpack-3.2.12[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/abstract-1.0.0-r1 ~amd64
+#required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/sass-3.2.6 ~amd64
+#required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/jquery-rails-2.2.1 ~amd64
+#required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/activesupport-3.2.12 ~amd64
+#required by dev-ruby/actionpack-3.2.12[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/builder-3.0.4 ~amd64
+#required by dev-ruby/activerecord-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/arel-3.0.2-r1 ~amd64
+#required by dev-ruby/rb-inotify-0.9.0[ruby_targets_ruby19], required by dev-ruby/listen-0.7.2-r1[ruby_targets_ruby19], required by dev-ruby/sass-3.2.6[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=virtual/ruby-ffi-1 ~amd64
+#required by dev-ruby/actionpack-3.2.12[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/journey-1.0.4 ~amd64
+#required by dev-ruby/actionpack-3.2.12[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/rack-cache-1.2 ~amd64
+#required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/sass-rails-3.2.6 ~amd64
+#required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/railties-3.2.12 ~amd64
+#required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/activeresource-3.2.12 ~amd64
+#required by dev-ruby/activerecord-3.2.12[ruby_targets_ruby19,mysql], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/mysql2-0.3.11 ~amd64
+#required by dev-ruby/coffee-script-2.2.0[ruby_targets_ruby19], required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/coffee-script-source-1.4.0 ~amd64
+#required by dev-ruby/actionmailer-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/actionpack-3.2.12 ~amd64
+#required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/actionmailer-3.2.12 ~amd64
+#required by dev-ruby/sass-3.2.6[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/listen-0.7.2-r1 ~amd64
+#required by dev-ruby/actionmailer-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/mail-2.4.4 ~amd64
+#required by dev-ruby/railties-3.2.12[ruby_targets_ruby19], required by dev-ruby/jquery-rails-2.2.1[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/thor-0.15.2 ~amd64
+#required by dev-ruby/actionpack-3.2.12[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/activemodel-3.2.12 ~amd64
+#required by dev-ruby/sprockets-2.2.2[ruby_targets_ruby19], required by dev-ruby/actionpack-3.2.12[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/hike-1.2.1 ~amd64
+#required by dev-ruby/listen-0.7.2-r1[ruby_targets_ruby19], required by dev-ruby/sass-3.2.6[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/rb-inotify-0.9.0 ~amd64
+#required by dev-ruby/activesupport-3.2.12[ruby_targets_ruby19], required by dev-ruby/activeresource-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/i18n-0.6.1 ~amd64
+#required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/coffee-rails-3.2.2 ~amd64
+#required by dev-ruby/mail-2.4.4[ruby_targets_ruby19], required by dev-ruby/actionmailer-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/treetop-1.4.10-r1 ~amd64
+#required by dev-ruby/actionpack-3.2.12[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/sprockets-2.2.2 ~amd64
+#required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/coffee-script-2.2.0 ~amd64
+#required by dev-ruby/sprockets-2.2.2[ruby_targets_ruby19], required by dev-ruby/actionpack-3.2.12[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/multi_json-1.5.0 ~amd64
+#required by dev-ruby/treetop-1.4.10-r1[ruby_targets_ruby19], required by dev-ruby/mail-2.4.4[ruby_targets_ruby19], required by dev-ruby/actionmailer-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/polyglot-0.3.3 ~amd64
+#required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/activerecord-3.2.12 ~amd64
+#required by dev-ruby/uglifier-1.3.0[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/execjs-1.4.0 ~amd64
+#required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/uglifier-1.3.0 ~amd64
+#required by dev-ruby/actionpack-3.2.12[ruby_targets_ruby19], required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/rack-test-0.6.2 ~amd64
+#required by dev-ruby/activemodel-3.2.12[ruby_targets_ruby19], required by dev-ruby/activeresource-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19], required by dev-ruby/rails (argument)
+=dev-ruby/bcrypt-ruby-3.0.1 ~amd64
+#required by dev-ruby/railties-3.2.12[ruby_targets_ruby19], required by dev-ruby/jquery-rails-2.2.1[ruby_targets_ruby19], required by dev-ruby/rails-3.2.12[ruby_targets_ruby19,asset-pipeline], required by dev-ruby/rails (argument)
+=dev-ruby/rack-ssl-1.3.3 ~amd64
+#required by net-libs/gtk-vnc-0.5.1[python], required by app-emulation/virt-manager-0.9.4[vnc], required by @selected, required by @world (argument)
+=dev-python/pygtk-2.24.0-r3 ~amd64
+#required by dev-python/pygtk-2.24.0-r3, required by x11-misc/arandr-0.1.7-r1, required by @selected, required by @world (argument)
+=dev-python/pygobject-2.28.6-r53 ~amd64
+#required by dev-python/pygtk-2.24.0-r3, required by x11-misc/arandr-0.1.7-r1, required by @selected, required by @world (argument)
+=dev-python/pycairo-1.10.0-r4 ~amd64
+#required by app-emacs/ghc-mod-1.11.5::gentoo-haskell, required by app-emacs/ghc-mod (argument)
+=dev-haskell/hlint-1.8.43 ~amd64
+#required by net-libs/nodejs-0.9.12, required by @selected, required by @world (argument)
+=virtual/python-json-0 ~amd64
+#required by dev-db/mongodb (argument)
+=dev-db/mongodb-2.2.3 ~amd64
+#required by dev-db/mongodb-2.2.3, required by dev-db/mongodb (argument)
+=dev-libs/boost-1.52.0-r6 ~amd64
+#required by dev-libs/boost-1.52.0-r6, required by dev-db/mongodb-2.2.3, required by dev-db/mongodb (argument)
+=dev-util/boost-build-1.52.0-r1 ~amd64
+#required by dev-db/mongodb-2.2.3, required by dev-db/mongodb (argument)
+=app-arch/snappy-1.0.5 ~amd64
+# required by =dev-python/django-1.5.0 (argument)
+=dev-python/django-1.5.0 ~amd64
+# required by rust (argument)
+=dev-lang/rust-0.6 ~amd64
+# required by dev-haskell/cgi-3001.1.8.3::gentoo-haskell
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-haskell/monadcatchio-mtl-0.3.0.5 ~amd64
+# required by app-admin/pass (argument)
+=app-admin/pass-1.4.2 ~amd64
