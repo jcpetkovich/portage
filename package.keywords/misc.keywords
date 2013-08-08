@@ -3,7 +3,6 @@
 # ======================================================================
 # Boot Loader
 # ======================================================================
-sys-boot/os-prober ~amd64
 =sys-boot/grub-1.99-r2 **
 sys-boot/efibootmgr ~amd64
 
@@ -27,12 +26,6 @@ www-plugins/google-talkplugin ~amd64
 net-mail/mu ~amd64
 
 # ======================================================================
-# RC
-# ======================================================================
-sys-apps/baselayout ~amd64
-sys-apps/openrc ~amd64
-
-# ======================================================================
 # X Interface
 # ======================================================================
 # Xmonad and haskell
@@ -53,20 +46,15 @@ x11-themes/bluecurve-xcursors ~amd64
 # Adjusting Screens Dynamically
 x11-misc/arandr ~amd64
 
-# Keyboard Layout
-x11-misc/qxkb ~amd64
-
 # ======================================================================
 # Messengers
 # ======================================================================
-net-im/pidgin ~amd64
 net-im/skype ~amd64
 net-im/bitlbee ~amd64
 
 # ======================================================================
 # Development - Rust
 # ======================================================================
-
 dev-lang/rust ~amd64
 
 # ======================================================================
@@ -181,12 +169,7 @@ dev-scheme/racket ~amd64
 # ======================================================================
 # Developement - Python
 # ======================================================================
-app-emacs/python-mode ~amd64
 dev-python/ipython ~amd64
-dev-python/ropemacs ~amd64  
-dev-python/rope ~amd64
-dev-python/ropemode ~amd64
-dev-python/ssh ~amd64
 =sci-mathematics/glpk-4.47 ~amd64
 
 
@@ -214,10 +197,6 @@ dev-lang/ruby:1.9
 dev-ruby/pry ~amd64
 dev-ruby/ruby-debug ~amd64
 
-dev-ruby/cake ~amd64
-dev-ruby/rcodetools ~amd64
-app-emacs/rcodetools-emacs ~amd64
-
 >=dev-ruby/racc-1.4.7 ~amd64
 >=virtual/rubygems-4:ruby19 ~amd64
 >=dev-ruby/json-1.6.1 ~amd64
@@ -240,34 +219,17 @@ net-libs/nodejs ~amd64
 # ======================================================================
 # Emulators
 # ======================================================================
-# Wine
-app-emulation/wine ~amd64
 
 # ======================================================================
 # Terminal Emulators
 # ======================================================================
-x11-terms/rxvt-unicode ~amd64
-sys-libs/ncurses ~amd64
 
 # ======================================================================
 # Editors
 # ======================================================================
 virtual/emacs ~amd64
 app-editors/emacs ~amd64
-app-emacs/org-mode ~amd64
-app-emacs/cedet ~amd64
-app-emacs/dropdown-list ~amd64
-app-emacs/yasnippet ~amd64
-app-emacs/emms ~amd64
-app-emacs/paredit ~amd64
-app-emacs/browse-kill-ring ~amd64
-app-emacs/icicles ~amd64
-app-emacs/auto-complete ~amd64
-app-emacs/magit ~amd64
 app-emacs/ghc-mod ~amd64
-
-# graphics
-media-gfx/xfig ~amd64
 
 # ======================================================================
 # Utilities
@@ -275,7 +237,6 @@ media-gfx/xfig ~amd64
 app-admin/eselect ~amd64
 app-portage/elogv ~amd64
 sys-process/parallel ~amd64
-app-text/catdoc ~amd64
 
 # ======================================================================
 # music
