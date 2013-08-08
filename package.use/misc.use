@@ -11,6 +11,7 @@ dev-libs/beecrypt threads
 # Terminal
 # ======================================================================
 app-shells/autojump zsh-completion
+x11-terms/st savedconfig noboldcolors
 
 # ======================================================================
 # Internet
@@ -23,6 +24,8 @@ net-print/foo2zjs hp1020
 dev-db/sqlite fts3
 dev-libs/libxml2 icu
 media-libs/libpng apng
+net-im/bitlbee debug otr
+
 
 # Chat
 net-im/pidgin spell -gstreamer
@@ -97,6 +100,7 @@ sys-devel/gcc gcj
 dev-lisp/sbcl ldb threads doc
 # x11-wm/stumpwm clisp doc
 # dev-java/sun-jdk nsplugin
+dev-lisp/arnesi -slime
 
 # Haskell
 dev-haskell/gtk2hs xulrunner
@@ -109,7 +113,7 @@ dev-haskell/transformers profile
 # Python
 dev-lang/python tk
 dev-python/imaging tk
-dev-python/ipython -emacs
+dev-python/ipython -emacs notebook
 
 # Ruby
 dev-lang/ruby doc
@@ -130,6 +134,8 @@ sys-block/parted device-mapper
 
 dev-db/mysql embedded -minimal
 virtual/mysql embedded
+
+dev-util/perf doc
 
 # ======================================================================
 # System
@@ -155,30 +161,7 @@ media-fonts/dejavu fontforge
 x11-misc/dzen xft xpm
 dev-lang/parrot -pcre
 
-
-#required by dev-ruby/rdoc-3.12[ruby_targets_ruby19], required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/json-1.6.4[-test,-doc,ruby_targets_ruby18]
->=dev-ruby/racc-1.4.7 ruby_targets_ruby19
-#required by virtual/rubygems-4, required by dev-ruby/json-1.6.4[-test,ruby_targets_ruby19], required by dev-ruby/rdoc-3.12[ruby_targets_ruby19], required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/racc-1.4.7[-test,-doc,ruby_targets_ruby19]
->=dev-ruby/rubygems-1.8.15 ruby_targets_ruby19
-#required by dev-ruby/json-1.6.4[-test,-doc,ruby_targets_ruby18], required by dev-ruby/rdoc-3.12[ruby_targets_ruby19], required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rubygems-1.8.15[ruby_targets_ruby19], required by virtual/rubygems-4, required by dev-ruby/racc-1.4.7
->=dev-ruby/rake-0.9.2.2 ruby_targets_ruby19
-#required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/json-1.6.4[-test,-doc,ruby_targets_ruby18]
->=dev-ruby/rdoc-3.12 ruby_targets_ruby19
-#required by dev-ruby/rdoc-3.12[ruby_targets_ruby19], required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/racc-1.4.7[-test,-doc,ruby_targets_ruby19]
->=dev-ruby/json-1.6.4 ruby_targets_ruby19
-#required by x11-libs/qt-webkit-4.8.2[gstreamer], required by dev-python/PyQt4-4.9.1[webkit], required by PyQt4 (argument)
-=dev-libs/libxml2-2.8.0_rc1 -icu
-#required by x11-libs/qt-webkit-4.8.2[gstreamer], required by dev-python/PyQt4-4.9.4[webkit], required by @selected, required by @world (argument)
->=dev-libs/libxml2-2.8.0-r2 -icu
-#required by app-emulation/virt-manager-0.9.4, required by virt-manager (argument)
->=x11-libs/vte-0.28.2-r204:0 python
-#required by app-emulation/virt-manager-0.9.4[vnc], required by virt-manager (argument)
->=net-libs/gtk-vnc-0.5.1 python
-#required by app-emulation/virt-manager-0.9.4, required by virt-manager (argument)
-=app-emulation/libvirt-0.10.2-r3 python
-#required by app-emulation/virt-manager-0.9.4[spice], required by virt-manager (argument)
-=net-misc/spice-gtk-0.14 python
-#required by app-emulation/virt-manager-0.9.4[spice], required by @selected, required by @world (argument)
-=net-misc/spice-gtk-0.14-r2 python
-#required by app-emulation/virtinst-0.600.3, required by app-emulation/virt-manager-0.9.4, required by @selected, required by @world (argument)
-=app-emulation/libvirt-0.10.2.1 python
+sys-fs/udev gudev# required by app-forensics/rkhunter-1.4.0
+# required by @selected
+# required by @world (argument)
+=sys-process/lsof-4.85-r2 rpc

@@ -26,7 +26,6 @@ www-plugins/google-talkplugin ~amd64
 # ======================================================================
 net-mail/mu ~amd64
 
-
 # ======================================================================
 # RC
 # ======================================================================
@@ -62,6 +61,13 @@ x11-misc/qxkb ~amd64
 # ======================================================================
 net-im/pidgin ~amd64
 net-im/skype ~amd64
+net-im/bitlbee ~amd64
+
+# ======================================================================
+# Development - Rust
+# ======================================================================
+
+dev-lang/rust ~amd64
 
 # ======================================================================
 # Development - Haskell
@@ -76,9 +82,9 @@ app-admin/haskell-updater ~amd64
 =dev-haskell/parallel-3.2.0.3-r1 ~amd64
 =dev-haskell/cgi-3001.1.8.3 ~amd64
 =dev-haskell/mmap-0.5.8 ~amd64
-=dev-vcs/darcs-2.8.3-r1 ~amd64
+=dev-vcs/darcs-2.8.4 ~amd64
 =dev-haskell/tar-0.4.0.1 ~amd64
-=dev-haskell/haskeline-0.7.0.3 ~amd64
+=dev-haskell/haskeline-0.7.0.3-r1 ~amd64
 =dev-haskell/dataenc-0.14.0.5 ~amd64
 =dev-haskell/statevar-1.0.0.0-r1 ~amd64
 =dev-haskell/cabal-install-1.16.0.2 ~amd64
@@ -181,6 +187,8 @@ dev-python/ropemacs ~amd64
 dev-python/rope ~amd64
 dev-python/ropemode ~amd64
 dev-python/ssh ~amd64
+=sci-mathematics/glpk-4.47 ~amd64
+
 
 # ======================================================================
 # Developement - Perl
@@ -217,6 +225,7 @@ app-emacs/rcodetools-emacs ~amd64
 # nxhtml-mode for ruby etc
 app-emacs/httpd ~amd64
 app-emacs/ruby-mode ~amd64
+=dev-ruby/rails-3.2.12 ~amd64
 
 # ======================================================================
 # Developement - R
@@ -277,90 +286,33 @@ media-sound/ncmpcpp ~amd64
 # Experimental
 # ======================================================================
 
-=virtual/perl-Data-Dumper-2.131.0 ~amd64
-=perl-core/Data-Dumper-2.131.0 ~amd64
-#required by @selected, required by @world (argument)
-=dev-ruby/rubygems-1.8.15 ~amd64
-#required by dev-ruby/rails-2.3.14[ruby_targets_ruby18], required by @selected, required by @world (argument)
-=dev-ruby/rake-0.9.2.2 ~amd64
-#required by dev-lang/ruby-1.9.3_p125[rdoc], required by dev-ruby/rake-0.9.2.2[ruby_targets_ruby19], required by dev-ruby/json-1.6.4[-test,-doc,ruby_targets_ruby18]
-=dev-ruby/rdoc-3.12 ~amd64
-#required by app-emacs/evil-9999, required by evil (argument)
-=app-emacs/undo-tree-0.1.7 ~amd64
-#required by evil (argument)
-=app-emacs/evil-9999 ~amd64
-#required by dev-ruby/ruby_parser-2.3.1[ruby_targets_ruby19], required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby19], required by dev-ruby/pry (argument)
-# move dev-ruby/sexp-processor dev-ruby/sexp_processor
-=dev-ruby/sexp_processor-3.2.0 ~amd64
-#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby18], required by dev-ruby/pry (argument)
-=dev-ruby/slop-2.4.4 ~amd64
-#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby18], required by dev-ruby/pry (argument)
-=dev-ruby/method_source-0.8 ~amd64
-#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby19], required by dev-ruby/pry (argument)
-=dev-ruby/coderay-1.0.7 ~amd64
-#required by dev-ruby/pry-0.9.9.4[ruby_targets_ruby19], required by dev-ruby/pry (argument)
-=dev-ruby/ruby_parser-2.3.1 ~amd64
-#required by dev-ruby/ruby-debug-base-0.10.4[ruby_targets_ruby18], required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
-=dev-ruby/linecache-0.46 ~amd64
-#required by dev-ruby/linecache-0.46[ruby_targets_ruby18], required by dev-ruby/ruby-debug-base-0.10.4[ruby_targets_ruby18], required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
-=dev-ruby/require_relative-1.0.3 ~amd64
-#required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
-=dev-ruby/columnize-0.3.6 ~amd64
-#required by dev-ruby/ruby-debug-0.10.4[ruby_targets_ruby18], required by ruby-debug (argument)
-=dev-ruby/ruby-debug-base-0.10.4 ~amd64
-#required by dev-python/ipython-0.13, required by @selected, required by @world (argument)
-=dev-python/simplegeneric-0.8.1 ~amd64
-#required by dev-perl/MooseX-Getopt-0.470.0, required by dev-perl/App-Nopaste-0.350.0, required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/Getopt-Long-Descriptive-0.92.0 ~amd64
-#required by Devel-REPL (argument)
-=dev-perl/Devel-REPL-1.3.13 ~amd64
-#required by dev-perl/Data-Dump-Streamer-2.340.0, required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/B-Utils-0.210.0 ~amd64
-#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/Data-Dump-Streamer-2.340.0 ~amd64
-#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/MooseX-Getopt-0.470.0 ~amd64
-#required by dev-perl/Lexical-Persistence-1.20.0, required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/Devel-LexAlias-0.40.0 ~amd64
-#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/Data-Dumper-Concise-2.20.0 ~amd64
-#required by dev-perl/MooseX-Getopt-0.470.0, required by dev-perl/App-Nopaste-0.350.0, required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/MooseX-Role-Parameterized-1.0.0 ~amd64
-#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/App-Nopaste-0.350.0 ~amd64
-#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/MooseX-AttributeHelpers-0.230.0 ~amd64
-#required by dev-perl/App-Nopaste-0.350.0[pastebin], required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/WWW-Pastebin-PastebinCom-Create-0.4.0 ~amd64
-#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/Lexical-Persistence-1.20.0 ~amd64
-#required by dev-perl/Devel-LexAlias-0.40.0, required by dev-perl/Lexical-Persistence-1.20.0, required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/Devel-Caller-2.50.0 ~amd64
-#required by dev-perl/Devel-REPL-1.3.13, required by Devel-REPL (argument)
-=dev-perl/MooseX-Object-Pluggable-0.1.100 ~amd64
-#required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
-=dev-perl/MooseX-Types-Path-Class-0.60.0 ~amd64
-#required by dev-perl/MooseX-Types-Path-Class-0.60.0, required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
-=dev-perl/MooseX-Types-0.350.0 ~amd64
-#required by perl-gcpan/Pod-Elemental-0.102362, required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
-=dev-perl/String-RewritePrefix-0.6.0 ~amd64
-#required by perl-gcpan/Syntax-Keyword-Junction-0.003001, required by perl-gcpan/Moose-Autobox-0.13, required by perl-gcpan/Pod-Elemental-0.102362, required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
-=dev-perl/Sub-Exporter-Progressive-0.1.6 ~amd64
-#required by perl-gcpan/MooseX-App-1.07, required by MooseX-App (argument)
-=dev-perl/Config-Any-0.230.0 ~amd64
-#required by www-client/firefox-18.0, required by @selected, required by @world (argument)
-=dev-libs/nspr-4.9.4 ~amd64
-#required by www-client/firefox-18.0, required by @selected, required by @world (argument)
-=dev-libs/nss-3.14.1 ~amd64
-#required by urxvt-perls (argument)
 =x11-misc/urxvt-perls-2.0 ~amd64
-#required by dev-ruby/pry-0.9.11.4[ruby_targets_ruby19], required by dev-ruby/pry (argument)
-=dev-ruby/slop-3.4.3 ~amd64
-#required by dev-python/ipython-0.13.1-r1, required by @selected, required by @world (argument)
-=dev-python/simplegeneric-0.8.1-r1 ~amd64
-#required by dev-python/ipython-0.13.1-r1, required by @selected, required by @world (argument)
-=dev-python/pexpect-2.4-r1 ~amd64
-#required by dev-python/ipython-0.13.1-r1[-qt4,-notebook,smp], required by @selected, required by @world (argument)
-=dev-python/pyzmq-2.2.0.1-r1 ~amd64
-#required by dev-python/ipython-0.13.1-r1, required by @selected, required by @world (argument)
-=dev-python/decorator-3.4.0-r1 ~amd64
+=dev-libs/openssl-1.0.1e-r1 ~amd64
+=net-libs/gnutls-3.2.3 ~amd64
+=x11-terms/st-0.4.1 ~amd64
+=sys-apps/ack-2.04 ~amd64
+=x11-misc/dunst-1.0.0 ~amd64
+
+# Misc
+=sys-libs/zlib-1.2.8-r1 ~amd64
+=dev-haskell/hashable-1.2.0.5 ~amd64
+=dev-libs/nss-3.15 ~amd64
+=dev-libs/nspr-4.10 ~amd64
+=net-nds/openldap-2.4.35 ~amd64# required by dev-python/ipython-0.13.2[wxwidgets]
+# required by @selected
+# required by @world (argument)
+=dev-python/wxpython-2.9.4.1-r1 ~amd64
+# required by dev-python/wxpython-2.9.4.1-r1[opengl]
+# required by dev-python/ipython-0.13.2[wxwidgets]
+# required by @selected
+# required by @world (argument)
+=dev-python/pyopengl-3.0.2-r1 ~amd64
+# required by dev-python/ipython-0.13.2[notebook]
+# required by @selected
+# required by @world (argument)
+=www-servers/tornado-2.4.1 ~amd64
+# required by dev-python/wxpython-2.9.4.1-r1
+# required by dev-python/ipython-0.13.2[wxwidgets]
+# required by @selected
+# required by @world (argument)
+=x11-libs/wxGTK-2.9.4.1 ~amd64
