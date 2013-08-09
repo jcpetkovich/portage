@@ -1,0 +1,13 @@
+
+# ======================================================================
+# Developement - Python
+# ======================================================================
+
+=sci-mathematics/glpk-4.47 ~amd64
+
+# IPython
+dev-python/ipython ~amd64
+=dev-python/wxpython-2.9.4.1-r1 ~amd64
+=dev-python/pyopengl-3.0.2-r1 ~amd64
+=www-servers/tornado-2.4.1 ~amd64
+=x11-libs/wxGTK-2.9.4.1 ~amd64

@@ -1,0 +1,7 @@
+
+# ======================================================================
+# Browser
+# ======================================================================
+www-client/firefox ~amd64
+www-plugins/adobe-flash ~amd64
+www-plugins/google-talkplugin ~amd64

@@ -1,0 +1,53 @@
+
+# ======================================================================
+# Developement - Common Lisp
+# ======================================================================
+dev-lisp/sbcl ~amd64
+dev-lisp/gentoo-init ~amd64
+app-emacs/slime ~amd64
+dev-lisp/asdf ~amd64
+dev-lisp/asdf-binary-locations ~amd64
+dev-lisp/cl-utilities ~amd64
+dev-lisp/trivial-shell ~amd64
+dev-lisp/cl-launch ~amd64
+
+dev-lisp/cl-gtk2 ~amd64
+dev-lisp/trivial-garbage ~amd64
+dev-lisp/cl-cairo2 ~amd64
+dev-lisp/iterate ~amd64
+dev-lisp/bordeaux-threads ~amd64
+dev-lisp/cffi ~amd64
+dev-lisp/cl-opengl ~amd64
+dev-lisp/closer-mop ~amd64
+dev-lisp/alexandria ~amd64
+dev-lisp/lift ~amd64
+dev-lisp/babel ~amd64
+dev-lisp/trivial-features ~amd64
+dev-lisp/rt ~amd64
+dev-lisp/trivial-gray-streams ~amd64
+dev-lisp/cl-colors ~amd64
+dev-lisp/cl-ppcre ~amd64
+dev-lisp/flexi-streams ~amd64
+dev-lisp/cl-ppcre-unicode ~amd64
+dev-lisp/cl-unicode ~amd64
+
+dev-lisp/gsll ~amd64
+dev-lisp/asdf-system-connections ~amd64
+=dev-lisp/gsd-999 ~amd64
+=dev-lisp/fsbv-9999 ~amd64
+=dev-lisp/lisp-unit-9999 ~amd64
+
+dev-lisp/mcclim ~amd64
+dev-lisp/spatial-trees ~amd64
+dev-lisp/clx ~amd64
+dev-lisp/cl-vectors ~amd64
+dev-lisp/zpb-ttf ~amd64
+dev-lisp/cl-jpeg ~amd64
+dev-lisp/flexichain ~amd64
+dev-lisp/skippy ~amd64
+dev-lisp/fiveam ~amd64
+dev-lisp/arnesi ~amd64
+
+dev-lisp/metabang-bind ~amd64
+dev-lisp/usocket ~amd64
+dev-lisp/split-sequence ~amd64

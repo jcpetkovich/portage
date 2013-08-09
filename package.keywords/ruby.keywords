@@ -1,0 +1,12 @@
+
+# ======================================================================
+# Developement - Ruby
+# ======================================================================
+#ruby-1.9
+dev-lang/ruby:1.9
+dev-ruby/pry ~amd64
+dev-ruby/ruby-debug ~amd64
+
+>=dev-ruby/racc-1.4.7 ~amd64
+>=virtual/rubygems-4:ruby19 ~amd64
+>=dev-ruby/json-1.6.1 ~amd64

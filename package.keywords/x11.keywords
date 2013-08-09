@@ -1,0 +1,23 @@
+
+# ======================================================================
+# X Interface
+# ======================================================================
+# Xmonad and haskell
+x11-wm/xmonad-contrib ~amd64
+x11-wm/xmonad ~amd64
+>=dev-haskell/x11-1.5.0.0 ~amd64
+
+# Status bar
+x11-misc/dzen ~amd64
+
+# Icons
+x11-themes/human-icon-theme ~amd64
+
+# Cursor
+x11-themes/bluecurve-xcursors ~amd64
+
+# Adjusting Screens Dynamically
+x11-misc/arandr ~amd64
+
+# Notification daemon
+=x11-misc/dunst-1.0.0 ~amd64

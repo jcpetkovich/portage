@@ -1,0 +1,18 @@
+
+# ======================================================================
+# Terminal
+# ======================================================================
+
+# Teriminal emulator
+=x11-terms/st-0.4.1 ~amd64
+
+# Shell
+app-shells/zsh ~amd64
+app-doc/zsh-lovers ~amd64
+
+# Utilities
+app-shells/autojump ~amd64
+app-admin/eselect ~amd64
+app-portage/elogv ~amd64
+sys-process/parallel ~amd64
+sys-apps/ack ~amd64

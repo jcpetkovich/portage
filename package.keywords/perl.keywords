@@ -1,0 +1,14 @@
+
+# ======================================================================
+# Developement - Perl
+# ======================================================================
+dev-perl/Emacs-PDE ~amd64
+dev-lang/rakudo ~amd64
+dev-lang/parrot ~amd64
+sci-libs/pgplot ~amd64
+dev-perl/PGPLOT ~amd64
+dev-lang/nqp ~amd64
+dev-lang/perl ~amd64
+virtual/perl-ExtUtils-ParseXS ~amd64
+perl-core/ExtUtils-ParseXS ~amd64
+app-portage/g-cpan ~amd64
