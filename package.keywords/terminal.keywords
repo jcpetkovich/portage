@@ -16,3 +16,4 @@ app-admin/eselect ~amd64
 app-portage/elogv ~amd64
 sys-process/parallel ~amd64
 sys-apps/ack ~amd64
+dev-util/perf ~amd64

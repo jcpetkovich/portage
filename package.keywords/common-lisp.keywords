@@ -6,6 +6,7 @@ dev-lisp/sbcl ~amd64
 dev-lisp/gentoo-init ~amd64
 app-emacs/slime ~amd64
 dev-lisp/asdf ~amd64
+dev-lisp/uiop ~amd64
 dev-lisp/asdf-binary-locations ~amd64
 dev-lisp/cl-utilities ~amd64
 dev-lisp/trivial-shell ~amd64

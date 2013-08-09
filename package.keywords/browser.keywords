@@ -5,3 +5,6 @@
 www-client/firefox ~amd64
 www-plugins/adobe-flash ~amd64
 www-plugins/google-talkplugin ~amd64
+
+# To verify our site works on chrome
+=www-client/google-chrome-29.0.1547.49_beta216092 ~amd64
