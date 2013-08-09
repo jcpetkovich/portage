@@ -1,9 +1,9 @@
 
 # ======================================================================
-# Emacs
+# Python
 # ======================================================================
+dev-lang/python tk
+dev-python/imaging tk
 
-virtual/emacs ~amd64
-app-editors/emacs ~amd64
-app-emacs/ghc-mod ~amd64
-app-emacs/eselect-mode ~amd64
+# Don't screw up my python-mode please
+dev-python/ipython -emacs notebook

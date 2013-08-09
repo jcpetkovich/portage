@@ -1,0 +1,10 @@
+
+# ======================================================================
+# Haskell
+# ======================================================================
+dev-haskell/gtk2hs xulrunner
+dev-haskell/mtl profile
+dev-haskell/mersenne-random profile
+dev-haskell/parallel profile
+dev-haskell/deepseq profile
+dev-haskell/transformers profile

@@ -1,9 +1,6 @@
 
 # ======================================================================
-# Emacs
+# Perl
 # ======================================================================
-
-virtual/emacs ~amd64
-app-editors/emacs ~amd64
-app-emacs/ghc-mod ~amd64
-app-emacs/eselect-mode ~amd64
+dev-lang/perl ithreads
+dev-lang/parrot -pcre

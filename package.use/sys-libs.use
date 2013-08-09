@@ -1,0 +1,15 @@
+
+# ======================================================================
+# System libs
+# ======================================================================
+
+dev-libs/libgcrypt static-libs
+dev-db/sqlite fts3
+media-libs/libpng apng
+=sys-auth/pambase-20101024-r2 consolekit
+dev-db/mysql embedded -minimal
+virtual/mysql embedded
+sys-fs/udev extras
+sys-fs/ntfs3g ntfsprogs
+gnome-base/librsvg -introspection
+sys-fs/udev gudev

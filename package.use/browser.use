@@ -1,9 +1,8 @@
 
 # ======================================================================
-# Emacs
+# Browser
 # ======================================================================
 
-virtual/emacs ~amd64
-app-editors/emacs ~amd64
-app-emacs/ghc-mod ~amd64
-app-emacs/eselect-mode ~amd64
+www-client/firefox gnome wifi
+net-libs/xulrunner wifi
+dev-libs/libxml2 icu python

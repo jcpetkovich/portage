@@ -1,0 +1,17 @@
+
+# ======================================================================
+# Media
+# ======================================================================
+
+# Video
+media-video/mplayer directfb ggi sdl xv 
+media-video/ffmpeg zlib dts amr network threads faac
+virtual/ffmpeg threads
+media-libs/libsndfile -jack
+media-libs/gd fontconfig
+media-video/vlc -qt4 X a52 alsa dts dvd ffmpeg mp3 mpeg win32codecs ncurses opengl sdl -skins truetype wxwindows xv dts live matroska theora vorbis win32codecs aac aalib alsa arts esd fbcon ggi libcaca opengl oss png sdl speex svga xinerama xv x264 dvd udev
+x11-libs/wxGTK unicode X
+
+# Images
+media-gfx/gimp pdf smp
+>=media-libs/lcms-1.19:0 python

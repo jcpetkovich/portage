@@ -1,9 +1,6 @@
 
 # ======================================================================
-# Emacs
+# Package Management
 # ======================================================================
 
-virtual/emacs ~amd64
-app-editors/emacs ~amd64
-app-emacs/ghc-mod ~amd64
-app-emacs/eselect-mode ~amd64
+app-portage/layman subversion git mercurial darcs

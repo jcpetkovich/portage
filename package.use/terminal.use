@@ -1,0 +1,16 @@
+
+# ======================================================================
+# Terminal
+# ======================================================================
+
+# Terminal emulator
+x11-terms/st savedconfig noboldcolors
+
+# Shell
+app-shells/zsh caps examples
+
+# Utilities
+app-shells/autojump zsh-completion
+sys-block/gparted fat ntfs -gtk
+sys-block/parted device-mapper
+dev-util/perf doc

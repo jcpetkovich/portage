@@ -1,9 +1,10 @@
 
 # ======================================================================
-# Emacs
+# X Interface and Misc X11 Apps
 # ======================================================================
 
-virtual/emacs ~amd64
-app-editors/emacs ~amd64
-app-emacs/ghc-mod ~amd64
-app-emacs/eselect-mode ~amd64
+# Deluge
+dev-libs/boost python
+net-libs/rb_libtorrent python
+media-fonts/dejavu fontforge
+x11-misc/dzen xft xpm

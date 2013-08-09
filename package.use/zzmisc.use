@@ -1,9 +1,9 @@
 
 # ======================================================================
-# Emacs
+# Experimental
 # ======================================================================
 
-virtual/emacs ~amd64
-app-editors/emacs ~amd64
-app-emacs/ghc-mod ~amd64
-app-emacs/eselect-mode ~amd64
+# required by app-forensics/rkhunter-1.4.0
+# required by @selected
+# required by @world (argument)
+=sys-process/lsof-4.85-r2 rpc
