@@ -3,3 +3,5 @@
 # Experimental/Miscellaneous
 # ======================================================================
 
+# required by dustforce (argument)
+=games-arcade/dustforce-1.0.20120917 ~amd64
