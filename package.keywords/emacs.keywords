@@ -5,5 +5,17 @@
 
 virtual/emacs ~amd64
 app-editors/emacs ~amd64
-app-emacs/ghc-mod ~amd64
 app-emacs/eselect-mode ~amd64
+
+# Haskell Emacs Plugin
+app-emacs/ghc-mod ~amd64
+dev-haskell/ghc-syb-utils ~amd64
+dev-haskell/haskell-src-exts ~amd64
+dev-haskell/lifted-base ~amd64
+dev-haskell/uniplate ~amd64
+dev-haskell/monad-control ~amd64
+dev-haskell/hlint ~amd64
+dev-haskell/transformers-base ~amd64
+dev-haskell/convertible ~amd64
+dev-haskell/io-choice ~amd64
+dev-haskell/base-unicode-symbols ~amd64
