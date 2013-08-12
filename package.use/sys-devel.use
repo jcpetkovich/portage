@@ -8,3 +8,4 @@ sys-devel/gcc gcj
 
 # clang
 sys-devel/llvm clang
+sys-devel/clang python
