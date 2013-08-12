@@ -1,10 +1,8 @@
 
 # ======================================================================
-# Development
+# Development - Haskell
 # ======================================================================
 
-# gcc
-sys-devel/gcc gcj
-
 # clang
-sys-devel/llvm clang
+sys-devel/llvm ~amd64
+sys-devel/clang ~amd64
