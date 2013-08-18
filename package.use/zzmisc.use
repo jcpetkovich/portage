@@ -2,8 +2,3 @@
 # ======================================================================
 # Experimental
 # ======================================================================
-
-# required by app-forensics/rkhunter-1.4.0
-# required by @selected
-# required by @world (argument)
-=sys-process/lsof-4.85-r2 rpc

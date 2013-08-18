@@ -15,3 +15,6 @@ x11-libs/wxGTK unicode X
 # Images
 media-gfx/gimp pdf smp
 >=media-libs/lcms-1.19:0 python
+
+# Music
+media-sound/ncmpcpp curl

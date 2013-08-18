@@ -2,7 +2,7 @@
 # ======================================================================
 # Haskell
 # ======================================================================
-dev-haskell/gtk2hs xulrunner
+dev-lang/ghc llvm
 dev-haskell/mtl profile
 dev-haskell/mersenne-random profile
 dev-haskell/parallel profile
