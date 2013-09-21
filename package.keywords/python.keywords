@@ -15,3 +15,6 @@ dev-python/ipython ~amd64
 =dev-python/wxpython-2.9.4.1-r1 ~amd64
 =www-servers/tornado-2.4.1 ~amd64
 =x11-libs/wxGTK-2.9.4.1 ~amd64
+
+# csvkit
+=dev-python/openpyxl-1.6.2 ~amd64
