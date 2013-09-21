@@ -1,4 +1,4 @@
 # move net-wireless/iwl5000-ucode sys-firmware/iwl5000-ucode
 sys-firmware/iwl5000-ucode
-=x11-libs/libXft-2.3.1
+# =x11-libs/libXft-2.3.1
 =net-mail/offlineimap-6.5.4-r1
