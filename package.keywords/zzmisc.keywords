@@ -2,3 +2,5 @@
 # ======================================================================
 # Experimental/Miscellaneous
 # ======================================================================
+# required by anonymous-pro (argument)
+=media-fonts/anonymous-pro-1.002 ~amd64
