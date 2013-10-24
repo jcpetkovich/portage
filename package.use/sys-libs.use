@@ -13,3 +13,6 @@ sys-fs/udev extras
 sys-fs/ntfs3g ntfsprogs
 gnome-base/librsvg -introspection
 sys-fs/udev gudev
+
+net-fs/cifs-utils upcall
+net-fs/samba winbind
