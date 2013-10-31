@@ -2,5 +2,5 @@
 # ======================================================================
 # Emacs
 # ======================================================================
-app-text/texlive xetex extra science
+app-text/texlive xetex extra science graphics
 app-text/texlive-core xetex
