@@ -14,5 +14,5 @@ sys-fs/ntfs3g ntfsprogs
 gnome-base/librsvg -introspection
 sys-fs/udev gudev
 
-net-fs/cifs-utils upcall
-net-fs/samba winbind
+net-fs/cifs-utils upcall ads
+net-fs/samba winbind ldap
