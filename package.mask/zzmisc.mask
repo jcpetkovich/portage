@@ -4,3 +4,6 @@ sys-firmware/iwl5000-ucode
 =net-mail/offlineimap-6.5.4-r1
 
 =x11-drivers/xf86-video-intel-2.99.903
+=x11-drivers/xf86-video-intel-2.99.905
+=x11-drivers/xf86-video-intel-2.99.905-r1
+=x11-drivers/xf86-video-intel-2.99.906

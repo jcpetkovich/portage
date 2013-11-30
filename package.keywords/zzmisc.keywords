@@ -4,3 +4,19 @@
 # ======================================================================
 # required by anonymous-pro (argument)
 =media-fonts/anonymous-pro-1.002 ~amd64
+# required by dev-libs/girara-0.1.6-r200
+# required by app-text/zathura-0.2.3
+# required by app-text/zathura-djvu-0.2.1
+# required by app-text/zathura-meta-0[djvu]
+# required by @selected
+# required by @world (argument)
+=dev-libs/girara-0.1.6-r300 ~amd64
+# required by dev-python/ipython-1.1.0-r1
+# required by @selected
+# required by @world (argument)
+=dev-python/pexpect-3.0 ~amd64
+# required by app-text/zathura-cb-0.1.0
+# required by app-text/zathura-meta-0[cb]
+# required by @selected
+# required by @world (argument)
+=dev-libs/girara-0.1.6-r200 ~amd64
