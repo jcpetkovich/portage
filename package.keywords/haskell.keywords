@@ -9,7 +9,7 @@ dev-haskell/alex ~amd64
 dev-haskell/cabal ~amd64
 dev-haskell/cabal-install ~amd64
 dev-haskell/cgi ~amd64
-dev-haskell/deepseq ~amd64
+=dev-haskell/deepseq-1.3.0.1 ~amd64
 dev-haskell/fgl ~amd64
 dev-haskell/gluraw ~amd64
 dev-haskell/glut ~amd64
