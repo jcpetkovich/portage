@@ -21,9 +21,11 @@ dev-haskell/io-choice ~amd64
 dev-haskell/base-unicode-symbols ~amd64
 
 
-=app-text/zathura-0.2.3 ~amd64
-# =app-text/zathura-cb
-# =app-text/zathura-djvu
-# =app-text/zathura-meta
-# =app-text/zathura-pdf-poppler
-# =app-text/zathura-ps
+app-text/zathura ~amd64
+app-text/zathura-cb ~amd64
+app-text/zathura-djvu ~amd64
+app-text/zathura-meta ~amd64
+app-text/zathura-pdf-poppler ~amd64
+app-text/zathura-ps ~amd64
+dev-libs/girara ~amd64
+app-text/ghostscript-gpl ~amd64
