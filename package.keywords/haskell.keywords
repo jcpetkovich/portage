@@ -48,6 +48,9 @@ dev-haskell/case-insensitive ~amd64
 dev-haskell/vector ~amd64
 dev-haskell/unordered-containers ~amd64
 dev-haskell/monadcatchio-mtl ~amd64
+dev-haskell/monadcatchio-transformers ~amd64
+dev-haskell/monads-tf ~amd64
+dev-haskell/scientific ~amd64
 
 # VCS
 dev-vcs/darcs ~amd64
