@@ -20,3 +20,5 @@
 # required by @selected
 # required by @world (argument)
 =dev-libs/girara-0.1.6-r200 ~amd64
+# required by chrome-binary-plugins:stable (argument)
+=www-plugins/chrome-binary-plugins-32.0.1700.107_p1 ~amd64

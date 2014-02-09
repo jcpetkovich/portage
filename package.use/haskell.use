@@ -26,7 +26,7 @@ dev-haskell/haskell-platform profile
 >=dev-haskell/monadcatchio-mtl-0.3.0.5 profile
 dev-haskell/monadcatchio-transformers profile
 dev-haskell/monads-tf profile
-=dev-haskell/hashable-1.1.2.5 profile
+dev-haskell/hashable profile
 >=dev-haskell/glut-2.5.0.1 profile
 >=dev-haskell/random-1.0.1.1-r1 profile
 >=dev-haskell/syb-0.4.1 profile
@@ -45,3 +45,4 @@ dev-haskell/unordered-containers profile
 >=dev-haskell/split-0.2.2 profile
 >=dev-haskell/async-2.0.1.4 profile
 dev-haskell/scientific profile
+dev-haskell/primitive profile
