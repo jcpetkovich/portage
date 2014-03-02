@@ -22,3 +22,5 @@
 =dev-libs/girara-0.1.6-r200 ~amd64
 # required by chrome-binary-plugins:stable (argument)
 =www-plugins/chrome-binary-plugins-32.0.1700.107_p1 ~amd64
+# required by structured-haskell-mode (argument)
+=app-emacs/structured-haskell-mode-9999 ~amd64
