@@ -4,3 +4,5 @@
 # ======================================================================
 app-text/texlive xetex extra science graphics
 app-text/texlive-core xetex
+
+app-editors/emacs gzip-el source Xaw3d
