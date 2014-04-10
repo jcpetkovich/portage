@@ -46,3 +46,4 @@ dev-haskell/unordered-containers profile
 >=dev-haskell/async-2.0.1.4 profile
 dev-haskell/scientific profile
 dev-haskell/primitive profile
+dev-haskell/tf-random profile
