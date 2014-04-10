@@ -4,8 +4,8 @@
 # ======================================================================
 
 =dev-libs/openssl-1.0.1e-r1 ~amd64
-=net-libs/gnutls-3.2.7 ~amd64
+net-libs/gnutls ~amd64
 =sys-libs/zlib-1.2.8-r1 ~amd64
-=dev-libs/nss-3.15.3 ~amd64
-=dev-libs/nspr-4.10.2 ~amd64
 =dev-db/mongodb-2.4.5 ~amd64
+=dev-libs/nss-3.16 ~amd64
+=dev-libs/nspr-4.10.4 ~amd64
