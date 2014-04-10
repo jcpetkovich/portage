@@ -51,6 +51,8 @@ dev-haskell/monadcatchio-mtl ~amd64
 dev-haskell/monadcatchio-transformers ~amd64
 dev-haskell/monads-tf ~amd64
 dev-haskell/scientific ~amd64
+dev-haskell/cpphs ~amd64
+dev-haskell/tf-random ~amd64
 
 # VCS
 dev-vcs/darcs ~amd64
