@@ -21,3 +21,5 @@ dev-python/ipython ~amd64
 
 # jedi
 dev-python/jedi ~amd64
+
+app-text/xlsx2csv ~amd64
