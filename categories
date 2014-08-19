@@ -1,2 +1,4 @@
 perl-gcpan
 cross-armv6j-hardfloat-linux-gnueabi
+cross-arm-hardfloat-linux-gnueabi
+cross-arm-softfloat-linux-gnueabi
