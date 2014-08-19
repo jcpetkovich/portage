@@ -13,4 +13,4 @@ app-shells/zsh caps examples
 app-shells/autojump zsh-completion
 sys-block/gparted fat ntfs -gtk
 sys-block/parted device-mapper
-dev-util/perf doc
+dev-util/perf doc unwind
