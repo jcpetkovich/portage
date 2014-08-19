@@ -24,3 +24,10 @@
 =www-plugins/chrome-binary-plugins-32.0.1700.107_p1 ~amd64
 # required by structured-haskell-mode (argument)
 =app-emacs/structured-haskell-mode-9999 ~amd64
+# required by chrome-binary-plugins (argument)
+=www-plugins/chrome-binary-plugins-36.0.1985.84_beta1 ~amd64
+# required by www-plugins/chrome-binary-plugins-36.0.1985.84_beta1
+# required by chrome-binary-plugins (argument)
+=www-client/chromium-36.0.1985.67 ~amd64
+# required by source-pro (argument)
+=media-fonts/source-pro-20130316 ~amd64
