@@ -3,7 +3,7 @@
 # Browser
 # ======================================================================
 
-www-client/firefox gnome wifi
+www-client/firefox gnome wifi hardened
 net-libs/xulrunner wifi
 dev-libs/libxml2 icu python
 media-libs/harfbuzz icu
