@@ -3,3 +3,4 @@
 # Chat
 # ======================================================================
 net-im/bitlbee debug otr
+media-libs/gst-plugins-base theora
