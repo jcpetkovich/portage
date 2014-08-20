@@ -10,7 +10,7 @@ virtual/ffmpeg threads
 media-libs/libsndfile -jack
 media-libs/gd fontconfig
 
-media-video/vlc -qt4 X a52 alsa dts dvd ffmpeg mp3 mpeg win32codecs ncurses opengl sdl -skins truetype wxwindows xv dts live matroska theora vorbis win32codecs aac aalib alsa arts esd fbcon ggi libcaca opengl oss png sdl speex svga xinerama xv x264 dvd udev
+media-video/vlc -qt4 X a52 alsa dts dvd ffmpeg mp3 mpeg win32codecs ncurses opengl sdl -skins truetype wxwindows xv dts live matroska theora vorbis win32codecs aac aalib alsa arts esd fbcon ggi libcaca opengl oss png sdl speex svga xinerama xv x264 dvd udev v4l
 =sys-libs/talloc-2.0.8 python
 x11-libs/wxGTK unicode X
 
