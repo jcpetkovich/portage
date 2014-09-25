@@ -32,7 +32,7 @@ dev-haskell/hunit ~amd64
 dev-haskell/monadcatchio-mtl ~amd64
 dev-haskell/monadcatchio-transformers ~amd64
 dev-haskell/monads-tf ~amd64
-=dev-haskell/mtl-2.1.3.1 ~amd64
+dev-haskell/mtl ~amd64
 dev-haskell/network ~amd64
 dev-haskell/objectname ~amd64
 dev-haskell/opengl ~amd64
@@ -58,6 +58,10 @@ dev-haskell/vector ~amd64
 dev-haskell/xhtml ~amd64
 dev-haskell/zlib ~amd64
 dev-lang/ghc ~amd64
+=dev-haskell/exceptions-0.6.1 ~amd64
+=dev-haskell/multipart-0.1.2 ~amd64
+=dev-haskell/transformers-0.4.1.0 ~amd64
+=dev-haskell/network-uri-2.6.0.1 ~amd64
 
 # VCS
 dev-vcs/darcs ~amd64
