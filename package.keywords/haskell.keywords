@@ -62,6 +62,9 @@ dev-lang/ghc ~amd64
 =dev-haskell/multipart-0.1.2 ~amd64
 =dev-haskell/transformers-0.4.1.0 ~amd64
 =dev-haskell/network-uri-2.6.0.1 ~amd64
+=dev-haskell/hpc-0.6.0.1 ~amd64
+=dev-haskell/primitive-0.5.3.0 ~amd64
+=dev-haskell/hashable-1.2.2.0 ~amd64
 
 # VCS
 dev-vcs/darcs ~amd64
