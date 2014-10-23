@@ -57,6 +57,11 @@ static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", colors[0][Col
 static const char *termcmd[]  = { "st", "-e", "/home/jcp/bin/st_tmux_wrap.sh", NULL };
 static const char *emacscmd[] = { "/home/jcp/bin/e", NULL };
 static const char *firefoxcmd[] = { "firefox", NULL };
+static const char *amixerpluscmd[] = { "amixer", "set", "Master", "5%+", "-q", NULL };
+static const char *amixerminuscmd[] = { "amixer", "set", "Master", "5%-", "-q", NULL };
+static const char *mpdtogglecmd[] = { "mpc", "toggle", NULL };
+static const char *mpdnextcmd[] = { "mpc", "next", NULL };
+static const char *mpdprevcmd[] = { "mpc", "prev", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -64,6 +69,11 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_e,      spawn,          {.v = emacscmd } },
 	{ MODKEY,                       XK_w,      spawn,          {.v = firefoxcmd } },
+	{ MODKEY,                       XK_equal,  spawn,          {.v = amixerpluscmd } },
+	{ MODKEY,                       XK_minus,  spawn,          {.v = amixerminuscmd } },
+	{ MODKEY,                       XK_Escape, spawn,          {.v = mpdtogglecmd } },
+	{ MODKEY,                       XK_F1,     spawn,          {.v = mpdprevcmd } },
+	{ MODKEY,                       XK_F2,     spawn,          {.v = mpdnextcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
