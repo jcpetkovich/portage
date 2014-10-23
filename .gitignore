@@ -1,4 +1,6 @@
 /bin
 /postsync.d
-/savedconfig
+/savedconfig/*
 /systemspecific
+
+!/savedconfig/x11-wm
