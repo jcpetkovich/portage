@@ -31,3 +31,9 @@
 =www-client/chromium-36.0.1985.67 ~amd64
 # required by source-pro (argument)
 =media-fonts/source-pro-20130316 ~amd64
+# required by google-chrome (argument)
+=www-client/google-chrome-38.0.2125.104_p1 ~amd64
+# required by =dev-libs/wayland-1.6.0 (argument)
+=dev-libs/wayland-1.6.0 ~amd64
+# required by =dev-libs/weston-1.6.0 (argument)
+=dev-libs/weston-1.6.0 ~amd64
