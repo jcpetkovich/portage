@@ -1,27 +1,28 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-#define NUMCOLORS 9
-static const char colors[NUMCOLORS][ColLast][9] = {
-// border foreground background
-{ "#212121", "#696969", "#121212" }, // 0 = normal
-{ "#696969", "#e0e0e0", "#121212" }, // 1 = selected
-{ "#212121", "#cf4f88", "#121212" }, // 2 = red
-{ "#212121", "#53a6a6", "#121212" }, // 3 = green
-{ "#212121", "#914e89", "#121212" }, // 4 = yellow
-{ "#212121", "#4779b3", "#121212" }, // 5 = blue
-{ "#212121", "#47959e", "#121212" }, // 6 = cyan
-{ "#212121", "#7e62b3", "#121212" }, // 7 = magenta
-{ "#212121", "#899ca1", "#121212" }, // 8 = grey
-};
-static const char font[] = "Sauce Code Powerline:pixelsize=14:style=Regular:spacing=100:scalable=true";
+static const char font[] = "Sauce Code Powerline 7";
+static const char normbordercolor[] = "#212121";
+static const char normbgcolor[]     = "#121212";
+static const char normfgcolor[]     = "#696969";
+static const char selbordercolor[]  = "#696969";
+static const char selbgcolor[]      = "#121212";
+static const char selfgcolor[]      = "#e0e0e0";
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
+
+/* Systray */
 static const unsigned int systrayspacing = 2;   /* systray spacing */
 static const Bool showsystray       = True;     /* False means no systray */
+
+/* Statusbar */
 static const Bool showbar           = True;     /* False means no bar */
 static const Bool topbar            = True;     /* False means bottom bar */
+static const Bool statusmarkup      = True;     /* True means use pango markup in status message */
+
+/* Dmenu */
 static const char dmenuhistoryfile[] = "/home/jcp/.dmenu.history";
+static char dmenufont[] = "Sauce Code Powerline:pixelsize=14:style=Regular:spacing=100:scalable=true";
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
@@ -56,7 +57,7 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
-static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", colors[0][ColBG], "-nf", colors[0][ColFG],"-sb", colors[1][ColBG], "-sf", colors[1][ColFG], "-hist", dmenuhistoryfile, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor,"-sb", selbgcolor, "-sf", selfgcolor, "-hist", dmenuhistoryfile, NULL };
 static const char *termcmd[]  = { "st", "-e", "/home/jcp/bin/st_tmux_wrap.sh", NULL };
 static const char *emacscmd[] = { "/home/jcp/bin/e", NULL };
 static const char *firefoxcmd[] = { "firefox", NULL };
