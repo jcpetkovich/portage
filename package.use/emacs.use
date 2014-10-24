@@ -5,4 +5,4 @@
 app-text/texlive xetex extra science graphics publishers
 app-text/texlive-core xetex
 
-app-editors/emacs gzip-el source Xaw3d
+app-editors/emacs gzip-el source Xaw3d libxml2
