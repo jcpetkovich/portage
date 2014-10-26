@@ -1,5 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
+#include "mpdcontrol.c"
+
 /* appearance */
 static const char font[] = "Sauce Code Powerline 7";
 static const char normbordercolor[] = "#212121";
@@ -12,7 +14,7 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 
 /* Systray */
-static const unsigned int systrayspacing = 2;   /* systray spacing */
+static const unsigned int systrayspacing = 0;   /* systray spacing */
 static const Bool showsystray       = True;     /* False means no systray */
 
 /* Statusbar */
@@ -63,9 +65,7 @@ static const char *emacscmd[] = { "/home/jcp/bin/e", NULL };
 static const char *firefoxcmd[] = { "firefox", NULL };
 static const char *amixerpluscmd[] = { "amixer", "set", "Master", "5%+", "-q", NULL };
 static const char *amixerminuscmd[] = { "amixer", "set", "Master", "5%-", "-q", NULL };
-static const char *mpdtogglecmd[] = { "mpc", "toggle", NULL };
-static const char *mpdnextcmd[] = { "mpc", "next", NULL };
-static const char *mpdprevcmd[] = { "mpc", "prev", NULL };
+static const char *slockcmd[] = { "slock", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -75,9 +75,10 @@ static Key keys[] = {
 	{ MODKEY,                       XK_w,      spawn,          {.v = firefoxcmd } },
 	{ MODKEY,                       XK_equal,  spawn,          {.v = amixerpluscmd } },
 	{ MODKEY,                       XK_minus,  spawn,          {.v = amixerminuscmd } },
-	{ MODKEY,                       XK_Escape, spawn,          {.v = mpdtogglecmd } },
-	{ MODKEY,                       XK_F1,     spawn,          {.v = mpdprevcmd } },
-	{ MODKEY,                       XK_F2,     spawn,          {.v = mpdnextcmd } },
+	{ MODKEY,                       XK_F1,     mpdchange,      {.i = -1} },
+	{ MODKEY,                       XK_F2,     mpdchange,      {.i = +1} },
+	{ MODKEY,                       XK_Escape, mpdcontrol,     {0} },
+	{ MODKEY|ShiftMask,             XK_l,      spawn,          {.v = slockcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
