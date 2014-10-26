@@ -3,4 +3,4 @@
 # Package Management
 # ======================================================================
 
-app-portage/layman subversion git mercurial darcs
+app-portage/layman subversion git mercurial
