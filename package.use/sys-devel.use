@@ -7,5 +7,5 @@
 sys-devel/gcc gcj
 
 # clang
-sys-devel/llvm clang python
+sys-devel/llvm clang python multitarget
 sys-devel/clang python
