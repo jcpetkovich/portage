@@ -1,2 +1,4 @@
 =app-admin/eselect-rust-0.2_pre20141011 ~amd64
-=dev-lang/rust-999-r1 **
+=virtual/rust-9999 **
+=dev-lang/rust-9999-r3 **
+=dev-rust/cargo-9999 **
