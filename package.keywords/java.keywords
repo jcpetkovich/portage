@@ -5,3 +5,4 @@
 media-libs/libpng ~amd64
 
 dev-java/icedtea ~amd64
+dev-java/icedtea-sound ~amd64
