@@ -3,7 +3,11 @@
 # Browser
 # ======================================================================
 
+# Firefox
 www-client/firefox gnome wifi hardened
 net-libs/xulrunner wifi
 dev-libs/libxml2 icu python
 media-libs/harfbuzz icu
+
+# Chromium
+dev-libs/protobuf -emacs
