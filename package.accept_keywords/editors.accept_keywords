@@ -1,2 +1,5 @@
-=app-editors/atom-9999 **
-=dev-util/atom-shell-9999 **
+# =app-editors/atom-9999 **
+# =dev-util/atom-shell-9999 **
+
+app-editors/atom ~amd64
+dev-util/atom-shell ~amd64
