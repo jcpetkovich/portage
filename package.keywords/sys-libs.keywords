@@ -7,8 +7,8 @@
 net-libs/gnutls ~amd64
 =sys-libs/zlib-1.2.8-r1 ~amd64
 =dev-db/mongodb-2.4.5 ~amd64
-=dev-libs/nss-3.17.1 ~amd64
-=dev-libs/nspr-4.10.6-r1 ~amd64
+=dev-libs/nss-3.17.3 ~amd64
+=dev-libs/nspr-4.10.7-r1 ~amd64
 =media-libs/mesa-10.2.7 ~amd64
 =net-libs/libotr-4.0.0 ~amd64
 
