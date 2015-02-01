@@ -3,3 +3,6 @@
 
 app-editors/atom ~amd64
 dev-util/atom-shell ~amd64
+net-libs/iojs ~amd64
+dev-libs/libuv ~amd64
+net-libs/http-parser ~amd64
