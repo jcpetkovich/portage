@@ -3,24 +3,13 @@
 # Developement - Python
 # ======================================================================
 
-=sci-mathematics/glpk-4.47 ~amd64
-
 # IPython
 dev-python/ipython ~amd64
-=dev-python/decorator-3.4.0-r1 ~amd64
-=dev-python/pexpect-2.4-r1 ~amd64
-=dev-python/pyopengl-3.0.2-r1 ~amd64
-=dev-python/simplegeneric-0.8.1-r1 ~amd64
-=dev-python/wxpython-2.9.4.1-r1 ~amd64
-=x11-libs/wxGTK-2.9.4.1 ~amd64
 dev-python/backports ~amd64
 dev-python/pyzmq ~amd64
 dev-python/backports-ssl-match-hostname ~amd64
 www-servers/tornado ~amd64
 dev-python/certifi ~amd64
-
-# csvkit
-=dev-python/openpyxl-1.6.2 ~amd64
 
 # jedi
 dev-python/jedi ~amd64
@@ -28,7 +17,28 @@ dev-python/tox ~amd64
 dev-python/virtualenv ~amd64
 dev-python/pip ~amd64
 
-app-text/xlsx2csv ~amd64
-
 # flake8
 dev-python/flake8 ~amd64
+
+# ======================================================================
+# Science
+# ======================================================================
+
+# csvkit
+=dev-python/python-dateutil-2.2 ~amd64
+dev-python/openpyxl ~amd64
+dev-python/ordereddict ~amd64
+dev-python/jdcal ~amd64
+
+# Core
+sci-libs/scipy ~amd64
+dev-python/numpy ~amd64
+dev-python/pandas ~amd64
+dev-python/sympy ~amd64
+dev-python/matplotlib ~amd64
+
+# Deps
+dev-python/pytables ~amd64
+dev-python/bottleneck ~amd64
+dev-libs/c-blosc ~amd64
+dev-python/mpmath ~amd64
