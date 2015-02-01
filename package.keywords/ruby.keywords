@@ -3,7 +3,7 @@
 # Developement - Ruby
 # ======================================================================
 #ruby-2.1
-dev-lang/ruby:2.1
+dev-lang/ruby:2.2
 
 #ruby-1.9
 dev-lang/ruby:1.9
@@ -15,11 +15,10 @@ dev-ruby/method_source ~amd64
 dev-ruby/ruby-debug ~amd64
 
 >=dev-ruby/racc-1.4.7 ~amd64
->=virtual/rubygems-4:ruby19 ~amd64
->=virtual/rubygems-4:ruby21 ~amd64
 >=dev-ruby/json-1.6.1 ~amd64
-=app-admin/eselect-ruby-20131227 ~amd64
 
-=dev-ruby/rdoc-4.0.1-r2 ~amd64 
-=dev-ruby/rake-10.3.2 ~amd64
-=dev-ruby/rubygems-2.0.14-r1 ~amd64     
+dev-ruby/rdoc ~amd64 
+app-admin/eselect-ruby ~amd64
+virtual/rubygems ~amd64
+dev-ruby/rake ~amd64
+dev-ruby/rubygems ~amd64     
