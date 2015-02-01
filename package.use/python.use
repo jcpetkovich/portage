@@ -7,3 +7,6 @@ dev-python/imaging tk
 
 # Don't screw up my python-mode please
 dev-python/ipython -emacs notebook
+
+# Science
+dev-python/numpy lapack
