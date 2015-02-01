@@ -1,0 +1,3 @@
+dev-python/PyQt4 webkit
+app-text/poppler qt4
+>=dev-libs/libxml2-2.9.2 -icu
