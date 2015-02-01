@@ -10,6 +10,6 @@ net-libs/gnutls ~amd64
 =dev-libs/nss-3.17.3 ~amd64
 =dev-libs/nspr-4.10.7-r1 ~amd64
 =media-libs/mesa-10.2.7 ~amd64
-=net-libs/libotr-4.0.0 ~amd64
+net-libs/libotr ~amd64
 
 =media-libs/lcms-2.6 ~amd64
