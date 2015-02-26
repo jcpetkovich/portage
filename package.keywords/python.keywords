@@ -10,6 +10,8 @@ dev-python/pyzmq ~amd64
 dev-python/backports-ssl-match-hostname ~amd64
 www-servers/tornado ~amd64
 dev-python/certifi ~amd64
+net-libs/zeromq ~amd64
+dev-libs/libsodium ~amd64
 
 # jedi
 dev-python/jedi ~amd64
