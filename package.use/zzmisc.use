@@ -3,3 +3,6 @@
 # Experimental
 # ======================================================================
 
+*/* abi_x86_32
+media-sound/pulseaudio abi_x86_32
+sys-apps/dbus abi_x86_32
