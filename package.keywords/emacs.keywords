@@ -7,8 +7,8 @@ virtual/emacs ~amd64
 app-editors/emacs ~amd64
 app-emacs/emacs-common-gentoo ~amd64
 app-emacs/eselect-mode ~amd64
-app-admin/eselect-emacs ~amd64
-app-admin/eselect-ctags ~amd64
+app-eselect/eselect-emacs ~amd64
+app-eselect/eselect-ctags ~amd64
 
 # Haskell Emacs Plugin
 app-emacs/ghc-mod ~amd64
