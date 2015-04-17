@@ -21,7 +21,7 @@ dev-ruby/ruby-debug ~amd64
 >=dev-ruby/json-1.6.1 ~amd64
 
 dev-ruby/rdoc ~amd64 
-app-admin/eselect-ruby ~amd64
+app-eselect/eselect-ruby ~amd64
 virtual/rubygems ~amd64
 dev-ruby/rake ~amd64
 dev-ruby/rubygems ~amd64     

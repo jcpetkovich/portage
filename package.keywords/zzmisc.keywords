@@ -28,3 +28,5 @@
 =dev-libs/wayland-1.6.0 ~amd64
 # required by =dev-libs/weston-1.6.0 (argument)
 =dev-libs/weston-1.6.0 ~amd64
+# required by unhide (argument)
+=app-forensics/unhide-20130526 ~amd64

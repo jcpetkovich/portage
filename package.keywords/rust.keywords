@@ -3,4 +3,4 @@
 # Development - Rust
 # ======================================================================
 
-app-admin/eselect-rust ~amd64
+app-eselect/eselect-rust ~amd64
