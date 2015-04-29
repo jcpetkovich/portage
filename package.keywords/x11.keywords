@@ -2,10 +2,9 @@
 # ======================================================================
 # X Interface
 # ======================================================================
-# Xmonad and haskell
-x11-wm/xmonad-contrib ~amd64
-x11-wm/xmonad ~amd64
-dev-haskell/x11 ~amd64
+
+# xorg
+=x11-base/xorg-server-1.16.4-r1 ~amd64
 
 # Status bar
 x11-misc/dzen ~amd64
@@ -21,7 +20,5 @@ x11-misc/arandr ~amd64
 
 # Notification daemon
 x11-misc/dunst ~amd64
-
 =x11-libs/wxGTK-2.9.4.1-r1 ~amd64
-
 =x11-libs/libdrm-2.4.54 ~amd64

@@ -9,7 +9,12 @@ net-libs/gnutls ~amd64
 =dev-db/mongodb-2.4.5 ~amd64
 =dev-libs/nss-3.17.4 ~amd64
 =dev-libs/nspr-4.10.7-r1 ~amd64
-=media-libs/mesa-10.2.7 ~amd64
 net-libs/libotr ~amd64
 
 =media-libs/lcms-2.6 ~amd64
+
+
+# Graphics
+media-libs/mesa ~amd64
+app-eselect/eselect-opengl ~amd64
+x11-proto/glproto ~amd64
