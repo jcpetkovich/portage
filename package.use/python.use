@@ -10,3 +10,4 @@ dev-python/ipython -emacs notebook
 
 # Science
 dev-python/numpy lapack
+dev-libs/c-blosc hdf5
