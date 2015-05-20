@@ -48,3 +48,4 @@ dev-python/pytables ~amd64
 dev-python/bottleneck ~amd64
 dev-libs/c-blosc ~amd64
 dev-python/mpmath ~amd64
+dev-python/asyncio ~amd64
