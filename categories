@@ -3,3 +3,4 @@ cross-armv6j-hardfloat-linux-gnueabi
 cross-arm-hardfloat-linux-gnueabi
 cross-arm-softfloat-linux-gnueabi
 cross-armv7a-hardfloat-linux-gnueabihf
+cross-armv7a-hardfloat-linux-gnueabi
