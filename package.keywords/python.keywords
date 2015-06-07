@@ -18,6 +18,7 @@ net-libs/zeromq ~amd64
 dev-libs/libsodium ~amd64
 dev-python/mistune ~amd64
 dev-python/terminado ~amd64
+dev-python/ptyprocess ~amd64
 
 # jedi
 dev-python/jedi ~amd64
