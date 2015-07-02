@@ -3,7 +3,7 @@
 # System libs
 # ======================================================================
 
-=dev-libs/openssl-1.0.2a ~amd64
+dev-libs/openssl ~amd64
 net-libs/gnutls ~amd64
 =sys-libs/zlib-1.2.8-r1 ~amd64
 =dev-db/mongodb-2.4.5 ~amd64
