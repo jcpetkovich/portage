@@ -6,4 +6,4 @@
 # clang
 sys-devel/llvm ~amd64
 sys-devel/clang ~amd64
-=sys-devel/gcc-4.8.2 ~amd64
+sys-devel/gcc ~amd64
