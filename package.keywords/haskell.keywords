@@ -3,6 +3,9 @@
 # Development - Haskell
 # ======================================================================
 
+# Haskell Development
+dev-haskell/stack ~amd64
+
 # Haskell Platform
 app-admin/haskell-updater ~amd64
 dev-haskell/alex ~amd64

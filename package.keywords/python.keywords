@@ -5,6 +5,7 @@
 
 # Basic Python Dev
 dev-python/virtualenv ~amd64
+dev-python/virtualenvwrapper ~amd64
 dev-python/pip ~amd64
 
 # IPython
@@ -26,6 +27,7 @@ dev-python/tox ~amd64
 
 # flake8
 dev-python/flake8 ~amd64
+dev-python/autopep8 ~amd64
 
 # ======================================================================
 # Science
