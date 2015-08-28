@@ -5,6 +5,7 @@
 
 # Teriminal emulator
 =x11-terms/st-0.5 ~amd64
+=x11-terms/st-0.6-r1 ~amd64
 
 # Shell
 app-shells/zsh ~amd64

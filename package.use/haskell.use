@@ -50,3 +50,6 @@ dev-haskell/tf-random profile
 dev-haskell/exceptions profile
 dev-haskell/multipart profile
 dev-haskell/network-uri profile
+
+dev-haskell/binary profile
+dev-haskell/transformers-compat profile

@@ -18,3 +18,7 @@ net-libs/libotr ~amd64
 media-libs/mesa ~amd64
 app-eselect/eselect-opengl ~amd64
 x11-proto/glproto ~amd64
+
+# Terminal graphics
+# =sys-libs/ncurses-5.9-r100 ~amd64
+sys-libs/ncurses ~amd64

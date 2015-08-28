@@ -6,3 +6,5 @@ sys-firmware/iwl5000-ucode
 # masked because of broken optimizations
 =sys-devel/gcc-4.8.3
 =sys-devel/gcc-4.9.1
+
+# =net-libs/iojs-3.0.0

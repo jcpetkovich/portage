@@ -52,3 +52,15 @@ dev-python/bottleneck ~amd64
 dev-libs/c-blosc ~amd64
 dev-python/mpmath ~amd64
 dev-python/asyncio ~amd64
+
+# More deps
+dev-python/setuptools ~amd64
+dev-python/requests ~amd64
+dev-python/distlib ~amd64
+dev-python/colorama ~amd64
+dev-python/progress ~amd64
+dev-python/retrying ~amd64
+dev-python/html5lib ~amd64
+dev-python/CacheControl ~amd64
+dev-python/lockfile ~amd64
+dev-python/packaging ~amd64
