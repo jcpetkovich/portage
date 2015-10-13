@@ -8,3 +8,7 @@ sys-firmware/iwl5000-ucode
 =sys-devel/gcc-4.9.1
 
 # =net-libs/iojs-3.0.0
+
+# masked because of __stack_chk_fail related bug
+=sys-devel/llvm-3.7.0-r1
+=sys-devel/llvm-3.7.0

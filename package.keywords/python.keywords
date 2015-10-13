@@ -7,6 +7,7 @@
 dev-python/virtualenv ~amd64
 dev-python/virtualenvwrapper ~amd64
 dev-python/pip ~amd64
+dev-python/ndg-httpsclient ~amd64
 
 # IPython
 dev-python/ipython ~amd64
@@ -64,3 +65,4 @@ dev-python/html5lib ~amd64
 dev-python/CacheControl ~amd64
 dev-python/lockfile ~amd64
 dev-python/packaging ~amd64
+app-misc/c_rehash ~amd64
