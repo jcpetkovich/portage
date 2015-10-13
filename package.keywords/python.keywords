@@ -66,3 +66,17 @@ dev-python/CacheControl ~amd64
 dev-python/lockfile ~amd64
 dev-python/packaging ~amd64
 app-misc/c_rehash ~amd64
+
+=dev-python/path-py-8.1.1 ~amd64
+=dev-python/ipywidgets-4.0.3 ~amd64
+=dev-python/traitlets-4.0.0 ~amd64
+=dev-python/jupyter_core-4.0.6 ~amd64
+=dev-python/ipykernel-4.1.0 ~amd64
+=dev-python/jupyter_client-4.1.1 ~amd64
+=dev-python/ipython_genutils-0.1.0 ~amd64
+=dev-python/nbconvert-4.0.0-r1 ~amd64
+=dev-libs/mathjax-2.5.3 ~amd64
+=dev-python/notebook-4.0.5 ~amd64
+=dev-python/pickleshare-0.5 ~amd64
+=dev-python/ipyparallel-4.0.2-r1 ~amd64
+=dev-python/nbformat-4.0.1 ~amd64
