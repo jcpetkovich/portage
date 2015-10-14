@@ -80,3 +80,8 @@ app-misc/c_rehash ~amd64
 =dev-python/pickleshare-0.5 ~amd64
 =dev-python/ipyparallel-4.0.2-r1 ~amd64
 =dev-python/nbformat-4.0.1 ~amd64
+
+# Jupyter
+=dev-python/qtconsole-4.0.1-r1 ~amd64
+=dev-python/jupyter_console-4.0.3 ~amd64
+=dev-python/jupyter-1.0.0 ~amd64
