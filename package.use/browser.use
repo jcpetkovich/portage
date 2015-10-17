@@ -11,3 +11,6 @@ media-libs/harfbuzz icu
 
 # Chromium
 dev-libs/protobuf -emacs
+
+# Uzbl
+www-client/uzbl gtk3
