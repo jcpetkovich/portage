@@ -13,4 +13,10 @@ media-libs/harfbuzz icu
 dev-libs/protobuf -emacs
 
 # Uzbl
-www-client/uzbl gtk3
+www-client/uzbl gtk3 experimental helpers
+
+# qutebrowser
+dev-python/PyQt5 webkit
+dev-qt/qtcore icu
+dev-qt/qtwebkit printsupport
+dev-libs/libpcre pcre16

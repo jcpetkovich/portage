@@ -3,7 +3,7 @@
 #include "mpdcontrol.c"
 
 /* appearance */
-static const char font[] = "Sauce Code Powerline 7";
+static const char font[] = "Sauce Code Powerline 6";
 static const char normbordercolor[] = "#212121";
 static const char normbgcolor[]     = "#121212";
 static const char normfgcolor[]     = "#696969";
