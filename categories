@@ -5,4 +5,3 @@ cross-arm-softfloat-linux-gnueabi
 cross-armv7a-hardfloat-linux-gnueabihf
 cross-armv7a-hardfloat-linux-gnueabi
 cross-i586-pc-linux-gnu
-cross-mipsel-unknown-linux-gnu
