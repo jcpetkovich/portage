@@ -2,6 +2,7 @@ sci-libs/openblas ~amd64
 sci-libs/lapack-reference ~amd64
 sci-libs/armadillo ~amd64
 sci-libs/gsl ~amd64
+sci-libs/superlu_mt ~amd64
 virtual/blas ~amd64
 virtual/cblas ~amd64
 virtual/lapack ~amd64

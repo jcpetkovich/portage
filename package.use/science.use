@@ -1,7 +1,9 @@
 sci-libs/openblas threads int64 -abi_x86_32
 sci-libs/lapack-reference int64 -abi_x86_32
-sci-libs/armadillo blas lapack
+sci-libs/armadillo blas lapack arpack superlu
 sci-libs/gsl -abi_x86_32
+sys-cluster/openmpi romio threads heterogeneous
 virtual/blas int64 -abi_x86_32
 virtual/cblas int64 -abi_x86_32
 virtual/lapack int64 -abi_x86_32
+virtual/mpi romio threads
