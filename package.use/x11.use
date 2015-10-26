@@ -11,7 +11,3 @@ x11-misc/dzen xft xpm
 
 # zathura
 app-text/zathura-meta cb djvu pdf postscript
-
-# Qt
-
-x11-themes/qtcurve qt4
