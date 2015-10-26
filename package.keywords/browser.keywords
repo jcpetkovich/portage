@@ -36,3 +36,5 @@ package.use/science.use
 =dev-qt/qtgui-5.5.1 ~amd64
 =dev-qt/qtcore-4.8.7-r1 ~amd64
 =dev-qt/qtprintsupport-5.5.1 ~amd64
+=dev-qt/qtxml-5.5.1 ~amd64
+=dev-qt/qttest-5.5.1 ~amd64
