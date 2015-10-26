@@ -31,4 +31,4 @@ app-text/zathura-meta ~amd64
 app-text/zathura-pdf-poppler ~amd64
 app-text/zathura-ps ~amd64
 dev-libs/girara ~amd64
-app-text/ghostscript-gpl ~amd64
+# app-text/ghostscript-gpl ~amd64
