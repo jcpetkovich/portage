@@ -39,3 +39,4 @@ package.use/science.use
 =dev-qt/qtxml-5.5.1 ~amd64
 =dev-qt/qttest-5.5.1 ~amd64
 =dev-qt/qtsvg-5.5.1 ~amd64
+=dev-qt/qtdeclarative-5.5.1 ~amd64
