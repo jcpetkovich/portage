@@ -20,3 +20,19 @@ www-client/uzbl ~amd64
 =dev-python/pygments-2.0.2 ~amd64
 =dev-python/pypeg2-2.15.1 ~amd64
 dev-qt/qtwebkit ~amd64
+
+package.use/science.use
+
+=dev-qt/qtsql-5.5.1 ~amd64
+=dev-qt/qtcore-5.5.1 ~amd64
+=dev-qt/qttranslations-4.8.7 ~amd64
+=dev-qt/qtscript-4.8.7 ~amd64
+=dev-qt/qtgui-4.8.7 ~amd64
+=dev-qt/qtxmlpatterns-4.8.7 ~amd64
+=dev-qt/qtdbus-5.5.1 ~amd64
+=dev-qt/qtnetwork-5.5.1 ~amd64
+=dev-qt/qtwidgets-5.5.1 ~amd64
+=dev-qt/qtopengl-5.5.1 ~amd64
+=dev-qt/qtgui-5.5.1 ~amd64
+=dev-qt/qtcore-4.8.7-r1 ~amd64
+=dev-qt/qtprintsupport-5.5.1 ~amd64
