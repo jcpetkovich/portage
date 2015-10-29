@@ -4,7 +4,7 @@
 # ======================================================================
 
 # xorg
-=x11-base/xorg-server-1.16.4-r1 ~amd64
+x11-base/xorg-server ~amd64
 
 # Status bar
 x11-misc/dzen ~amd64
