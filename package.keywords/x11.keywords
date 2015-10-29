@@ -5,6 +5,7 @@
 
 # xorg
 x11-base/xorg-server ~amd64
+x11-base/xorg-drivers ~amd64
 
 # Status bar
 x11-misc/dzen ~amd64
