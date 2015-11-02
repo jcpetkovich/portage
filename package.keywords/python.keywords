@@ -46,6 +46,8 @@ dev-python/numpy ~amd64
 dev-python/pandas ~amd64
 dev-python/sympy ~amd64
 dev-python/matplotlib ~amd64
+dev-python/versioneer ~amd64
+dev-python/cycler ~amd64
 
 # Deps
 dev-python/pytables ~amd64
