@@ -4,8 +4,7 @@
 # ======================================================================
 
 # Firefox
-www-client/firefox gnome wifi hardened
-net-libs/xulrunner wifi
+www-client/firefox gnome hardened
 dev-libs/libxml2 icu python
 media-libs/harfbuzz icu
 
