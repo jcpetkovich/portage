@@ -1,0 +1,8 @@
+dev-python/jupyter
+sci-libs/scikits_image
+sci-libs/scikits_learn
+sci-libs/scipy
+dev-python/sympy
+dev-python/pandas
+dev-python/numpy
+dev-python/matplotlib
