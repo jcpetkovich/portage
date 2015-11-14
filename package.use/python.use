@@ -9,5 +9,7 @@ dev-python/imaging tk
 dev-python/ipython -emacs notebook
 
 # Science
-dev-python/numpy lapack
 dev-libs/c-blosc hdf5
+sci-libs/scipy sparse
+dev-python/numpy lapack
+dev-python/mpmath gmp

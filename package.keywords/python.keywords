@@ -93,3 +93,5 @@ dev-python/notebook ~amd64
 =dev-python/qtconsole-4.0.1-r1 ~amd64
 =dev-python/jupyter_console-4.0.3 ~amd64
 =dev-python/jupyter-1.0.0 ~amd64
+=virtual/python-backports_abc-0 ~amd64
+=dev-python/backports-abc-0.4 ~amd64
