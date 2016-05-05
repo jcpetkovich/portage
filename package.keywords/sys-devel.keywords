@@ -7,3 +7,6 @@
 sys-devel/llvm ~amd64
 sys-devel/clang ~amd64
 sys-devel/gcc ~amd64
+
+# texinfo
+sys-devel/gettext ~amd64
