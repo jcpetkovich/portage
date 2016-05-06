@@ -12,4 +12,27 @@ dev-lang/perl ~amd64
 virtual/perl-ExtUtils-ParseXS ~amd64
 perl-core/ExtUtils-ParseXS ~amd64
 app-portage/g-cpan ~amd64
+perl-core/Encode ~amd64
+
 virtual/perl-Test-Harness ~amd64
+virtual/perl-ExtUtils-Manifest ~amd64
+virtual/perl-File-Spec ~amd64
+virtual/perl-ExtUtils-MakeMaker ~amd64
+virtual/perl-ExtUtils-CBuilder ~amd64
+virtual/perl-ExtUtils-Install ~amd64
+virtual/perl-Getopt-Long ~amd64
+virtual/perl-Perl-OSType ~amd64
+virtual/perl-Digest-MD5 ~amd64
+virtual/perl-Digest-SHA ~amd64
+virtual/perl-Scalar-List-Utils ~amd64
+virtual/perl-Text-ParseWords ~amd64
+virtual/perl-MIME-Base64 ~amd64
+virtual/perl-Encode ~amd64
+virtual/perl-IO ~amd64
+virtual/perl-Compress-Raw-Bzip2 ~amd64
+virtual/perl-Carp ~amd64
+virtual/perl-Storable ~amd64
+virtual/perl-Compress-Raw-Zlib ~amd64
+virtual/perl-IO-Compress ~amd64
+virtual/perl-Exporter ~amd64
+
