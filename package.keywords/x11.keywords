@@ -22,5 +22,5 @@ x11-misc/arandr ~amd64
 
 # Notification daemon
 x11-misc/dunst ~amd64
-=x11-libs/wxGTK-2.9.4.1-r1 ~amd64
+x11-libs/wxGTK ~amd64
 x11-libs/libdrm ~amd64

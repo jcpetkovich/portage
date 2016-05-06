@@ -22,13 +22,3 @@ dev-haskell/transformers-base ~amd64
 dev-haskell/convertible ~amd64
 dev-haskell/io-choice ~amd64
 dev-haskell/base-unicode-symbols ~amd64
-
-
-app-text/zathura ~amd64
-app-text/zathura-cb ~amd64
-app-text/zathura-djvu ~amd64
-app-text/zathura-meta ~amd64
-app-text/zathura-pdf-poppler ~amd64
-app-text/zathura-ps ~amd64
-dev-libs/girara ~amd64
-# app-text/ghostscript-gpl ~amd64

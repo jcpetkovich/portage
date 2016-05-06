@@ -1,4 +1,3 @@
-
 dev-libs/libtasn1 ~amd64
 dev-libs/nettle ~amd64
 app-admin/pass ~amd64
