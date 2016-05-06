@@ -21,3 +21,6 @@ dev-qt/qtcore icu
 dev-qt/qtwebkit printsupport gstreamer
 dev-libs/libpcre pcre16
 media-plugins/gst-plugins-meta dv dvb ffmpeg http lame libass mms opus taglib theora v4l vcd vpx wavpack
+sys-libs/ntdb python
+sys-libs/tevent python
+sys-libs/tdb python
