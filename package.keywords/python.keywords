@@ -28,3 +28,8 @@ dev-python/jupyter ~amd64
 sci-libs/scikits ~amd64
 sci-libs/scikits_learn ~amd64
 sci-libs/scikits_image ~amd64
+
+# deps
+dev-python/versioneer ~amd64
+dev-python/cython ~amd64
+dev-python/cycler ~amd64
