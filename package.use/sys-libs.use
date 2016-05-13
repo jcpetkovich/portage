@@ -16,3 +16,4 @@ sys-fs/udev gudev
 
 net-fs/cifs-utils upcall ads
 net-fs/samba winbind ldap
+sys-libs/ncurses tinfo
