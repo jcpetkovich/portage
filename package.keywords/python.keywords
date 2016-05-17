@@ -50,3 +50,5 @@ dev-python/notebook ~amd64
 dev-python/mpmath ~amd64
 dev-python/ipython_genutils ~amd64
 dev-python/ipykernel ~amd64
+dev-python/entrypoints ~amd64
+dev-python/widgetsnbextension ~amd64
