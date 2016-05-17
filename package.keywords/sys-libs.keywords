@@ -20,4 +20,5 @@ app-eselect/eselect-opengl ~amd64
 x11-proto/glproto ~amd64
 
 # Terminal graphics
-sys-libs/ncurses ~amd64
+sys-libs/ncurses:0 ~amd64
+=sys-libs/ncurses-5.9-r101 ~amd64
