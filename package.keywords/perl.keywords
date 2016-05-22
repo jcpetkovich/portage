@@ -35,4 +35,8 @@ virtual/perl-Storable ~amd64
 virtual/perl-Compress-Raw-Zlib ~amd64
 virtual/perl-IO-Compress ~amd64
 virtual/perl-Exporter ~amd64
+virtual/perl-version ~amd64
+virtual/perl-Parse-CPAN-Meta ~amd64
+virtual/perl-CPAN-Meta-YAML ~amd64
+virtual/perl-CPAN-Meta-Requirements ~amd64
 
