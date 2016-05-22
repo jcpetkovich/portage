@@ -37,6 +37,7 @@ virtual/perl-IO-Compress ~amd64
 virtual/perl-Exporter ~amd64
 virtual/perl-version ~amd64
 virtual/perl-Parse-CPAN-Meta ~amd64
+virtual/perl-CPAN-Meta ~amd64
 virtual/perl-CPAN-Meta-YAML ~amd64
 virtual/perl-CPAN-Meta-Requirements ~amd64
 virtual/perl-Module-Metadata ~amd64
