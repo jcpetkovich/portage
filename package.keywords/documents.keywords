@@ -7,3 +7,10 @@
 =app-text/zathura-pdf-mupdf-9999 **
 =app-text/zathura-ps-9999 **
 =dev-libs/girara-9999 **
+
+app-text/dvipsk ~amd64
+dev-tex/bibtexu ~amd64
+app-text/texlive-core ~amd64
+dev-libs/kpathsea ~amd64
+app-text/teckit ~amd64
+app-text/ps2pkm ~amd64
