@@ -5,3 +5,4 @@ sci-libs/gsl ~amd64
 virtual/blas ~amd64
 virtual/cblas ~amd64
 virtual/lapack ~amd64
+sci-mathematics/jags ~amd64
