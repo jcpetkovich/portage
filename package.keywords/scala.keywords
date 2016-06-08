@@ -1,1 +1,2 @@
 sci-libs/scalapack ~amd64
+virtual/scalapack ~amd64
