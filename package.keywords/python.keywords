@@ -54,3 +54,4 @@ dev-python/entrypoints ~amd64
 dev-python/widgetsnbextension ~amd64
 dev-python/wcwidth ~amd64
 dev-python/prompt_toolkit ~amd64
+dev-python/backports-shutil_get_terminal_size ~amd64
