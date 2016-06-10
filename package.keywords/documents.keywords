@@ -14,3 +14,6 @@ app-text/texlive-core ~amd64
 dev-libs/kpathsea ~amd64
 app-text/teckit ~amd64
 app-text/ps2pkm ~amd64
+
+# libreoffice
+net-libs/neon ~amd64
