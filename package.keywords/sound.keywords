@@ -1,3 +1,4 @@
 media-sound/pulseaudio ~amd64
 dev-libs/libltdl ~amd64
 sys-devel/libtool ~amd64
+media-libs/webrtc-audio-processing ~amd64
