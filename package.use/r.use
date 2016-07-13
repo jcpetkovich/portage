@@ -1,2 +1,2 @@
 dev-lang/R java lapack
-sci-libs/gsl cblas-external
+sci-libs/gsl -cblas-external
