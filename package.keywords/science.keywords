@@ -6,3 +6,6 @@ virtual/blas ~amd64
 virtual/cblas ~amd64
 virtual/lapack ~amd64
 sci-mathematics/jags ~amd64
+
+sci-libs/hdf5 ~amd64
+sci-libs/matio ~amd64
