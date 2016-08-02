@@ -8,3 +8,5 @@ virtual/blas int64 -abi_x86_32
 virtual/cblas int64 -abi_x86_32
 virtual/lapack int64 -abi_x86_32
 virtual/mpi romio threads
+
+sci-libs/matio hdf5
