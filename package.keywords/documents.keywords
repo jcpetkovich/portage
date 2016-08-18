@@ -15,5 +15,7 @@ dev-libs/kpathsea ~amd64
 app-text/teckit ~amd64
 app-text/ps2pkm ~amd64
 
+app-text/mupdf ~amd64
+
 # libreoffice
 net-libs/neon ~amd64
