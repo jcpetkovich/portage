@@ -36,4 +36,6 @@ x11-libs/gtk+ ~amd64
 x11-libs/gdk-pixbuf ~amd64
 dev-libs/gobject-introspection ~amd64
 dev-libs/glib ~amd64
+dev-util/gdbus-codegen ~amd64
+
 
