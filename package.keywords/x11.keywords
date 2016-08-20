@@ -30,3 +30,10 @@ x11-misc/rofi ~amd64
 x11-misc/dmenu **
 x11-misc/xdotool ~amd64
 x11-misc/gpaste ~amd64
+
+dev-libs/gobject-introspection-common ~amd64
+x11-libs/gtk+ ~amd64
+x11-libs/gdk-pixbuf ~amd64
+dev-libs/gobject-introspection ~amd64
+dev-libs/glib ~amd64
+
