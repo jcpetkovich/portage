@@ -28,3 +28,4 @@ x11-libs/libdrm ~amd64
 # dmenu
 x11-misc/rofi ~amd64
 x11-misc/dmenu **
+x11-misc/xdotool ~amd64
