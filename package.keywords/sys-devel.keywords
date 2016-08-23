@@ -9,3 +9,6 @@ sys-devel/gcc ~amd64
 
 # texinfo
 sys-devel/gettext ~amd64
+
+# gdb
+sys-devel/gdb ~amd64
