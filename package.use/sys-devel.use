@@ -9,3 +9,6 @@ sys-devel/gcc gcj
 # clang
 sys-devel/llvm clang python multitarget
 sys-devel/clang python
+
+# gdb
+sys-devel/gdb expat lzma
