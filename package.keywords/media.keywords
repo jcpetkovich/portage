@@ -1,3 +1,4 @@
 net-misc/youtube-dl ~amd64
 dev-python/certifi ~amd64
 media-video/ffcast ~amd64
+media-plugins/gst-plugins-libav ~amd64

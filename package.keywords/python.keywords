@@ -55,3 +55,8 @@ dev-python/widgetsnbextension ~amd64
 dev-python/wcwidth ~amd64
 dev-python/prompt_toolkit ~amd64
 dev-python/backports-shutil_get_terminal_size ~amd64
+dev-python/vcversioner ~amd64
+dev-python/strict-rfc3339 ~amd64
+dev-python/functools32 ~amd64
+dev-python/jsonschema ~amd64
+dev-python/webcolors ~amd64
