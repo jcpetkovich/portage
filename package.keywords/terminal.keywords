@@ -9,6 +9,7 @@
 
 # Shell
 app-shells/zsh ~amd64
+app-shells/dash ~amd64
 app-doc/zsh-lovers ~amd64
 
 # Utilities
