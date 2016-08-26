@@ -38,3 +38,4 @@ dev-libs/gobject-introspection ~amd64
 dev-libs/glib ~amd64
 dev-util/gdbus-codegen ~amd64
 x11-libs/xcb-util-xrm ~amd64
+x11-wm/herbstluftwm ~amd64
