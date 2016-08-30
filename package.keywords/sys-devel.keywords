@@ -12,3 +12,6 @@ sys-devel/gettext ~amd64
 
 # gdb
 sys-devel/gdb ~amd64
+
+# git
+dev-vcs/git ~amd64
