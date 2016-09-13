@@ -4,6 +4,7 @@
 # ======================================================================
 www-client/firefox ~amd64
 www-plugins/adobe-flash ~amd64
+www-plugins/freshplayerplugin ~amd64
 www-plugins/google-talkplugin ~amd64
 
 # To verify our site works on chrome
