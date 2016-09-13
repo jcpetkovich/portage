@@ -1,0 +1,21 @@
+diff -Naur vpnc-scripts-20140806/vpnc-script vpnc-scripts-20140806-new/vpnc-script
+--- vpnc-scripts-20140806/vpnc-script	2014-08-05 09:38:58.000000000 -0400
++++ vpnc-scripts-20140806-new/vpnc-script	2016-01-08 15:47:56.030008969 -0500
+@@ -795,8 +795,15 @@
+ 		;;
+ 	reconnect)
+ 		run_hooks reconnect
+-		;;
+-	*)
++    ;;
++  reconnecting)
++    # hack to restore route to gateway
++    get_default_gw() {
++        netstat -r -n | awk '/:/ { next; } /^(default|0\.0\.0\.0)/ { print $2; }'
++    }
++    route add -host "$VPNGATEWAY" $route_syntax_gw "`get_default_gw`"
++    ;;
++  *)
+ 		echo "unknown reason '$reason'. Maybe vpnc-script is out of date" 1>&2
+ 		exit 1
+ 		;;

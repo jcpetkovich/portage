@@ -1,0 +1,11 @@
+diff -Naur openconnect-7.06/cstp.c openconnect-7.06-new/cstp.c
+--- openconnect-7.06/cstp.c	2015-02-28 11:14:03.000000000 -0500
++++ openconnect-7.06-new/cstp.c	2016-01-08 13:23:02.800004824 -0500
+@@ -672,6 +672,7 @@
+ 		deflateEnd(&vpninfo->deflate_strm);
+ 	}
+ 
++  script_config_tun(vpninfo, "reconnecting");
+ 	return ssl_reconnect(vpninfo);
+ }
+ 
