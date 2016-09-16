@@ -43,3 +43,4 @@ virtual/perl-CPAN-Meta-Requirements ~amd64
 virtual/perl-Module-Metadata ~amd64
 virtual/perl-parent ~amd64
 virtual/perl-Data-Dumper ~amd64
+virtual/perl-libnet ~amd64
