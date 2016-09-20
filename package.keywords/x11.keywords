@@ -8,6 +8,9 @@ x11-base/xorg-server ~amd64
 x11-base/xorg-drivers ~amd64
 x11-drivers/xf86-input-evdev ~amd64
 
+# composit
+x11-misc/compton **
+
 # Status bar
 x11-misc/dzen ~amd64
 
