@@ -79,6 +79,7 @@ media-plugins/gst-plugins-dvdread ~amd64
 media-plugins/gst-plugins-mpeg2dec ~amd64
 media-plugins/gst-plugins-faad ~amd64
 media-plugins/gst-plugins-a52dec ~amd64
+media-plugins/gst-plugins-vaapi ~amd64
 
 # surf
 www-client/surf ~amd64
