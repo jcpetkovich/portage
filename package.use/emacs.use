@@ -6,4 +6,4 @@ app-text/texlive xetex extra science graphics publishers
 app-text/texlive-core xetex
 
 # TODO: minus cairo for now, seems broken/experimental
-app-editors/emacs gzip-el source Xaw3d libxml2 -cairo
+app-editors/emacs gzip-el source Xaw3d libxml2 -cairo m17n-lib
