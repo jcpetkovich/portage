@@ -8,6 +8,7 @@ dev-libs/boost python
 net-libs/rb_libtorrent python
 media-fonts/dejavu fontforge
 x11-misc/dzen xft xpm
+x11-wm/swm savedconfig
 
 # zathura
 app-text/zathura-meta cb djvu pdf postscript
