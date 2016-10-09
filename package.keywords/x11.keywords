@@ -46,3 +46,6 @@ x11-wm/bspwm ~amd64
 
 # keybindings
 x11-misc/sxhkd ~amd64
+
+# gnome
+x11-themes/gtk-engines-adwaita ~amd64
