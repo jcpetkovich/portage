@@ -49,3 +49,4 @@ x11-misc/sxhkd ~amd64
 
 # gnome
 x11-themes/gtk-engines-adwaita ~amd64
+x11-themes/gnome-themes-standard ~amd64
