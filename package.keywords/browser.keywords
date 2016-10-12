@@ -25,6 +25,7 @@ dev-python/PyQt5 ~amd64
 media-libs/freetype ~amd64
 dev-python/sip ~amd64
 
+dev-qt/qtbluetooth ~amd64
 dev-qt/qtsql ~amd64
 dev-qt/qtcore ~amd64
 dev-qt/qttranslations ~amd64
