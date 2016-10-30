@@ -7,6 +7,11 @@ sys-devel/llvm ~amd64
 sys-devel/clang ~amd64
 sys-devel/gcc ~amd64
 
+# build
+dev-util/cmake ~amd64
+sys-devel/clang-runtime ~amd64
+sys-libs/libomp ~amd64
+
 # texinfo
 sys-devel/gettext ~amd64
 
