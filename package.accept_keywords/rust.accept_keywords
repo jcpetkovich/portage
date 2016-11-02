@@ -1,3 +1,4 @@
 virtual/rust ~amd64
 dev-lang/rust ~amd64
+dev-lang/rust-bin ~amd64
 dev-util/cargo ~amd64
