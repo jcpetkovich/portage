@@ -13,3 +13,4 @@ dev-libs/c-blosc hdf5
 sci-libs/scipy sparse
 dev-python/numpy lapack
 dev-python/mpmath gmp
+dev-python/matplotlib qt5

@@ -13,6 +13,7 @@ virtual/perl-ExtUtils-ParseXS ~amd64
 perl-core/ExtUtils-ParseXS ~amd64
 app-portage/g-cpan ~amd64
 perl-core/Encode ~amd64
+perl-core/Scalar-List-Utils ~amd64
 
 virtual/perl-Test-Harness ~amd64
 virtual/perl-ExtUtils-Manifest ~amd64
