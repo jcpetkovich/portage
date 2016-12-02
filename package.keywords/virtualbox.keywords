@@ -1,0 +1,4 @@
+app-emulation/virtualbox ~amd64
+app-emulation/virtualbox-extpack-oracle ~amd64
+app-emulation/virtualbox-guest-additions ~amd64
+app-emulation/virtualbox-modules ~amd64
