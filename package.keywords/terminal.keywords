@@ -21,3 +21,4 @@ sys-apps/ack ~amd64
 dev-util/perf ~amd64
 app-admin/stow ~amd64
 app-text/ansifilter ~amd64
+net-misc/buka ~amd64
