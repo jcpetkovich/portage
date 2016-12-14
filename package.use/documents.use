@@ -3,5 +3,5 @@
 # Documents
 # ======================================================================
 
-app-text/evince djvu
+app-text/evince djvu xps
 app-text/zathura synctex
