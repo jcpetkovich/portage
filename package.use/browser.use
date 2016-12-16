@@ -18,6 +18,9 @@ www-client/uzbl gtk3 experimental helpers
 www-client/qutebrowser gstreamer
 dev-python/PyQt5 webkit webengine widgets webchannel
 dev-qt/qtwebengine widgets
+media-libs/libvpx svc
+dev-qt/qtwebchannel qml
+
 dev-qt/qtcore icu
 dev-qt/qtwebkit printsupport gstreamer
 dev-libs/libpcre pcre16
