@@ -9,3 +9,4 @@ sci-mathematics/jags ~amd64
 
 sci-libs/hdf5 ~amd64
 sci-libs/matio ~amd64
+sci-libs/proj ~amd64
