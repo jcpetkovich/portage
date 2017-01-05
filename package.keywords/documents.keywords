@@ -20,3 +20,5 @@ dev-lang/mujs ~amd64
 
 # libreoffice
 net-libs/neon ~amd64
+
+kde-apps/okular ~amd64
