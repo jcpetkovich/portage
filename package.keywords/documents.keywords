@@ -21,4 +21,200 @@ dev-lang/mujs ~amd64
 # libreoffice
 net-libs/neon ~amd64
 
+# okular
 kde-apps/okular ~amd64
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/khtml-5.29.0 ~amd64
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kdbusaddons-5.29.0 ~amd64
+# required by kde-plasma/polkit-kde-agent-5.8.3::gentoo
+# required by kde-frameworks/kauth-5.29.0::gentoo[policykit]
+# required by kde-frameworks/kconfigwidgets-5.29.0::gentoo
+# required by kde-frameworks/kiconthemes-5.29.0::gentoo
+# required by kde-frameworks/kxmlgui-5.29.0::gentoo
+# required by kde-frameworks/kparts-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kcrash-5.29.0 ~amd64
+# required by kde-frameworks/kded-5.29.0::gentoo
+# required by kde-frameworks/kio-5.29.0::gentoo
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kinit-5.29.0 ~amd64
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/karchive-5.29.0 ~amd64
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kservice-5.29.0 ~amd64
+# required by kde-frameworks/kio-5.29.0::gentoo
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kded-5.29.0 ~amd64
+# required by kde-frameworks/khtml-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/ktextwidgets-5.29.0 ~amd64
+# required by kde-frameworks/khtml-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kwallet-5.29.0-r1 ~amd64
+# required by kde-frameworks/kxmlgui-5.29.0::gentoo
+# required by kde-frameworks/kparts-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kconfigwidgets-5.29.0 ~amd64
+# required by kde-frameworks/kinit-5.29.0::gentoo
+# required by kde-frameworks/kded-5.29.0::gentoo
+# required by kde-frameworks/kio-5.29.0::gentoo
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kwindowsystem-5.29.0 ~amd64
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kactivities-5.29.0 ~amd64
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kcompletion-5.29.0 ~amd64
+# required by kde-apps/okular-16.12.0::gentoo[handbook]
+# required by okular (argument)
+=kde-frameworks/kdoctools-5.29.0 ~amd64
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/threadweaver-5.29.0 ~amd64
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kparts-5.29.0 ~amd64
+# required by kde-frameworks/kio-5.29.0::gentoo
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kjobwidgets-5.29.0 ~amd64
+# required by kde-frameworks/kbookmarks-5.29.0::gentoo
+# required by kde-frameworks/kio-5.29.0::gentoo
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kcoreaddons-5.29.0 ~amd64
+# required by kde-frameworks/kxmlgui-5.29.0::gentoo
+# required by kde-frameworks/kparts-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kitemviews-5.29.0 ~amd64
+# required by kde-frameworks/kio-5.29.0::gentoo
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kbookmarks-5.29.0 ~amd64
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kio-5.29.0 ~amd64
+# required by kde-frameworks/khtml-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kjs-5.29.0 ~amd64
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/extra-cmake-modules-5.29.0 ~amd64
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/ki18n-5.29.0 ~amd64
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kglobalaccel-5.29.0 ~amd64
+# required by kde-frameworks/knotifications-5.29.0::gentoo
+# required by kde-frameworks/kwallet-5.29.0-r1::gentoo
+# required by kde-frameworks/kio-5.29.0::gentoo[kwallet]
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kcodecs-5.29.0 ~amd64
+# required by kde-frameworks/kbookmarks-5.29.0::gentoo
+# required by kde-frameworks/kio-5.29.0::gentoo
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kconfig-5.29.0 ~amd64
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kxmlgui-5.29.0 ~amd64
+# required by kde-plasma/polkit-kde-agent-5.8.3::gentoo
+# required by kde-frameworks/kauth-5.29.0::gentoo[policykit]
+# required by kde-frameworks/kconfigwidgets-5.29.0::gentoo
+# required by kde-frameworks/kiconthemes-5.29.0::gentoo
+# required by kde-frameworks/kxmlgui-5.29.0::gentoo
+# required by kde-frameworks/kparts-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kwidgetsaddons-5.29.0 ~amd64
+# required by kde-frameworks/kconfigwidgets-5.29.0::gentoo
+# required by kde-frameworks/kiconthemes-5.29.0::gentoo
+# required by kde-frameworks/kxmlgui-5.29.0::gentoo
+# required by kde-frameworks/kparts-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kauth-5.29.0 ~amd64
+# required by kde-plasma/polkit-kde-agent-5.8.3::gentoo
+# required by kde-frameworks/kauth-5.29.0::gentoo[policykit]
+# required by kde-frameworks/kconfigwidgets-5.29.0::gentoo
+# required by kde-frameworks/kxmlgui-5.29.0::gentoo
+# required by kde-frameworks/kparts-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kiconthemes-5.29.0 ~amd64
+# required by kde-frameworks/ktextwidgets-5.29.0::gentoo
+# required by kde-frameworks/kxmlgui-5.29.0::gentoo
+# required by kde-frameworks/kparts-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/sonnet-5.29.0 ~amd64
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kpty-5.29.0 ~amd64
+# required by kde-apps/okular-16.12.0::gentoo[jpeg]
+# required by okular (argument)
+=kde-apps/libkexiv2-16.12.0 ~amd64
+# required by kde-frameworks/kio-5.29.0::gentoo
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/knotifications-5.29.0 ~amd64
+# required by kde-frameworks/kio-5.29.0::gentoo
+# required by kde-plasma/kactivitymanagerd-5.8.3::gentoo
+# required by kde-frameworks/kactivities-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/solid-5.29.0 ~amd64
+# required by kde-frameworks/kconfigwidgets-5.29.0::gentoo
+# required by kde-frameworks/kiconthemes-5.29.0::gentoo
+# required by kde-frameworks/kxmlgui-5.29.0::gentoo
+# required by kde-frameworks/kparts-5.29.0::gentoo
+# required by kde-apps/okular-16.12.0::gentoo
+# required by okular (argument)
+=kde-frameworks/kguiaddons-5.29.0 ~amd64
