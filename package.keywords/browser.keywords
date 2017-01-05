@@ -49,6 +49,7 @@ dev-qt/qtdbus ~amd64
 dev-qt/qttranslations ~amd64
 dev-qt/qtscript ~amd64
 dev-qt/qtwebengine ~amd64
+dev-qt/qtwebchannel ~amd64
 
 # Gstreamer
 media-libs/gstreamer ~amd64
