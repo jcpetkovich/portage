@@ -7,3 +7,6 @@ media-plugins/gst-plugins-libav ~amd64
 media-libs/alsa-lib ~amd64
 media-plugins/alsa-plugins ~amd64
 media-sound/alsa-utils ~amd64
+
+# ffmpeg
+dev-libs/libunistring ~amd64
