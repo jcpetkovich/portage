@@ -7,6 +7,7 @@
 x11-base/xorg-server ~amd64
 x11-base/xorg-drivers ~amd64
 x11-drivers/xf86-input-evdev ~amd64
+x11-libs/libXfont ~amd64
 
 # composit
 x11-misc/compton **
@@ -46,6 +47,7 @@ x11-wm/bspwm ~amd64
 
 # keybindings
 x11-misc/sxhkd ~amd64
+x11-proto/xproto ~amd64
 
 # gnome
 x11-themes/gtk-engines-adwaita ~amd64
