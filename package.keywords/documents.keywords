@@ -14,6 +14,9 @@ app-text/texlive-core ~amd64
 dev-libs/kpathsea ~amd64
 app-text/teckit ~amd64
 app-text/ps2pkm ~amd64
+
+# texlive
+app-text/texlive ~amd64
 dev-texlive/texlive-basic ~amd64
 dev-texlive/texlive-xetex ~amd64
 dev-texlive/texlive-latexextra ~amd64
@@ -23,7 +26,19 @@ dev-texlive/texlive-pictures ~amd64
 dev-texlive/texlive-fontsrecommended ~amd64
 dev-texlive/texlive-latexrecommended ~amd64
 dev-texlive/texlive-latex ~amd64
-app-text/texlive ~amd64
+dev-texlive/texlive-bibtexextra ~amd64
+dev-texlive/texlive-fontsextra ~amd64
+dev-texlive/texlive-fontutils ~amd64
+dev-texlive/texlive-formatsextra ~amd64
+dev-texlive/texlive-genericextra ~amd64
+dev-texlive/texlive-plainextra ~amd64
+dev-texlive/texlive-genericrecommended ~amd64
+dev-texlive/texlive-publishers ~amd64
+
+
+
+
+
 
 app-text/mupdf ~amd64
 dev-lang/mujs ~amd64
