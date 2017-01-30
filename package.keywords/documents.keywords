@@ -18,6 +18,11 @@ dev-texlive/texlive-basic ~amd64
 dev-texlive/texlive-xetex ~amd64
 dev-texlive/texlive-latexextra ~amd64
 dev-texlive/texlive-langgerman ~amd64
+dev-texlive/texlive-mathscience ~amd64
+dev-texlive/texlive-pictures ~amd64
+dev-texlive/texlive-fontsrecommended ~amd64
+dev-texlive/texlive-latexrecommended ~amd64
+dev-texlive/texlive-latex ~amd64
 
 app-text/mupdf ~amd64
 dev-lang/mujs ~amd64
