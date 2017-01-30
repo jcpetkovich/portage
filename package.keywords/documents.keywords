@@ -23,6 +23,7 @@ dev-texlive/texlive-pictures ~amd64
 dev-texlive/texlive-fontsrecommended ~amd64
 dev-texlive/texlive-latexrecommended ~amd64
 dev-texlive/texlive-latex ~amd64
+app-text/texlive ~amd64
 
 app-text/mupdf ~amd64
 dev-lang/mujs ~amd64
