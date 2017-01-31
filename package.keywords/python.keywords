@@ -64,3 +64,4 @@ dev-python/jsonschema ~amd64
 dev-python/webcolors ~amd64
 dev-python/packaging ~amd64
 dev-python/appdirs ~amd64
+dev-python/pyparsing ~amd64
