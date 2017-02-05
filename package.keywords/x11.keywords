@@ -9,6 +9,10 @@ x11-base/xorg-drivers ~amd64
 x11-drivers/xf86-input-evdev ~amd64
 x11-libs/libXfont2 ~amd64
 x11-drivers/xf86-input-keyboard ~amd64
+x11-drivers/xf86-input-libinput ~amd64
+
+# wayland
+dev-libs/libinput ~amd64
 
 # composit
 x11-misc/compton **
