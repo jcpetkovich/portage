@@ -10,3 +10,4 @@ media-sound/alsa-utils ~amd64
 
 # ffmpeg
 dev-libs/libunistring ~amd64
+media-video/ffmpeg ~amd64

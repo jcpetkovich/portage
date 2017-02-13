@@ -13,6 +13,7 @@ dev-python/flake8 ~amd64
 dev-python/autopep8 ~amd64
 dev-python/mccabe ~amd64
 dev-python/pycodestyle ~amd64
+dev-python/pyflakes ~amd64
 
 # ======================================================================
 # Science

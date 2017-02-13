@@ -1,1 +1,2 @@
 net-misc/openssh ~amd64
+net-dns/libidn2 ~amd64
