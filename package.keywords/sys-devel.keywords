@@ -11,6 +11,7 @@ sys-devel/gcc ~amd64
 dev-util/cmake ~amd64
 sys-devel/clang-runtime ~amd64
 sys-libs/libomp ~amd64
+sys-libs/binutils-libs ~amd64
 
 # texinfo
 sys-devel/gettext ~amd64

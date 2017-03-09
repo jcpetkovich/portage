@@ -13,7 +13,6 @@ net-libs/libotr ~amd64
 
 media-libs/lcms ~amd64
 
-
 # Graphics
 media-libs/mesa ~amd64
 app-eselect/eselect-opengl ~amd64
