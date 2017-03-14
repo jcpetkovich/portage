@@ -86,3 +86,4 @@ media-plugins/gst-plugins-vaapi ~amd64
 
 # surf
 www-client/surf ~amd64
+=www-client/surf-9999 **
