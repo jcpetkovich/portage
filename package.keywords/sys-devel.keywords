@@ -21,3 +21,6 @@ sys-devel/gdb ~amd64
 
 # git
 dev-vcs/git ~amd64
+
+# llvm deps?
+app-vim/llvm-vim ~amd64
