@@ -12,3 +12,5 @@ sys-firmware/iwl5000-ucode
 # masked because of __stack_chk_fail related bug
 =sys-devel/llvm-3.7.0-r1
 =sys-devel/llvm-3.7.0
+
+=sci-libs/gsl-2.3::gentoo
