@@ -69,3 +69,5 @@ dev-python/packaging ~amd64
 dev-python/appdirs ~amd64
 dev-python/pyparsing ~amd64
 dev-python/configparser ~amd64
+dev-python/python-dateutil ~amd64
+dev-python/dbus-python ~amd64

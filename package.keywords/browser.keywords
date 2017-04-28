@@ -10,6 +10,7 @@ www-plugins/google-talkplugin ~amd64
 # To verify our site works on chrome
 www-client/chromium ~amd64
 www-client/google-chrome ~amd64
+dev-libs/dbus-glib ~amd64
 dev-libs/protobuf ~amd64
 www-plugins/chrome-binary-plugins ~amd64
 
