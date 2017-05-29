@@ -1,4 +1,3 @@
 net-misc/owncloud-client ~amd64
 dev-qt/qtquickcontrols ~amd64
 dev-qt/linguist-tools ~amd64
-sys-libs/ldb ~amd64
