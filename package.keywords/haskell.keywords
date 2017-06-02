@@ -12,7 +12,30 @@ dev-vcs/darcs ~amd64
 # Haskell Development
 dev-haskell/stack ~amd64
 
+# pandoc
 dev-haskell/cabal ~amd64
 dev-haskell/transformers ~amd64
 dev-haskell/transformers-compat ~amd64
 dev-haskell/deepseq-generics ~amd64
+dev-haskell/pandoc-types ~amd64
+app-text/pandoc ~amd64
+dev-haskell/texmath ~amd64
+dev-haskell/http-client-tls ~amd64
+dev-haskell/skylighting ~amd64
+dev-haskell/memory ~amd64
+dev-haskell/tagsoup ~amd64
+dev-haskell/cryptonite ~amd64
+dev-haskell/doctemplates ~amd64
+dev-haskell/http-client ~amd64
+dev-haskell/cmark ~amd64
+dev-haskell/haddock-library ~amd64
+dev-haskell/scientific ~amd64
+dev-haskell/quickcheck ~amd64
+dev-haskell/case-insensitive ~amd64
+dev-haskell/semigroups ~amd64
+dev-haskell/http ~amd64
+dev-haskell/aeson ~amd64
+dev-haskell/tagged ~amd64
+dev-haskell/base-compat ~amd64
+dev-haskell/fail ~amd64
+dev-haskell/hxt ~amd64
