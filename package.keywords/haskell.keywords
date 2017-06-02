@@ -14,3 +14,4 @@ dev-haskell/stack ~amd64
 
 dev-haskell/cabal ~amd64
 dev-haskell/transformers ~amd64
+dev-haskell/transformers-compat ~amd64
