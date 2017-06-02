@@ -11,3 +11,5 @@ dev-vcs/darcs ~amd64
 
 # Haskell Development
 dev-haskell/stack ~amd64
+
+dev-haskell/cabal ~amd64
