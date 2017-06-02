@@ -13,3 +13,4 @@ dev-vcs/darcs ~amd64
 dev-haskell/stack ~amd64
 
 dev-haskell/cabal ~amd64
+dev-haskell/transformers ~amd64
