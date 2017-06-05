@@ -73,4 +73,4 @@ dev-python/python-dateutil ~amd64
 dev-python/dbus-python ~amd64
 dev-python/rfc3987 ~amd64
 dev-python/pathlib2 ~amd64
-dev-python/subprocess ~amd64
+dev-python/subprocess32 ~amd64
