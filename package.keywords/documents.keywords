@@ -35,7 +35,7 @@ dev-texlive/texlive-plainextra ~amd64
 dev-texlive/texlive-genericrecommended ~amd64
 dev-texlive/texlive-publishers ~amd64
 dev-texlive/texlive-pstricks ~amd64
-dev-texlive/texlive-plaingeneric-2017 ~amd64
+dev-texlive/texlive-plaingeneric ~amd64
 
 app-text/mupdf ~amd64
 dev-lang/mujs ~amd64
