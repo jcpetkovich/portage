@@ -28,3 +28,6 @@ dev-vcs/git ~amd64
 
 # llvm deps?
 app-vim/llvm-vim ~amd64
+
+# boost
+dev-libs/boost ~amd64
