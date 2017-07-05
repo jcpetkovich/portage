@@ -31,3 +31,4 @@ app-vim/llvm-vim ~amd64
 
 # boost
 dev-libs/boost ~amd64
+dev-util/boost-build ~amd64
