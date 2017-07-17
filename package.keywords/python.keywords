@@ -74,3 +74,4 @@ dev-python/dbus-python ~amd64
 dev-python/rfc3987 ~amd64
 dev-python/pathlib2 ~amd64
 dev-python/subprocess32 ~amd64
+dev-python/pywavelets ~amd64
