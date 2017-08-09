@@ -75,3 +75,4 @@ dev-python/rfc3987 ~amd64
 dev-python/pathlib2 ~amd64
 dev-python/subprocess32 ~amd64
 dev-python/pywavelets ~amd64
+dev-python/scandir ~amd64
