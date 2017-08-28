@@ -39,3 +39,4 @@ dev-haskell/tagged ~amd64
 dev-haskell/base-compat ~amd64
 dev-haskell/fail ~amd64
 dev-haskell/hxt ~amd64
+app-text/cmark ~amd64
