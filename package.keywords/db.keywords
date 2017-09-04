@@ -1,3 +1,4 @@
+dev-db/sqlite ~amd64
 dev-db/sqlitestudio ~amd64
 dev-qt/designer ~amd64
 dev-qt/qtconcurrent ~amd64
