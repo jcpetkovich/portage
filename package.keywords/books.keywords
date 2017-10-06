@@ -7,3 +7,4 @@ virtual/podofo-build ~amd64
 dev-python/apsw ~amd64
 app-crypt/rhash ~amd64
 app-text/podofo ~amd64
+dev-python/regex ~amd64
