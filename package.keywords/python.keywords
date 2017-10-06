@@ -2,7 +2,7 @@
 # Developement - Python
 # ======================================================================
 
-dev-lang/python:3.5  ~amd64
+dev-lang/python:3.6  ~amd64
 
 # Basic Python Dev
 dev-python/virtualenv ~amd64
