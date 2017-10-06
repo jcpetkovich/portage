@@ -11,4 +11,4 @@ sys-devel/llvm clang python -multitarget
 sys-devel/clang python
 
 # gdb
-sys-devel/gdb expat lzma
+sys-devel/gdb expat lzma PYTHON_TARGETS: -* python2_7 PYTHON_SINGLE_TARGET: -* python2_7
