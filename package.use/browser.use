@@ -28,3 +28,5 @@ media-plugins/gst-plugins-meta dv dvb ffmpeg http lame libass mms opus taglib th
 sys-libs/ntdb python
 sys-libs/tevent python
 sys-libs/tdb python
+
+app-text/asciidoc PYTHON_TARGETS: -* python2_7 PYTHON_SINGLE_TARGET: -* python2_7
