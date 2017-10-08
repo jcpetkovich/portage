@@ -1,0 +1,24 @@
+diff --git a/Xresources b/Xresources
+index 8b16253..af1eb03 100644
+--- a/Xresources
++++ b/Xresources
+@@ -9,6 +9,7 @@ st.bellvolume:			100
+ st.tabspaces:			8
+ st.chscale:			1.0
+ st.cwscale:			1.0
++st.borderpx:			10
+ 
+ st.color0:			#353540
+ st.color8:			#545466
+diff --git a/st.c b/st.c
+index 1e0631c..14d23a4 100644
+--- a/st.c
++++ b/st.c
+@@ -4106,6 +4106,7 @@ config_init(void)
+ 		XRESOURCE_LOAD_INTEGER("st.bellvolume", bellvolume);
+ 		XRESOURCE_LOAD_INTEGER("st.tabspaces", tabspaces);
+ 		XRESOURCE_LOAD_INTEGER("st.bold_font", bold_font);
++		XRESOURCE_LOAD_INTEGER("st.borderpx", borderpx);
+ 		XRESOURCE_LOAD_FLOAT("st.cwscale", cwscale);
+ 		XRESOURCE_LOAD_FLOAT("st.chscale", chscale);
+ 	}
