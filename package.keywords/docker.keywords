@@ -1,0 +1,4 @@
+app-emulation/docker ~amd64
+app-emulation/docker-proxy ~amd64
+app-emulation/docker-runc ~amd64
+app-emulation/docker-compose ~amd64
