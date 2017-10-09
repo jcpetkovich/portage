@@ -1,4 +1,11 @@
 app-emulation/docker ~amd64
 app-emulation/docker-proxy ~amd64
 app-emulation/docker-runc ~amd64
+
+# docker compose
 app-emulation/docker-compose ~amd64
+dev-python/docker-py ~amd64
+dev-python/cached-property ~amd64
+dev-python/texttable ~amd64
+dev-python/dockerpty ~amd64
+dev-python/docopt ~amd64
