@@ -2,7 +2,11 @@ app-emulation/docker ~amd64
 app-emulation/docker-proxy ~amd64
 app-emulation/docker-runc ~amd64
 
-# docker compose
+# docker deps
+app-emulation/containerd ~amd64
+sys-process/tini ~amd64
+
+# docker compose and deps
 app-emulation/docker-compose ~amd64
 dev-python/docker-py ~amd64
 dev-python/cached-property ~amd64
