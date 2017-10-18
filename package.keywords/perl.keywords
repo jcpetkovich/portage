@@ -46,3 +46,4 @@ virtual/perl-parent ~amd64
 virtual/perl-Data-Dumper ~amd64
 virtual/perl-libnet ~amd64
 virtual/perl-XSLoader ~amd64
+virtual/perl-JSON-PP ~amd64
