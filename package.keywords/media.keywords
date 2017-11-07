@@ -2,6 +2,7 @@ net-misc/youtube-dl ~amd64
 dev-python/certifi ~amd64
 media-video/ffcast ~amd64
 media-plugins/gst-plugins-libav ~amd64
+media-plugins/gst-plugins-mpg123 ~amd64
 
 # alsa
 media-libs/alsa-lib ~amd64
