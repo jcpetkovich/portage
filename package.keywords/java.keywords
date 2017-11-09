@@ -7,3 +7,4 @@ media-libs/libpng ~amd64
 dev-java/icedtea ~amd64
 dev-java/icedtea-sound ~amd64
 app-eselect/eselect-java ~amd64
+dev-java/sbt ~amd64
