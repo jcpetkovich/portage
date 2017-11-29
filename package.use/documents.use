@@ -6,7 +6,7 @@
 app-text/evince djvu xps
 app-text/zathura synctex
 app-office/libreoffice PYTHON_TARGETS: -* python2_7 PYTHON_SINGLE_TARGET: -* python2_7
-dev-libs/xmlsec gcrypt
+dev-libs/xmlsec gcrypt nss
 
 
 # okular
