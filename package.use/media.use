@@ -21,3 +21,4 @@ media-gfx/imagemagick djvu fftw fontconfig graphviz hdri postscript
 
 # Music
 media-sound/ncmpcpp curl
+media-sound/mpd flac
