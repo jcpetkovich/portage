@@ -12,3 +12,6 @@ x11-wm/swm savedconfig
 
 # zathura
 app-text/zathura-meta cb djvu pdf postscript
+
+# compton
+x11-misc/compton opengl
