@@ -46,6 +46,7 @@ net-libs/neon ~amd64
 
 # inkscape
 media-gfx/inkscape ~amd64
+media-gfx/scour ~amd64
 
 # okular
 kde-apps/okular ~amd64
