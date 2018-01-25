@@ -44,6 +44,9 @@ dev-lang/mujs ~amd64
 # libreoffice
 net-libs/neon ~amd64
 
+# inkscape
+media-gfx/inkscape ~amd64
+
 # okular
 kde-apps/okular ~amd64
 # required by kde-apps/okular-16.12.0::gentoo
