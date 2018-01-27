@@ -18,6 +18,7 @@ x11-libs/wxGTK unicode X
 media-gfx/gimp pdf smp
 media-libs/lcms python
 media-gfx/imagemagick djvu fftw fontconfig graphviz hdri postscript
+media-libs/imlib2 png
 
 # Music
 media-sound/ncmpcpp curl
