@@ -1,2 +1,2 @@
-dev-lang/R java lapack profile cairo
+dev-lang/R java lapack profile cairo png jpeg
 sci-libs/gsl cblas-external
