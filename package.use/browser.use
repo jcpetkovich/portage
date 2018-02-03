@@ -16,7 +16,7 @@ www-client/uzbl gtk3 experimental helpers
 
 # qutebrowser
 www-client/qutebrowser gstreamer
-dev-python/PyQt5 webkit webengine widgets webchannel declarative sql
+dev-python/PyQt5 webkit webengine widgets webchannel declarative sql svg printsupport network gui
 dev-qt/qtwebengine widgets
 media-libs/libvpx svc
 dev-qt/qtwebchannel qml
