@@ -3,6 +3,9 @@
 # X Interface and Misc X11 Apps
 # ======================================================================
 
+# x11 general
+x11-libs/libxcb xkb
+
 # Deluge
 dev-libs/boost python
 net-libs/rb_libtorrent python
@@ -15,3 +18,4 @@ app-text/zathura-meta cb djvu pdf postscript
 
 # compton
 x11-misc/compton opengl
+
