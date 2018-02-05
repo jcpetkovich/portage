@@ -14,3 +14,6 @@ sys-firmware/iwl5000-ucode
 =sys-devel/llvm-3.7.0
 
 =sci-libs/gsl-2.3::gentoo
+
+
+=dev-python/PyQt5-5.10
