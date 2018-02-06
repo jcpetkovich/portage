@@ -41,6 +41,7 @@ dev-python/cycler ~amd64
 dev-python/pickleshare ~amd64
 dev-python/ipython ~amd64
 dev-python/jedi ~amd64
+dev-python/parso ~amd64
 dev-python/typing ~amd64
 dev-python/jupyter_client ~amd64
 dev-python/ipywidgets ~amd64
