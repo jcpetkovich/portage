@@ -12,6 +12,7 @@ x11-drivers/xf86-input-keyboard ~amd64
 x11-drivers/xf86-input-libinput ~amd64
 =x11-misc/xrq-9999 ~amd64
 =x11-misc/colort-9999 ~amd64
+x11-base/xorg-proto ~amd64
 
 # wayland
 dev-libs/libinput ~amd64

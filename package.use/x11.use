@@ -19,3 +19,5 @@ app-text/zathura-meta cb djvu pdf postscript
 # compton
 x11-misc/compton opengl
 
+# rofi
+x11-libs/cairo xcb
