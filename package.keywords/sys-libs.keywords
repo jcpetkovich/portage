@@ -21,6 +21,7 @@ x11-proto/glproto ~amd64
 # Terminal graphics
 sys-libs/ncurses:0 ~amd64
 =sys-libs/ncurses-5.9-r101 ~amd64
+sys-libs/slang ~amd64
 
 # efi
 sys-libs/efivar ~amd64
