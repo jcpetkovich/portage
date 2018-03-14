@@ -17,6 +17,7 @@ sys-libs/libomp ~amd64
 sys-libs/binutils-libs ~amd64
 dev-util/patchelf ~amd64
 sys-devel/automake ~amd64
+sys-devel/automake-wrapper ~amd64
 
 # texinfo
 sys-devel/gettext ~amd64
