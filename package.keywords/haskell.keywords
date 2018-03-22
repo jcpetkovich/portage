@@ -43,3 +43,10 @@ app-text/cmark ~amd64
 
 # matterhorn
 dev-haskell/connection ~amd64
+dev-haskell/x509-validation ~amd64
+dev-haskell/asn1-parse ~amd64
+dev-haskell/tls ~amd64
+dev-haskell/x509-store ~amd64
+dev-haskell/x509 ~amd64
+dev-haskell/asn1-types ~amd64
+
