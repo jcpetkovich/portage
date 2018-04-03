@@ -1,2 +1,1 @@
-=x11-wm/dwm-6.1
 =x11-terms/st-0.7
