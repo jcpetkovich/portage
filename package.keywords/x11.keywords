@@ -51,7 +51,7 @@ dev-util/gdbus-codegen ~amd64
 x11-libs/xcb-util-xrm ~amd64
 x11-wm/herbstluftwm ~amd64
 x11-wm/bspwm ~amd64
-x11-wm/dwm ~amd64
+x11-wm/dwm **
 
 # keybindings
 x11-misc/sxhkd ~amd64
