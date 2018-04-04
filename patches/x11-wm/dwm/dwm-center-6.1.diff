@@ -23,8 +23,8 @@ index 0362114..4aaaa60 100644
  	int basew, baseh, incw, inch, maxw, maxh, minw, minh;
  	int bw, oldbw;
  	unsigned int tags;
--	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen;
-+	int isfixed, iscentered, isfloating, isurgent, neverfocus, oldstate, isfullscreen;
+-	int isfixed, isfloating, isurgent, neverfocus, oldstate, isfullscreen, needresize;
++	int isfixed, iscentered, isfloating, isurgent, neverfocus, oldstate, isfullscreen, needresize;
  	Client *next;
  	Client *snext;
  	Monitor *mon;
