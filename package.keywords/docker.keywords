@@ -13,3 +13,7 @@ dev-python/cached-property ~amd64
 dev-python/texttable ~amd64
 dev-python/dockerpty ~amd64
 dev-python/docopt ~amd64
+app-emulation/runc ~amd64
+media-libs/fontconfig ~amd64
+dev-libs/fribidi ~amd64
+dev-python/docker-pycreds ~amd64
