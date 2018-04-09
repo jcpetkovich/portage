@@ -5,7 +5,7 @@
 
 # Video
 media-video/mplayer directfb ggi sdl xv 
-media-video/ffmpeg zlib dts amr network threads faac v4l
+media-video/ffmpeg zlib dts amr network threads faac v4l x264
 virtual/ffmpeg threads
 media-libs/libsndfile -jack
 media-libs/gd fontconfig
