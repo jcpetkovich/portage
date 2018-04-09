@@ -55,6 +55,7 @@ x11-wm/dwm **
 
 # keybindings
 x11-misc/sxhkd ~amd64
+x11-misc/xwinwrap ~amd64
 # x11-proto/xproto ~amd64
 
 # gnome
