@@ -48,6 +48,9 @@ net-libs/neon ~amd64
 media-gfx/inkscape ~amd64
 media-gfx/scour ~amd64
 
+# uml diagrams
+media-gfx/plantuml ~amd64
+
 # okular
 kde-apps/okular ~amd64
 # required by kde-apps/okular-16.12.0::gentoo
