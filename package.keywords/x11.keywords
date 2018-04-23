@@ -41,6 +41,8 @@ x11-misc/rofi ~amd64
 x11-misc/dmenu **
 x11-misc/xdotool ~amd64
 x11-misc/gpaste ~amd64
+x11-proto/xcb-proto ~amd64
+x11-libs/libxcb ~amd64
 
 dev-libs/gobject-introspection-common ~amd64
 x11-libs/gtk+ ~amd64
