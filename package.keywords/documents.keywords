@@ -1,4 +1,6 @@
 # document keywords
+
+# pdf reading
 =app-text/zathura-9999 **
 =app-text/zathura-cb-9999 **
 =app-text/zathura-djvu-9999 **
@@ -15,6 +17,9 @@ app-text/texlive-core ~amd64
 dev-libs/kpathsea ~amd64
 app-text/teckit ~amd64
 app-text/ps2pkm ~amd64
+
+# printing
+net-print/cups-filters ~amd64
 
 # texlive
 app-text/texlive ~amd64
