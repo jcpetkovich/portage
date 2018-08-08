@@ -13,4 +13,4 @@ sys-firmware/iwl5000-ucode
 =sys-devel/llvm-3.7.0-r1
 =sys-devel/llvm-3.7.0
 
-=sci-libs/gsl-2.3::gentoo
+=sci-libs/gsl-2.5::gentoo
