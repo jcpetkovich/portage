@@ -35,6 +35,7 @@ dev-haskell/case-insensitive ~amd64
 dev-haskell/semigroups ~amd64
 dev-haskell/http ~amd64
 dev-haskell/aeson ~amd64
+dev-haskell/uuid-types ~amd64
 dev-haskell/tagged ~amd64
 dev-haskell/base-compat ~amd64
 dev-haskell/fail ~amd64
