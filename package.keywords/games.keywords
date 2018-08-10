@@ -3,3 +3,4 @@ dev-qt/qtx11extras ~amd64
 =games-arcade/supermeatboy-2012.06.07 ~amd64
 =games-strategy/spaz-1.605 ~amd64
 =games-arcade/binding-of-isaac-1.0 ~amd64
+games-fps/doomsday ~amd64
