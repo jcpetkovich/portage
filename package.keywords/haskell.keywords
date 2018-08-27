@@ -41,6 +41,22 @@ dev-haskell/base-compat ~amd64
 dev-haskell/fail ~amd64
 dev-haskell/hxt ~amd64
 app-text/cmark ~amd64
+dev-haskell/ansi-terminal ~amd64
+dev-util/glib-utils ~amd64
+dev-haskell/th-abstraction ~amd64
+dev-haskell/blaze-markup ~amd64
+dev-haskell/hslua ~amd64
+dev-haskell/parsec ~amd64
+dev-haskell/cmark-gfm ~amd64
+dev-haskell/text ~amd64
+dev-haskell/dlist ~amd64
+dev-haskell/hslua-module-text ~amd64
+dev-haskell/blaze-html ~amd64
+dev-haskell/aeson-pretty ~amd64
+dev-haskell/hsyaml ~amd64
+dev-haskell/glob ~amd64
+dev-haskell/skylighting-core ~amd64
+
 
 # matterhorn
 dev-haskell/connection ~amd64
