@@ -57,6 +57,9 @@ dev-haskell/aeson-pretty ~amd64
 dev-haskell/hsyaml ~amd64
 dev-haskell/glob ~amd64
 dev-haskell/skylighting-core ~amd64
+dev-haskell/edit-distance ~amd64
+dev-haskell/resolv ~amd64
+dev-haskell/echo ~amd64
 
 
 # matterhorn
