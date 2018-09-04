@@ -11,6 +11,7 @@ dev-vcs/darcs ~amd64
 
 # Haskell Development
 dev-haskell/stack ~amd64
+app-admin/haskell-updater ~amd64
 
 # pandoc
 dev-haskell/cabal ~amd64
