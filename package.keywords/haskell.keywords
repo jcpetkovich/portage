@@ -20,6 +20,7 @@ dev-haskell/mtl ~amd64
 dev-haskell/hashable ~amd64
 dev-haskell/exceptions ~amd64
 dev-haskell/binary ~amd64
+dev-haskell/juicypixels ~amd64
 dev-haskell/unordered-containers ~amd64
 dev-haskell/transformers ~amd64
 dev-haskell/transformers-compat ~amd64
