@@ -26,6 +26,7 @@ dev-haskell/vector ~amd64
 dev-haskell/attoparsec ~amd64
 dev-haskell/hourglass ~amd64
 dev-haskell/syb ~amd64
+dev-haskell/colour ~amd64
 dev-haskell/unordered-containers ~amd64
 dev-haskell/transformers ~amd64
 dev-haskell/transformers-compat ~amd64
