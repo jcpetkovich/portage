@@ -48,6 +48,8 @@ virtual/perl-libnet ~amd64
 virtual/perl-XSLoader ~amd64
 virtual/perl-JSON-PP ~amd64
 virtual/perl-podlators ~amd64
+virtual/perl-IO-Socket-IP ~amd64
+
 
 # mediawiki
 virtual/perl-IPC-Cmd ~amd64
