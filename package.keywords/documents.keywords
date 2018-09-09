@@ -20,6 +20,7 @@ app-text/ps2pkm ~amd64
 
 # printing
 net-print/cups-filters ~amd64
+app-text/qpdf ~amd64
 
 # texlive
 app-text/texlive ~amd64
