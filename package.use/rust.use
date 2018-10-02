@@ -1,2 +1,2 @@
-dev-lang/rust -emacs -system-llvm
+dev-lang/rust -emacs -system-llvm cargo
 dev-lang/rust-bin -emacs
