@@ -66,3 +66,4 @@ x11-misc/xwinwrap ~amd64
 x11-themes/gtk-engines-adwaita ~amd64
 x11-themes/gnome-themes-standard ~amd64
 gnome-base/gnome-keyring ~amd64
+app-crypt/gcr ~amd64
