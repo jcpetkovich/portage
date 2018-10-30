@@ -2,4 +2,5 @@
 # Development - Rust
 # ======================================================================
 app-eselect/eselect-rust ~amd64
+dev-util/cbindgen ~amd64
 virtual/cargo ~amd64
