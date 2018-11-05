@@ -68,6 +68,7 @@ dev-python/strict-rfc3339 ~amd64
 dev-python/functools32 ~amd64
 dev-python/jsonschema ~amd64
 dev-python/webcolors ~amd64
+dev-python/colorama ~amd64
 dev-python/packaging ~amd64
 dev-python/appdirs ~amd64
 dev-python/pyparsing ~amd64
