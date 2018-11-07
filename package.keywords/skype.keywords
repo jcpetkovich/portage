@@ -7,3 +7,4 @@ dev-qt/qttranslations ~amd64
 dev-qt/qtgui ~amd64
 dev-qt/qtchooser ~amd64
 dev-qt/qtsvg ~amd64
+dev-qt/qtmultimedia ~amd64
