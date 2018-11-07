@@ -10,4 +10,4 @@ dev-qt/qtsvg ~amd64
 
 # zoom
 dev-qt/qtmultimedia ~amd64
-dev-qt/zoom-bin ~amd64
+net-im/zoom-bin ~amd64
