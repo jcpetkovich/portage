@@ -16,3 +16,6 @@ media-video/ffmpeg ~amd64
 
 # images
 media-libs/openjpeg ~amd64
+
+# music
+dev-util/meson ~amd64
