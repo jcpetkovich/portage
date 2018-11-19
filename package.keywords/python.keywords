@@ -84,3 +84,8 @@ dev-python/pandocfilters ~amd64
 dev-python/testpath ~amd64
 dev-python/mistune ~amd64
 dev-python/kiwisolver ~amd64
+dev-python/terminado ~amd64
+dev-python/pyzmq ~amd64
+
+# libs
+dev-libs/zeromq ~amd64
