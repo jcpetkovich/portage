@@ -14,3 +14,6 @@ sci-libs/scipy sparse
 dev-python/numpy lapack
 dev-python/mpmath gmp
 dev-python/matplotlib qt5
+
+# libs
+net-libs/zeromq drafts
