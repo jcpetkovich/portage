@@ -89,3 +89,6 @@ dev-python/pyzmq ~amd64
 
 # libs
 dev-libs/zeromq ~amd64
+
+# calibre
+dev-python/msgpack ~amd64
