@@ -2,3 +2,4 @@
 dev-util/android-tools ~amd64
 dev-util/android-ndk ~amd64
 dev-util/android-sdk-update-manager ~amd64
+dev-util/bazel ~amd64
