@@ -76,7 +76,11 @@ dev-haskell/edit-distance ~amd64
 dev-haskell/resolv ~amd64
 dev-haskell/echo ~amd64
 dev-haskell/hackage-security ~amd64
-
+dev-haskell/time-local-compat ~amd64
+dev-haskell/contravariant ~amd64
+dev-haskell/void ~amd64
+dev-haskell/primative ~amd64
+dev-haskell/statevar ~amd64
 
 # matterhorn
 dev-haskell/connection ~amd64
