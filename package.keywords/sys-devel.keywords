@@ -26,8 +26,9 @@ sys-devel/gettext ~amd64
 # gdb
 sys-devel/gdb ~amd64
 
-# git
+# git/version control
 dev-vcs/git ~amd64
+net-libs/serf ~amd64
 
 # llvm deps?
 sys-devel/llvm-common ~amd64
