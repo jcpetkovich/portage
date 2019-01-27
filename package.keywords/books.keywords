@@ -1,5 +1,6 @@
 dev-python/html5-parser ~amd64
 app-text/calibre ~amd64
+dev-python/css-parser ~amd64
 dev-python/mechanize ~amd64
 dev-python/cssutils ~amd64
 dev-libs/double-conversion ~amd64
