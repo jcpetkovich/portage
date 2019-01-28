@@ -3,3 +3,4 @@ net-dns/libidn2 ~amd64
 net-firewall/iptables ~amd64
 net-libs/nghttp2 ~amd64
 net-wireless/crda ~amd64
+net-analyzer/net-snmp ~amd64
