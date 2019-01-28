@@ -4,6 +4,7 @@ media-video/ffcast ~amd64
 media-plugins/gst-plugins-libav ~amd64
 media-plugins/gst-plugins-mpg123 ~amd64
 media-plugins/gst-plugins-gtk ~amd64
+media-libs/libshout ~amd64
 
 # alsa
 media-libs/alsa-lib ~amd64
