@@ -21,7 +21,7 @@ net-libs/webkit-gtk nsplugin spell
 www-client/qutebrowser gstreamer webengine -webkit
 dev-python/PyQt5 webkit webengine widgets webchannel declarative sql svg printsupport network gui
 dev-qt/qtwebengine widgets
-media-libs/libvpx svc
+media-libs/libvpx svc postproc
 dev-qt/qtwebchannel qml
 
 dev-qt/qtcore icu

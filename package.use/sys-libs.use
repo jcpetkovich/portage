@@ -4,7 +4,7 @@
 # ======================================================================
 
 dev-libs/libgcrypt static-libs
-dev-db/sqlite fts3
+dev-db/sqlite fts3 secure-delete
 media-libs/libpng apng
 =sys-auth/pambase-20101024-r2 consolekit
 sys-auth/consolekit policykit
