@@ -26,6 +26,7 @@ virtual/perl-Perl-OSType ~amd64
 virtual/perl-Digest-MD5 ~amd64
 virtual/perl-Digest-SHA ~amd64
 virtual/perl-if ~amd64
+virtual/perl-Time-HiRes ~amd64
 virtual/perl-Scalar-List-Utils ~amd64
 virtual/perl-Text-ParseWords ~amd64
 virtual/perl-MIME-Base64 ~amd64
