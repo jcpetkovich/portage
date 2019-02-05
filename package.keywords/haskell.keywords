@@ -84,6 +84,7 @@ dev-haskell/statevar ~amd64
 dev-haskell/unicode-transforms ~amd64
 dev-haskell/bitarray ~amd64
 dev-haskell/erf ~amd64
+dev-haskell/stm ~amd64
 
 # matterhorn
 dev-haskell/connection ~amd64
