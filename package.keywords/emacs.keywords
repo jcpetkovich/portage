@@ -22,3 +22,6 @@ dev-haskell/transformers-base ~amd64
 dev-haskell/convertible ~amd64
 dev-haskell/io-choice ~amd64
 dev-haskell/base-unicode-symbols ~amd64
+
+# spell checker
+app-text/hunspell ~amd64
