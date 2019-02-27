@@ -101,3 +101,5 @@ dev-haskell/basement ~amd64
 dev-haskell/foundation ~amd64
 dev-haskell/integer-logarithms ~amd64
 dev-haskell/socks ~amd64
+
+dev-haskell/ipynb ~amd64
