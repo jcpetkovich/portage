@@ -94,3 +94,4 @@ dev-libs/zeromq ~amd64
 # calibre
 dev-python/msgpack ~amd64
 dev-python/PyQt5-sip ~amd64
+dev-python/markdown ~amd64
