@@ -7,6 +7,8 @@ www-plugins/adobe-flash ~amd64
 www-plugins/freshplayerplugin ~amd64
 www-plugins/google-talkplugin ~amd64
 media-libs/libwebp ~amd64
+media-libs/dav1d ~amd64
+media-libs/libaom ~amd64
 
 # To verify our site works on chrome
 www-client/chromium ~amd64
