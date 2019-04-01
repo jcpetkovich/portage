@@ -9,5 +9,6 @@ app-eselect/eselect-java ~amd64
 dev-java/sbt ~amd64
 dev-lang/scala ~amd64
 dev-java/openjdk ~amd64
+dev-java/openjdk-bin ~amd64
 
 media-libs/libpng ~amd64
