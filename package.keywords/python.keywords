@@ -87,6 +87,7 @@ dev-python/kiwisolver ~amd64
 dev-python/terminado ~amd64
 dev-python/pyzmq ~amd64
 dev-python/m2crypto ~amd64
+dev-python/backcall ~amd64
 
 # libs
 dev-libs/zeromq ~amd64
