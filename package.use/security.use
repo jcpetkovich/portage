@@ -1,1 +1,2 @@
 app-admin/pass -emacs
+sys-auth/polkit consolekit
