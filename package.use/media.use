@@ -16,6 +16,7 @@ x11-libs/wxGTK unicode X
 
 # Images
 media-gfx/gimp pdf smp jpeg png curl exif svg tiff xpm
+media-libs/gegl cairo
 media-libs/lcms python
 media-gfx/imagemagick djvu fftw fontconfig graphviz hdri postscript
 media-libs/imlib2 png
