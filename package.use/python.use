@@ -19,7 +19,9 @@ dev-python/matplotlib qt5
 net-libs/zeromq drafts
 
 # notebooks slow loss of python2 support
-dev-python/notebook -python_targets_python2_7
-dev-python/ipywidgets -python_targets_python2_7
-dev-python/widgetsnbextension -python_targets_python2_7
+dev-python/ipykernel -python_targets_python2_7
 dev-python/ipyparallel -python_targets_python2_7
+dev-python/ipython -python_targets_python2_7
+dev-python/ipywidgets -python_targets_python2_7
+dev-python/notebook -python_targets_python2_7
+dev-python/widgetsnbextension -python_targets_python2_7
