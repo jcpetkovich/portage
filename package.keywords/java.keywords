@@ -13,3 +13,4 @@ dev-java/openjdk-bin ~amd64
 dev-java/maven-bin ~amd64
 
 media-libs/libpng ~amd64
+sys-apps/baselayout-java ~amd64
